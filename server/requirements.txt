@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pdfplumber
+PyMuPDF
+python-dotenv
+requests
+anthropic
+python-multipart
+supabase
