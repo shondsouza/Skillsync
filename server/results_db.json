@@ -105,5 +105,1221 @@
       "DynamoDB",
       "Lambda"
     ]
+  },
+  "7cfde590": {
+    "created_at": "2026-03-13T04:10:10.365369",
+    "resume_data": {
+      "success": true,
+      "raw_text": "HARSHITH VASANTH SHETTY\n7795471769 harshithshetty779@gmail.com github.com/homieshetty /in/homie-shetty/\nSUMMARY\nSeeking a challenging role in the field of coding, where I can leverage my programming skills and\ndedication to excel in software development.\nTECHNICAL SKILLS\nPython | HTML | CSS | SQL | C\nTools : Git , Github , Vercel , Netlify , Firebase (Auth,Firestore) , Supabase\nPROJECTS\nSmart Finance & Workforce Tracker Feb 2025 - Current\nBuilt a role-based workforce and finance platform with Next.js, Tailwind CSS, shadcn/ui, and Firebase,\nincluding event tracking, automated wage updates, dashboards, CSV/PDF reporting, real-time data,\nchat, and task management in a dark-themed responsive interface.\nTechSpark - Technical Event Management Platform Sept 2025 - Current\nDeveloped a full-stack event management platform using Next.js, TypeScript, Tailwind CSS, Supabase,\nand Framer Motion, enabling real-time participant registration with validation and verification, and\nproviding an admin dashboard with live tracking, search, exports, and role-based access control.\nPlanical: AI-Powered Mental Health Support Platform October 2024\nBuilt a mental health platform with React.js, FastAPI, LangChain, Groq API, Firebase, ChromaDB, and\nSocket.io, offering an AI chatbot, real-time doctor-client chat, wellness features, multi-language\ndashboard, user analytics, and scalable, secure architecture for 1000+ users.\nRPS-AI: Intelligent Rock-Paper-Scissors Game March - April 2025\nCreated an AI Rock-Paper-Scissors game in Python using OpenCV, MediaPipe, and CustomTkinter, with\nreal-time hand gesture recognition, Markov chain\u2013based AI, interactive GUI, stats tracking, and multi-\nthreaded smooth gameplay.\nEDUCATION\nFinal year, B.E. in Computer Science and Engineering 2022-2026\nShree Devi Institute of Technology\nCERTIFICATIONS AND ACHIEVEMENTS\nCode Meet 2024 Hackathon: Participated in a 24-hour hackathon at Srinivas University Institute of\nEngineering & Technology, gaining hands-on experience in problem solving and teamwork.\n(October 2024)\nReact.Js and Javascript ChatGPT clone by Devtown(issued in 2024)\nBootcamp on Backend development using NODEJSand MongoDB By Devtown(issued in 2024)\nFrontend web development using React.Js and Javascript by Devtown (issued in 2024)\nParticipated in Sankalp\u201925 held at Shree Devi Institute of Technology (issued in 2024)\nParticipated in Sankalp\u201924 held at Shree Devi Institute of Technology (issued in 2025)\nCreated a website for the college technical event TechSpark, enabling smooth event promotion and\nparticipant engagement.\nAchieved 2nd place at Technical quiz at Srinivas University.\nEXPERIENCE\nExperienced in efficiently managing groups of up to 80 people for event coordination, including roles\nat Ocean Pearl.\nVolunteered for a Harry Potter\u2013themed event at Paper Rocket, Mangalore.\nHandled logistics and transport operations for a large-scale event.\nManaged and coordinated teams across multiple events under Moulding Dreams.\nCreated a website for",
+      "skills": {
+        "frontend": [
+          "html",
+          "css",
+          "javascript",
+          "typescript",
+          "react",
+          "next.js",
+          "tailwind"
+        ],
+        "backend": [
+          "python",
+          "java",
+          "go",
+          "fastapi",
+          "mongodb",
+          "firebase"
+        ],
+        "data": [
+          "sql",
+          "excel",
+          "r",
+          "spark"
+        ],
+        "devops": [
+          "git",
+          "github"
+        ],
+        "all": [
+          "html",
+          "css",
+          "javascript",
+          "typescript",
+          "react",
+          "next.js",
+          "tailwind",
+          "python",
+          "java",
+          "go",
+          "fastapi",
+          "mongodb",
+          "firebase",
+          "sql",
+          "excel",
+          "r",
+          "spark",
+          "git",
+          "github"
+        ]
+      },
+      "experience": {
+        "education": [
+          "B.E"
+        ],
+        "companies": [
+          "engineer"
+        ],
+        "years_experience": 1,
+        "projects_count": 0
+      },
+      "red_flags": [
+        "Many skills listed but very few projects found. This may reduce credibility."
+      ],
+      "skill_count": 19,
+      "summary": "Found 19 skills across 0 projects"
+    },
+    "company": "",
+    "role": "",
+    "company_intel": {},
+    "gap_analysis": {},
+    "quiz_attempts": [
+      {
+        "attempt_number": 1,
+        "timestamp": "2026-03-13T04:11:43.959716",
+        "score": 60,
+        "eligible": false,
+        "company": "Google",
+        "role": "Ai Engineer"
+      }
+    ],
+    "current_quiz": {
+      "questions": [
+        {
+          "id": 1,
+          "skill": "Core Concepts",
+          "question": "Explain a key concept in Ai Engineer you use daily.",
+          "difficulty": "Easy",
+          "why_prompt": "Why is this important for the role?",
+          "expected_keywords": []
+        },
+        {
+          "id": 2,
+          "skill": "Problem Solving",
+          "question": "How do you debug a complex technical issue?",
+          "difficulty": "Medium",
+          "why_prompt": "What tools do you prefer and why?",
+          "expected_keywords": [
+            "debug",
+            "logs",
+            "systematic"
+          ]
+        },
+        {
+          "id": 3,
+          "skill": "Best Practices",
+          "question": "How do you ensure code quality?",
+          "difficulty": "Medium",
+          "why_prompt": "Give a real example from your projects.",
+          "expected_keywords": [
+            "testing",
+            "review",
+            "clean code"
+          ]
+        },
+        {
+          "id": 4,
+          "skill": "System Design",
+          "question": "Design a scalable feature for Google.",
+          "difficulty": "Hard",
+          "why_prompt": "What tradeoffs would you consider?",
+          "expected_keywords": [
+            "scale",
+            "performance",
+            "tradeoffs"
+          ]
+        },
+        {
+          "id": 5,
+          "skill": "Experience",
+          "question": "Describe your most challenging project.",
+          "difficulty": "Medium",
+          "why_prompt": "What would you do differently now?",
+          "expected_keywords": [
+            "challenge",
+            "learned",
+            "improved"
+          ]
+        }
+      ]
+    },
+    "company_stack": [
+      "Angular",
+      "TypeScript",
+      "Go",
+      "Python",
+      "Java",
+      "C++"
+    ],
+    "latest_result": {
+      "overall_score": 60,
+      "eligible": false,
+      "minimum_required": 70,
+      "verdict": "Evaluation failed. Please try again.",
+      "skill_scores": [],
+      "strengths": [],
+      "gaps": [],
+      "next_attempt_tips": [
+        "Retry the assessment"
+      ]
+    }
+  },
+  "6f1df4bb": {
+    "created_at": "2026-03-13T04:14:11.372327",
+    "resume_data": {
+      "success": true,
+      "raw_text": "HARSHITH VASANTH SHETTY\n7795471769 harshithshetty779@gmail.com github.com/homieshetty /in/homie-shetty/\nSUMMARY\nSeeking a challenging role in the field of coding, where I can leverage my programming skills and\ndedication to excel in software development.\nTECHNICAL SKILLS\nPython | HTML | CSS | SQL | C\nTools : Git , Github , Vercel , Netlify , Firebase (Auth,Firestore) , Supabase\nPROJECTS\nSmart Finance & Workforce Tracker Feb 2025 - Current\nBuilt a role-based workforce and finance platform with Next.js, Tailwind CSS, shadcn/ui, and Firebase,\nincluding event tracking, automated wage updates, dashboards, CSV/PDF reporting, real-time data,\nchat, and task management in a dark-themed responsive interface.\nTechSpark - Technical Event Management Platform Sept 2025 - Current\nDeveloped a full-stack event management platform using Next.js, TypeScript, Tailwind CSS, Supabase,\nand Framer Motion, enabling real-time participant registration with validation and verification, and\nproviding an admin dashboard with live tracking, search, exports, and role-based access control.\nPlanical: AI-Powered Mental Health Support Platform October 2024\nBuilt a mental health platform with React.js, FastAPI, LangChain, Groq API, Firebase, ChromaDB, and\nSocket.io, offering an AI chatbot, real-time doctor-client chat, wellness features, multi-language\ndashboard, user analytics, and scalable, secure architecture for 1000+ users.\nRPS-AI: Intelligent Rock-Paper-Scissors Game March - April 2025\nCreated an AI Rock-Paper-Scissors game in Python using OpenCV, MediaPipe, and CustomTkinter, with\nreal-time hand gesture recognition, Markov chain\u2013based AI, interactive GUI, stats tracking, and multi-\nthreaded smooth gameplay.\nEDUCATION\nFinal year, B.E. in Computer Science and Engineering 2022-2026\nShree Devi Institute of Technology\nCERTIFICATIONS AND ACHIEVEMENTS\nCode Meet 2024 Hackathon: Participated in a 24-hour hackathon at Srinivas University Institute of\nEngineering & Technology, gaining hands-on experience in problem solving and teamwork.\n(October 2024)\nReact.Js and Javascript ChatGPT clone by Devtown(issued in 2024)\nBootcamp on Backend development using NODEJSand MongoDB By Devtown(issued in 2024)\nFrontend web development using React.Js and Javascript by Devtown (issued in 2024)\nParticipated in Sankalp\u201925 held at Shree Devi Institute of Technology (issued in 2024)\nParticipated in Sankalp\u201924 held at Shree Devi Institute of Technology (issued in 2025)\nCreated a website for the college technical event TechSpark, enabling smooth event promotion and\nparticipant engagement.\nAchieved 2nd place at Technical quiz at Srinivas University.\nEXPERIENCE\nExperienced in efficiently managing groups of up to 80 people for event coordination, including roles\nat Ocean Pearl.\nVolunteered for a Harry Potter\u2013themed event at Paper Rocket, Mangalore.\nHandled logistics and transport operations for a large-scale event.\nManaged and coordinated teams across multiple events under Moulding Dreams.\nCreated a website for",
+      "skills": {
+        "frontend": [
+          "html",
+          "css",
+          "javascript",
+          "typescript",
+          "react",
+          "next.js",
+          "tailwind"
+        ],
+        "backend": [
+          "python",
+          "java",
+          "go",
+          "fastapi",
+          "mongodb",
+          "firebase"
+        ],
+        "data": [
+          "sql",
+          "excel",
+          "r",
+          "spark"
+        ],
+        "devops": [
+          "git",
+          "github"
+        ],
+        "all": [
+          "html",
+          "css",
+          "javascript",
+          "typescript",
+          "react",
+          "next.js",
+          "tailwind",
+          "python",
+          "java",
+          "go",
+          "fastapi",
+          "mongodb",
+          "firebase",
+          "sql",
+          "excel",
+          "r",
+          "spark",
+          "git",
+          "github"
+        ]
+      },
+      "experience": {
+        "education": [
+          "B.E"
+        ],
+        "companies": [
+          "engineer"
+        ],
+        "years_experience": 1,
+        "projects_count": 0
+      },
+      "red_flags": [
+        "Many skills listed but very few projects found. This may reduce credibility."
+      ],
+      "skill_count": 19,
+      "summary": "Found 19 skills across 0 projects"
+    },
+    "company": "",
+    "role": "",
+    "company_intel": {},
+    "gap_analysis": {},
+    "quiz_attempts": [
+      {
+        "attempt_number": 1,
+        "timestamp": "2026-03-13T04:14:40.418849",
+        "score": 60,
+        "eligible": false,
+        "company": "Amazon",
+        "role": "Ai engineer"
+      }
+    ],
+    "current_quiz": {
+      "questions": [
+        {
+          "id": 1,
+          "skill": "Core Concepts",
+          "question": "Explain a key concept in Ai engineer you use daily.",
+          "difficulty": "Easy",
+          "why_prompt": "Why is this important for the role?",
+          "expected_keywords": []
+        },
+        {
+          "id": 2,
+          "skill": "Problem Solving",
+          "question": "How do you debug a complex technical issue?",
+          "difficulty": "Medium",
+          "why_prompt": "What tools do you prefer and why?",
+          "expected_keywords": [
+            "debug",
+            "logs",
+            "systematic"
+          ]
+        },
+        {
+          "id": 3,
+          "skill": "Best Practices",
+          "question": "How do you ensure code quality?",
+          "difficulty": "Medium",
+          "why_prompt": "Give a real example from your projects.",
+          "expected_keywords": [
+            "testing",
+            "review",
+            "clean code"
+          ]
+        },
+        {
+          "id": 4,
+          "skill": "System Design",
+          "question": "Design a scalable feature for Amazon.",
+          "difficulty": "Hard",
+          "why_prompt": "What tradeoffs would you consider?",
+          "expected_keywords": [
+            "scale",
+            "performance",
+            "tradeoffs"
+          ]
+        },
+        {
+          "id": 5,
+          "skill": "Experience",
+          "question": "Describe your most challenging project.",
+          "difficulty": "Medium",
+          "why_prompt": "What would you do differently now?",
+          "expected_keywords": [
+            "challenge",
+            "learned",
+            "improved"
+          ]
+        }
+      ]
+    },
+    "company_stack": [
+      "React",
+      "Java",
+      "Python",
+      "AWS",
+      "DynamoDB",
+      "Lambda"
+    ],
+    "latest_result": {
+      "overall_score": 60,
+      "eligible": false,
+      "minimum_required": 70,
+      "verdict": "Evaluation failed. Please try again.",
+      "skill_scores": [],
+      "strengths": [],
+      "gaps": [],
+      "next_attempt_tips": [
+        "Retry the assessment"
+      ]
+    }
+  },
+  "e4551e44": {
+    "created_at": "2026-03-13T04:22:10.482350",
+    "resume_data": {
+      "success": true,
+      "raw_text": "HARSHITH VASANTH SHETTY\n7795471769 harshithshetty779@gmail.com github.com/homieshetty /in/homie-shetty/\nSUMMARY\nSeeking a challenging role in the field of coding, where I can leverage my programming skills and\ndedication to excel in software development.\nTECHNICAL SKILLS\nPython | HTML | CSS | SQL | C\nTools : Git , Github , Vercel , Netlify , Firebase (Auth,Firestore) , Supabase\nPROJECTS\nSmart Finance & Workforce Tracker Feb 2025 - Current\nBuilt a role-based workforce and finance platform with Next.js, Tailwind CSS, shadcn/ui, and Firebase,\nincluding event tracking, automated wage updates, dashboards, CSV/PDF reporting, real-time data,\nchat, and task management in a dark-themed responsive interface.\nTechSpark - Technical Event Management Platform Sept 2025 - Current\nDeveloped a full-stack event management platform using Next.js, TypeScript, Tailwind CSS, Supabase,\nand Framer Motion, enabling real-time participant registration with validation and verification, and\nproviding an admin dashboard with live tracking, search, exports, and role-based access control.\nPlanical: AI-Powered Mental Health Support Platform October 2024\nBuilt a mental health platform with React.js, FastAPI, LangChain, Groq API, Firebase, ChromaDB, and\nSocket.io, offering an AI chatbot, real-time doctor-client chat, wellness features, multi-language\ndashboard, user analytics, and scalable, secure architecture for 1000+ users.\nRPS-AI: Intelligent Rock-Paper-Scissors Game March - April 2025\nCreated an AI Rock-Paper-Scissors game in Python using OpenCV, MediaPipe, and CustomTkinter, with\nreal-time hand gesture recognition, Markov chain\u2013based AI, interactive GUI, stats tracking, and multi-\nthreaded smooth gameplay.\nEDUCATION\nFinal year, B.E. in Computer Science and Engineering 2022-2026\nShree Devi Institute of Technology\nCERTIFICATIONS AND ACHIEVEMENTS\nCode Meet 2024 Hackathon: Participated in a 24-hour hackathon at Srinivas University Institute of\nEngineering & Technology, gaining hands-on experience in problem solving and teamwork.\n(October 2024)\nReact.Js and Javascript ChatGPT clone by Devtown(issued in 2024)\nBootcamp on Backend development using NODEJSand MongoDB By Devtown(issued in 2024)\nFrontend web development using React.Js and Javascript by Devtown (issued in 2024)\nParticipated in Sankalp\u201925 held at Shree Devi Institute of Technology (issued in 2024)\nParticipated in Sankalp\u201924 held at Shree Devi Institute of Technology (issued in 2025)\nCreated a website for the college technical event TechSpark, enabling smooth event promotion and\nparticipant engagement.\nAchieved 2nd place at Technical quiz at Srinivas University.\nEXPERIENCE\nExperienced in efficiently managing groups of up to 80 people for event coordination, including roles\nat Ocean Pearl.\nVolunteered for a Harry Potter\u2013themed event at Paper Rocket, Mangalore.\nHandled logistics and transport operations for a large-scale event.\nManaged and coordinated teams across multiple events under Moulding Dreams.\nCreated a website for",
+      "skills": {
+        "frontend": [
+          "html",
+          "css",
+          "javascript",
+          "typescript",
+          "react",
+          "next.js",
+          "tailwind"
+        ],
+        "backend": [
+          "python",
+          "java",
+          "go",
+          "fastapi",
+          "mongodb",
+          "firebase"
+        ],
+        "data": [
+          "sql",
+          "excel",
+          "r",
+          "spark"
+        ],
+        "devops": [
+          "git",
+          "github"
+        ],
+        "all": [
+          "html",
+          "css",
+          "javascript",
+          "typescript",
+          "react",
+          "next.js",
+          "tailwind",
+          "python",
+          "java",
+          "go",
+          "fastapi",
+          "mongodb",
+          "firebase",
+          "sql",
+          "excel",
+          "r",
+          "spark",
+          "git",
+          "github"
+        ]
+      },
+      "experience": {
+        "education": [
+          "B.E"
+        ],
+        "companies": [
+          "engineer"
+        ],
+        "years_experience": 1,
+        "projects_count": 0
+      },
+      "red_flags": [
+        "Many skills listed but very few projects found. This may reduce credibility."
+      ],
+      "skill_count": 19,
+      "summary": "Found 19 skills across 0 projects"
+    },
+    "company": "",
+    "role": "",
+    "company_intel": {},
+    "gap_analysis": {},
+    "quiz_attempts": [
+      {
+        "attempt_number": 1,
+        "timestamp": "2026-03-13T04:22:52.725939",
+        "score": 60,
+        "eligible": false,
+        "company": "Shon",
+        "role": "Ai Engineer"
+      }
+    ],
+    "current_quiz": {
+      "questions": [
+        {
+          "id": 1,
+          "skill": "Core Concepts",
+          "question": "Explain a key concept in Ai Engineer you use daily.",
+          "difficulty": "Easy",
+          "why_prompt": "Why is this important for the role?",
+          "expected_keywords": []
+        },
+        {
+          "id": 2,
+          "skill": "Problem Solving",
+          "question": "How do you debug a complex technical issue?",
+          "difficulty": "Medium",
+          "why_prompt": "What tools do you prefer and why?",
+          "expected_keywords": [
+            "debug",
+            "logs",
+            "systematic"
+          ]
+        },
+        {
+          "id": 3,
+          "skill": "Best Practices",
+          "question": "How do you ensure code quality?",
+          "difficulty": "Medium",
+          "why_prompt": "Give a real example from your projects.",
+          "expected_keywords": [
+            "testing",
+            "review",
+            "clean code"
+          ]
+        },
+        {
+          "id": 4,
+          "skill": "System Design",
+          "question": "Design a scalable feature for Shon.",
+          "difficulty": "Hard",
+          "why_prompt": "What tradeoffs would you consider?",
+          "expected_keywords": [
+            "scale",
+            "performance",
+            "tradeoffs"
+          ]
+        },
+        {
+          "id": 5,
+          "skill": "Experience",
+          "question": "Describe your most challenging project.",
+          "difficulty": "Medium",
+          "why_prompt": "What would you do differently now?",
+          "expected_keywords": [
+            "challenge",
+            "learned",
+            "improved"
+          ]
+        }
+      ]
+    },
+    "company_stack": [],
+    "latest_result": {
+      "overall_score": 60,
+      "eligible": false,
+      "minimum_required": 70,
+      "verdict": "Evaluation failed. Please try again.",
+      "skill_scores": [],
+      "strengths": [],
+      "gaps": [],
+      "next_attempt_tips": [
+        "Retry the assessment"
+      ]
+    }
+  },
+  "a8caa50f": {
+    "created_at": "2026-03-13T04:34:50.684100",
+    "resume_data": {
+      "success": true,
+      "raw_text": "HARSHITH VASANTH SHETTY\n7795471769 harshithshetty779@gmail.com github.com/homieshetty /in/homie-shetty/\nSUMMARY\nSeeking a challenging role in the field of coding, where I can leverage my programming skills and\ndedication to excel in software development.\nTECHNICAL SKILLS\nPython | HTML | CSS | SQL | C\nTools : Git , Github , Vercel , Netlify , Firebase (Auth,Firestore) , Supabase\nPROJECTS\nSmart Finance & Workforce Tracker Feb 2025 - Current\nBuilt a role-based workforce and finance platform with Next.js, Tailwind CSS, shadcn/ui, and Firebase,\nincluding event tracking, automated wage updates, dashboards, CSV/PDF reporting, real-time data,\nchat, and task management in a dark-themed responsive interface.\nTechSpark - Technical Event Management Platform Sept 2025 - Current\nDeveloped a full-stack event management platform using Next.js, TypeScript, Tailwind CSS, Supabase,\nand Framer Motion, enabling real-time participant registration with validation and verification, and\nproviding an admin dashboard with live tracking, search, exports, and role-based access control.\nPlanical: AI-Powered Mental Health Support Platform October 2024\nBuilt a mental health platform with React.js, FastAPI, LangChain, Groq API, Firebase, ChromaDB, and\nSocket.io, offering an AI chatbot, real-time doctor-client chat, wellness features, multi-language\ndashboard, user analytics, and scalable, secure architecture for 1000+ users.\nRPS-AI: Intelligent Rock-Paper-Scissors Game March - April 2025\nCreated an AI Rock-Paper-Scissors game in Python using OpenCV, MediaPipe, and CustomTkinter, with\nreal-time hand gesture recognition, Markov chain\u2013based AI, interactive GUI, stats tracking, and multi-\nthreaded smooth gameplay.\nEDUCATION\nFinal year, B.E. in Computer Science and Engineering 2022-2026\nShree Devi Institute of Technology\nCERTIFICATIONS AND ACHIEVEMENTS\nCode Meet 2024 Hackathon: Participated in a 24-hour hackathon at Srinivas University Institute of\nEngineering & Technology, gaining hands-on experience in problem solving and teamwork.\n(October 2024)\nReact.Js and Javascript ChatGPT clone by Devtown(issued in 2024)\nBootcamp on Backend development using NODEJSand MongoDB By Devtown(issued in 2024)\nFrontend web development using React.Js and Javascript by Devtown (issued in 2024)\nParticipated in Sankalp\u201925 held at Shree Devi Institute of Technology (issued in 2024)\nParticipated in Sankalp\u201924 held at Shree Devi Institute of Technology (issued in 2025)\nCreated a website for the college technical event TechSpark, enabling smooth event promotion and\nparticipant engagement.\nAchieved 2nd place at Technical quiz at Srinivas University.\nEXPERIENCE\nExperienced in efficiently managing groups of up to 80 people for event coordination, including roles\nat Ocean Pearl.\nVolunteered for a Harry Potter\u2013themed event at Paper Rocket, Mangalore.\nHandled logistics and transport operations for a large-scale event.\nManaged and coordinated teams across multiple events under Moulding Dreams.\nCreated a website for",
+      "skills": {
+        "frontend": [
+          "html",
+          "css",
+          "javascript",
+          "typescript",
+          "react",
+          "next.js",
+          "tailwind"
+        ],
+        "backend": [
+          "python",
+          "java",
+          "go",
+          "fastapi",
+          "mongodb",
+          "firebase"
+        ],
+        "data": [
+          "sql",
+          "excel",
+          "r",
+          "spark"
+        ],
+        "devops": [
+          "git",
+          "github"
+        ],
+        "all": [
+          "html",
+          "css",
+          "javascript",
+          "typescript",
+          "react",
+          "next.js",
+          "tailwind",
+          "python",
+          "java",
+          "go",
+          "fastapi",
+          "mongodb",
+          "firebase",
+          "sql",
+          "excel",
+          "r",
+          "spark",
+          "git",
+          "github"
+        ]
+      },
+      "experience": {
+        "education": [
+          "B.E"
+        ],
+        "companies": [
+          "engineer"
+        ],
+        "years_experience": 1,
+        "projects_count": 0
+      },
+      "red_flags": [
+        "Many skills listed but very few projects found. This may reduce credibility."
+      ],
+      "skill_count": 19,
+      "summary": "Found 19 skills across 0 projects"
+    },
+    "company": "",
+    "role": "",
+    "company_intel": {},
+    "gap_analysis": {},
+    "quiz_attempts": [],
+    "current_quiz": {
+      "questions": [
+        {
+          "id": 1,
+          "skill": "Core Concepts",
+          "question": "Explain a key concept in Ai engineer you use daily.",
+          "difficulty": "Easy",
+          "why_prompt": "Why is this important for the role?",
+          "expected_keywords": []
+        },
+        {
+          "id": 2,
+          "skill": "Problem Solving",
+          "question": "How do you debug a complex technical issue?",
+          "difficulty": "Medium",
+          "why_prompt": "What tools do you prefer and why?",
+          "expected_keywords": [
+            "debug",
+            "logs",
+            "systematic"
+          ]
+        },
+        {
+          "id": 3,
+          "skill": "Best Practices",
+          "question": "How do you ensure code quality?",
+          "difficulty": "Medium",
+          "why_prompt": "Give a real example from your projects.",
+          "expected_keywords": [
+            "testing",
+            "review",
+            "clean code"
+          ]
+        },
+        {
+          "id": 4,
+          "skill": "System Design",
+          "question": "Design a scalable feature for Amazon.",
+          "difficulty": "Hard",
+          "why_prompt": "What tradeoffs would you consider?",
+          "expected_keywords": [
+            "scale",
+            "performance",
+            "tradeoffs"
+          ]
+        },
+        {
+          "id": 5,
+          "skill": "Experience",
+          "question": "Describe your most challenging project.",
+          "difficulty": "Medium",
+          "why_prompt": "What would you do differently now?",
+          "expected_keywords": [
+            "challenge",
+            "learned",
+            "improved"
+          ]
+        }
+      ]
+    },
+    "company_stack": [
+      "React",
+      "Java",
+      "Python",
+      "AWS",
+      "DynamoDB",
+      "Lambda"
+    ]
+  },
+  "0d87e6a8": {
+    "created_at": "2026-03-13T04:35:23.356361",
+    "resume_data": {
+      "success": true,
+      "raw_text": "HARSHITH VASANTH SHETTY\n7795471769 harshithshetty779@gmail.com github.com/homieshetty /in/homie-shetty/\nSUMMARY\nSeeking a challenging role in the field of coding, where I can leverage my programming skills and\ndedication to excel in software development.\nTECHNICAL SKILLS\nPython | HTML | CSS | SQL | C\nTools : Git , Github , Vercel , Netlify , Firebase (Auth,Firestore) , Supabase\nPROJECTS\nSmart Finance & Workforce Tracker Feb 2025 - Current\nBuilt a role-based workforce and finance platform with Next.js, Tailwind CSS, shadcn/ui, and Firebase,\nincluding event tracking, automated wage updates, dashboards, CSV/PDF reporting, real-time data,\nchat, and task management in a dark-themed responsive interface.\nTechSpark - Technical Event Management Platform Sept 2025 - Current\nDeveloped a full-stack event management platform using Next.js, TypeScript, Tailwind CSS, Supabase,\nand Framer Motion, enabling real-time participant registration with validation and verification, and\nproviding an admin dashboard with live tracking, search, exports, and role-based access control.\nPlanical: AI-Powered Mental Health Support Platform October 2024\nBuilt a mental health platform with React.js, FastAPI, LangChain, Groq API, Firebase, ChromaDB, and\nSocket.io, offering an AI chatbot, real-time doctor-client chat, wellness features, multi-language\ndashboard, user analytics, and scalable, secure architecture for 1000+ users.\nRPS-AI: Intelligent Rock-Paper-Scissors Game March - April 2025\nCreated an AI Rock-Paper-Scissors game in Python using OpenCV, MediaPipe, and CustomTkinter, with\nreal-time hand gesture recognition, Markov chain\u2013based AI, interactive GUI, stats tracking, and multi-\nthreaded smooth gameplay.\nEDUCATION\nFinal year, B.E. in Computer Science and Engineering 2022-2026\nShree Devi Institute of Technology\nCERTIFICATIONS AND ACHIEVEMENTS\nCode Meet 2024 Hackathon: Participated in a 24-hour hackathon at Srinivas University Institute of\nEngineering & Technology, gaining hands-on experience in problem solving and teamwork.\n(October 2024)\nReact.Js and Javascript ChatGPT clone by Devtown(issued in 2024)\nBootcamp on Backend development using NODEJSand MongoDB By Devtown(issued in 2024)\nFrontend web development using React.Js and Javascript by Devtown (issued in 2024)\nParticipated in Sankalp\u201925 held at Shree Devi Institute of Technology (issued in 2024)\nParticipated in Sankalp\u201924 held at Shree Devi Institute of Technology (issued in 2025)\nCreated a website for the college technical event TechSpark, enabling smooth event promotion and\nparticipant engagement.\nAchieved 2nd place at Technical quiz at Srinivas University.\nEXPERIENCE\nExperienced in efficiently managing groups of up to 80 people for event coordination, including roles\nat Ocean Pearl.\nVolunteered for a Harry Potter\u2013themed event at Paper Rocket, Mangalore.\nHandled logistics and transport operations for a large-scale event.\nManaged and coordinated teams across multiple events under Moulding Dreams.\nCreated a website for",
+      "skills": {
+        "frontend": [
+          "html",
+          "css",
+          "javascript",
+          "typescript",
+          "react",
+          "next.js",
+          "tailwind"
+        ],
+        "backend": [
+          "python",
+          "java",
+          "go",
+          "fastapi",
+          "mongodb",
+          "firebase"
+        ],
+        "data": [
+          "sql",
+          "excel",
+          "r",
+          "spark"
+        ],
+        "devops": [
+          "git",
+          "github"
+        ],
+        "all": [
+          "html",
+          "css",
+          "javascript",
+          "typescript",
+          "react",
+          "next.js",
+          "tailwind",
+          "python",
+          "java",
+          "go",
+          "fastapi",
+          "mongodb",
+          "firebase",
+          "sql",
+          "excel",
+          "r",
+          "spark",
+          "git",
+          "github"
+        ]
+      },
+      "experience": {
+        "education": [
+          "B.E"
+        ],
+        "companies": [
+          "engineer"
+        ],
+        "years_experience": 1,
+        "projects_count": 0
+      },
+      "red_flags": [
+        "Many skills listed but very few projects found. This may reduce credibility."
+      ],
+      "skill_count": 19,
+      "summary": "Found 19 skills across 0 projects"
+    },
+    "company": "",
+    "role": "",
+    "company_intel": {},
+    "gap_analysis": {},
+    "quiz_attempts": [],
+    "current_quiz": {
+      "questions": [
+        {
+          "id": 1,
+          "skill": "Core Concepts",
+          "question": "Explain a key concept in Ai Engineer you use daily.",
+          "difficulty": "Easy",
+          "why_prompt": "Why is this important for the role?",
+          "expected_keywords": []
+        },
+        {
+          "id": 2,
+          "skill": "Problem Solving",
+          "question": "How do you debug a complex technical issue?",
+          "difficulty": "Medium",
+          "why_prompt": "What tools do you prefer and why?",
+          "expected_keywords": [
+            "debug",
+            "logs",
+            "systematic"
+          ]
+        },
+        {
+          "id": 3,
+          "skill": "Best Practices",
+          "question": "How do you ensure code quality?",
+          "difficulty": "Medium",
+          "why_prompt": "Give a real example from your projects.",
+          "expected_keywords": [
+            "testing",
+            "review",
+            "clean code"
+          ]
+        },
+        {
+          "id": 4,
+          "skill": "System Design",
+          "question": "Design a scalable feature for Google.",
+          "difficulty": "Hard",
+          "why_prompt": "What tradeoffs would you consider?",
+          "expected_keywords": [
+            "scale",
+            "performance",
+            "tradeoffs"
+          ]
+        },
+        {
+          "id": 5,
+          "skill": "Experience",
+          "question": "Describe your most challenging project.",
+          "difficulty": "Medium",
+          "why_prompt": "What would you do differently now?",
+          "expected_keywords": [
+            "challenge",
+            "learned",
+            "improved"
+          ]
+        }
+      ]
+    },
+    "company_stack": [
+      "Angular",
+      "TypeScript",
+      "Go",
+      "Python",
+      "Java",
+      "C++"
+    ]
+  },
+  "e335c7fa": {
+    "created_at": "2026-03-13T04:36:58.112383",
+    "resume_data": {
+      "success": true,
+      "raw_text": "HARSHITH VASANTH SHETTY\n7795471769 harshithshetty779@gmail.com github.com/homieshetty /in/homie-shetty/\nSUMMARY\nSeeking a challenging role in the field of coding, where I can leverage my programming skills and\ndedication to excel in software development.\nTECHNICAL SKILLS\nPython | HTML | CSS | SQL | C\nTools : Git , Github , Vercel , Netlify , Firebase (Auth,Firestore) , Supabase\nPROJECTS\nSmart Finance & Workforce Tracker Feb 2025 - Current\nBuilt a role-based workforce and finance platform with Next.js, Tailwind CSS, shadcn/ui, and Firebase,\nincluding event tracking, automated wage updates, dashboards, CSV/PDF reporting, real-time data,\nchat, and task management in a dark-themed responsive interface.\nTechSpark - Technical Event Management Platform Sept 2025 - Current\nDeveloped a full-stack event management platform using Next.js, TypeScript, Tailwind CSS, Supabase,\nand Framer Motion, enabling real-time participant registration with validation and verification, and\nproviding an admin dashboard with live tracking, search, exports, and role-based access control.\nPlanical: AI-Powered Mental Health Support Platform October 2024\nBuilt a mental health platform with React.js, FastAPI, LangChain, Groq API, Firebase, ChromaDB, and\nSocket.io, offering an AI chatbot, real-time doctor-client chat, wellness features, multi-language\ndashboard, user analytics, and scalable, secure architecture for 1000+ users.\nRPS-AI: Intelligent Rock-Paper-Scissors Game March - April 2025\nCreated an AI Rock-Paper-Scissors game in Python using OpenCV, MediaPipe, and CustomTkinter, with\nreal-time hand gesture recognition, Markov chain\u2013based AI, interactive GUI, stats tracking, and multi-\nthreaded smooth gameplay.\nEDUCATION\nFinal year, B.E. in Computer Science and Engineering 2022-2026\nShree Devi Institute of Technology\nCERTIFICATIONS AND ACHIEVEMENTS\nCode Meet 2024 Hackathon: Participated in a 24-hour hackathon at Srinivas University Institute of\nEngineering & Technology, gaining hands-on experience in problem solving and teamwork.\n(October 2024)\nReact.Js and Javascript ChatGPT clone by Devtown(issued in 2024)\nBootcamp on Backend development using NODEJSand MongoDB By Devtown(issued in 2024)\nFrontend web development using React.Js and Javascript by Devtown (issued in 2024)\nParticipated in Sankalp\u201925 held at Shree Devi Institute of Technology (issued in 2024)\nParticipated in Sankalp\u201924 held at Shree Devi Institute of Technology (issued in 2025)\nCreated a website for the college technical event TechSpark, enabling smooth event promotion and\nparticipant engagement.\nAchieved 2nd place at Technical quiz at Srinivas University.\nEXPERIENCE\nExperienced in efficiently managing groups of up to 80 people for event coordination, including roles\nat Ocean Pearl.\nVolunteered for a Harry Potter\u2013themed event at Paper Rocket, Mangalore.\nHandled logistics and transport operations for a large-scale event.\nManaged and coordinated teams across multiple events under Moulding Dreams.\nCreated a website for",
+      "skills": {
+        "frontend": [
+          "html",
+          "css",
+          "javascript",
+          "typescript",
+          "react",
+          "next.js",
+          "tailwind"
+        ],
+        "backend": [
+          "python",
+          "java",
+          "go",
+          "fastapi",
+          "mongodb",
+          "firebase"
+        ],
+        "data": [
+          "sql",
+          "excel",
+          "r",
+          "spark"
+        ],
+        "devops": [
+          "git",
+          "github"
+        ],
+        "all": [
+          "html",
+          "css",
+          "javascript",
+          "typescript",
+          "react",
+          "next.js",
+          "tailwind",
+          "python",
+          "java",
+          "go",
+          "fastapi",
+          "mongodb",
+          "firebase",
+          "sql",
+          "excel",
+          "r",
+          "spark",
+          "git",
+          "github"
+        ]
+      },
+      "experience": {
+        "education": [
+          "B.E"
+        ],
+        "companies": [
+          "engineer"
+        ],
+        "years_experience": 1,
+        "projects_count": 0
+      },
+      "red_flags": [
+        "Many skills listed but very few projects found. This may reduce credibility."
+      ],
+      "skill_count": 19,
+      "summary": "Found 19 skills across 0 projects"
+    },
+    "company": "",
+    "role": "",
+    "company_intel": {},
+    "gap_analysis": {},
+    "quiz_attempts": [],
+    "current_quiz": {
+      "questions": [
+        {
+          "id": 1,
+          "skill": "Core Concepts",
+          "question": "Explain a key concept in AI engineer you use daily.",
+          "difficulty": "Easy",
+          "why_prompt": "Why is this important for the role?",
+          "expected_keywords": []
+        },
+        {
+          "id": 2,
+          "skill": "Problem Solving",
+          "question": "How do you debug a complex technical issue?",
+          "difficulty": "Medium",
+          "why_prompt": "What tools do you prefer and why?",
+          "expected_keywords": [
+            "debug",
+            "logs",
+            "systematic"
+          ]
+        },
+        {
+          "id": 3,
+          "skill": "Best Practices",
+          "question": "How do you ensure code quality?",
+          "difficulty": "Medium",
+          "why_prompt": "Give a real example from your projects.",
+          "expected_keywords": [
+            "testing",
+            "review",
+            "clean code"
+          ]
+        },
+        {
+          "id": 4,
+          "skill": "System Design",
+          "question": "Design a scalable feature for Google.",
+          "difficulty": "Hard",
+          "why_prompt": "What tradeoffs would you consider?",
+          "expected_keywords": [
+            "scale",
+            "performance",
+            "tradeoffs"
+          ]
+        },
+        {
+          "id": 5,
+          "skill": "Experience",
+          "question": "Describe your most challenging project.",
+          "difficulty": "Medium",
+          "why_prompt": "What would you do differently now?",
+          "expected_keywords": [
+            "challenge",
+            "learned",
+            "improved"
+          ]
+        }
+      ]
+    },
+    "company_stack": [
+      "Angular",
+      "TypeScript",
+      "Go",
+      "Python",
+      "Java",
+      "C++"
+    ]
+  },
+  "43c208eb": {
+    "created_at": "2026-03-13T04:39:50.317544",
+    "resume_data": {
+      "success": true,
+      "raw_text": "HARSHITH VASANTH SHETTY\n7795471769 harshithshetty779@gmail.com github.com/homieshetty /in/homie-shetty/\nSUMMARY\nSeeking a challenging role in the field of coding, where I can leverage my programming skills and\ndedication to excel in software development.\nTECHNICAL SKILLS\nPython | HTML | CSS | SQL | C\nTools : Git , Github , Vercel , Netlify , Firebase (Auth,Firestore) , Supabase\nPROJECTS\nSmart Finance & Workforce Tracker Feb 2025 - Current\nBuilt a role-based workforce and finance platform with Next.js, Tailwind CSS, shadcn/ui, and Firebase,\nincluding event tracking, automated wage updates, dashboards, CSV/PDF reporting, real-time data,\nchat, and task management in a dark-themed responsive interface.\nTechSpark - Technical Event Management Platform Sept 2025 - Current\nDeveloped a full-stack event management platform using Next.js, TypeScript, Tailwind CSS, Supabase,\nand Framer Motion, enabling real-time participant registration with validation and verification, and\nproviding an admin dashboard with live tracking, search, exports, and role-based access control.\nPlanical: AI-Powered Mental Health Support Platform October 2024\nBuilt a mental health platform with React.js, FastAPI, LangChain, Groq API, Firebase, ChromaDB, and\nSocket.io, offering an AI chatbot, real-time doctor-client chat, wellness features, multi-language\ndashboard, user analytics, and scalable, secure architecture for 1000+ users.\nRPS-AI: Intelligent Rock-Paper-Scissors Game March - April 2025\nCreated an AI Rock-Paper-Scissors game in Python using OpenCV, MediaPipe, and CustomTkinter, with\nreal-time hand gesture recognition, Markov chain\u2013based AI, interactive GUI, stats tracking, and multi-\nthreaded smooth gameplay.\nEDUCATION\nFinal year, B.E. in Computer Science and Engineering 2022-2026\nShree Devi Institute of Technology\nCERTIFICATIONS AND ACHIEVEMENTS\nCode Meet 2024 Hackathon: Participated in a 24-hour hackathon at Srinivas University Institute of\nEngineering & Technology, gaining hands-on experience in problem solving and teamwork.\n(October 2024)\nReact.Js and Javascript ChatGPT clone by Devtown(issued in 2024)\nBootcamp on Backend development using NODEJSand MongoDB By Devtown(issued in 2024)\nFrontend web development using React.Js and Javascript by Devtown (issued in 2024)\nParticipated in Sankalp\u201925 held at Shree Devi Institute of Technology (issued in 2024)\nParticipated in Sankalp\u201924 held at Shree Devi Institute of Technology (issued in 2025)\nCreated a website for the college technical event TechSpark, enabling smooth event promotion and\nparticipant engagement.\nAchieved 2nd place at Technical quiz at Srinivas University.\nEXPERIENCE\nExperienced in efficiently managing groups of up to 80 people for event coordination, including roles\nat Ocean Pearl.\nVolunteered for a Harry Potter\u2013themed event at Paper Rocket, Mangalore.\nHandled logistics and transport operations for a large-scale event.\nManaged and coordinated teams across multiple events under Moulding Dreams.\nCreated a website for",
+      "skills": {
+        "frontend": [
+          "html",
+          "css",
+          "javascript",
+          "typescript",
+          "react",
+          "next.js",
+          "tailwind"
+        ],
+        "backend": [
+          "python",
+          "java",
+          "go",
+          "fastapi",
+          "mongodb",
+          "firebase"
+        ],
+        "data": [
+          "sql",
+          "excel",
+          "r",
+          "spark"
+        ],
+        "devops": [
+          "git",
+          "github"
+        ],
+        "all": [
+          "html",
+          "css",
+          "javascript",
+          "typescript",
+          "react",
+          "next.js",
+          "tailwind",
+          "python",
+          "java",
+          "go",
+          "fastapi",
+          "mongodb",
+          "firebase",
+          "sql",
+          "excel",
+          "r",
+          "spark",
+          "git",
+          "github"
+        ]
+      },
+      "experience": {
+        "education": [
+          "B.E"
+        ],
+        "companies": [
+          "engineer"
+        ],
+        "years_experience": 1,
+        "projects_count": 0
+      },
+      "red_flags": [
+        "Many skills listed but very few projects found. This may reduce credibility."
+      ],
+      "skill_count": 19,
+      "summary": "Found 19 skills across 0 projects"
+    },
+    "company": "",
+    "role": "",
+    "company_intel": {},
+    "gap_analysis": {},
+    "quiz_attempts": [],
+    "current_quiz": {
+      "questions": [
+        {
+          "id": 1,
+          "skill": "Core Concepts",
+          "question": "Explain a key concept in Ai engineer you use daily.",
+          "difficulty": "Easy",
+          "why_prompt": "Why is this important for the role?",
+          "expected_keywords": []
+        },
+        {
+          "id": 2,
+          "skill": "Problem Solving",
+          "question": "How do you debug a complex technical issue?",
+          "difficulty": "Medium",
+          "why_prompt": "What tools do you prefer and why?",
+          "expected_keywords": [
+            "debug",
+            "logs",
+            "systematic"
+          ]
+        },
+        {
+          "id": 3,
+          "skill": "Best Practices",
+          "question": "How do you ensure code quality?",
+          "difficulty": "Medium",
+          "why_prompt": "Give a real example from your projects.",
+          "expected_keywords": [
+            "testing",
+            "review",
+            "clean code"
+          ]
+        },
+        {
+          "id": 4,
+          "skill": "System Design",
+          "question": "Design a scalable feature for Google.",
+          "difficulty": "Hard",
+          "why_prompt": "What tradeoffs would you consider?",
+          "expected_keywords": [
+            "scale",
+            "performance",
+            "tradeoffs"
+          ]
+        },
+        {
+          "id": 5,
+          "skill": "Experience",
+          "question": "Describe your most challenging project.",
+          "difficulty": "Medium",
+          "why_prompt": "What would you do differently now?",
+          "expected_keywords": [
+            "challenge",
+            "learned",
+            "improved"
+          ]
+        }
+      ]
+    },
+    "company_stack": [
+      "Angular",
+      "TypeScript",
+      "Go",
+      "Python",
+      "Java",
+      "C++"
+    ]
+  },
+  "3899665f": {
+    "created_at": "2026-03-13T04:41:20.882153",
+    "resume_data": {
+      "success": true,
+      "raw_text": "HARSHITH VASANTH SHETTY\n7795471769 harshithshetty779@gmail.com github.com/homieshetty /in/homie-shetty/\nSUMMARY\nSeeking a challenging role in the field of coding, where I can leverage my programming skills and\ndedication to excel in software development.\nTECHNICAL SKILLS\nPython | HTML | CSS | SQL | C\nTools : Git , Github , Vercel , Netlify , Firebase (Auth,Firestore) , Supabase\nPROJECTS\nSmart Finance & Workforce Tracker Feb 2025 - Current\nBuilt a role-based workforce and finance platform with Next.js, Tailwind CSS, shadcn/ui, and Firebase,\nincluding event tracking, automated wage updates, dashboards, CSV/PDF reporting, real-time data,\nchat, and task management in a dark-themed responsive interface.\nTechSpark - Technical Event Management Platform Sept 2025 - Current\nDeveloped a full-stack event management platform using Next.js, TypeScript, Tailwind CSS, Supabase,\nand Framer Motion, enabling real-time participant registration with validation and verification, and\nproviding an admin dashboard with live tracking, search, exports, and role-based access control.\nPlanical: AI-Powered Mental Health Support Platform October 2024\nBuilt a mental health platform with React.js, FastAPI, LangChain, Groq API, Firebase, ChromaDB, and\nSocket.io, offering an AI chatbot, real-time doctor-client chat, wellness features, multi-language\ndashboard, user analytics, and scalable, secure architecture for 1000+ users.\nRPS-AI: Intelligent Rock-Paper-Scissors Game March - April 2025\nCreated an AI Rock-Paper-Scissors game in Python using OpenCV, MediaPipe, and CustomTkinter, with\nreal-time hand gesture recognition, Markov chain\u2013based AI, interactive GUI, stats tracking, and multi-\nthreaded smooth gameplay.\nEDUCATION\nFinal year, B.E. in Computer Science and Engineering 2022-2026\nShree Devi Institute of Technology\nCERTIFICATIONS AND ACHIEVEMENTS\nCode Meet 2024 Hackathon: Participated in a 24-hour hackathon at Srinivas University Institute of\nEngineering & Technology, gaining hands-on experience in problem solving and teamwork.\n(October 2024)\nReact.Js and Javascript ChatGPT clone by Devtown(issued in 2024)\nBootcamp on Backend development using NODEJSand MongoDB By Devtown(issued in 2024)\nFrontend web development using React.Js and Javascript by Devtown (issued in 2024)\nParticipated in Sankalp\u201925 held at Shree Devi Institute of Technology (issued in 2024)\nParticipated in Sankalp\u201924 held at Shree Devi Institute of Technology (issued in 2025)\nCreated a website for the college technical event TechSpark, enabling smooth event promotion and\nparticipant engagement.\nAchieved 2nd place at Technical quiz at Srinivas University.\nEXPERIENCE\nExperienced in efficiently managing groups of up to 80 people for event coordination, including roles\nat Ocean Pearl.\nVolunteered for a Harry Potter\u2013themed event at Paper Rocket, Mangalore.\nHandled logistics and transport operations for a large-scale event.\nManaged and coordinated teams across multiple events under Moulding Dreams.\nCreated a website for",
+      "skills": {
+        "frontend": [
+          "html",
+          "css",
+          "javascript",
+          "typescript",
+          "react",
+          "next.js",
+          "tailwind"
+        ],
+        "backend": [
+          "python",
+          "java",
+          "go",
+          "fastapi",
+          "mongodb",
+          "firebase"
+        ],
+        "data": [
+          "sql",
+          "excel",
+          "r",
+          "spark"
+        ],
+        "devops": [
+          "git",
+          "github"
+        ],
+        "all": [
+          "html",
+          "css",
+          "javascript",
+          "typescript",
+          "react",
+          "next.js",
+          "tailwind",
+          "python",
+          "java",
+          "go",
+          "fastapi",
+          "mongodb",
+          "firebase",
+          "sql",
+          "excel",
+          "r",
+          "spark",
+          "git",
+          "github"
+        ]
+      },
+      "experience": {
+        "education": [
+          "B.E"
+        ],
+        "companies": [
+          "engineer"
+        ],
+        "years_experience": 1,
+        "projects_count": 0
+      },
+      "red_flags": [
+        "Many skills listed but very few projects found. This may reduce credibility."
+      ],
+      "skill_count": 19,
+      "summary": "Found 19 skills across 0 projects"
+    },
+    "company": "",
+    "role": "",
+    "company_intel": {},
+    "gap_analysis": {},
+    "quiz_attempts": [],
+    "current_quiz": {
+      "questions": [
+        {
+          "id": 1,
+          "skill": "Core Concepts",
+          "question": "Explain a key concept in Ai engineer you use daily.",
+          "difficulty": "Easy",
+          "why_prompt": "Why is this important for the role?",
+          "expected_keywords": []
+        },
+        {
+          "id": 2,
+          "skill": "Problem Solving",
+          "question": "How do you debug a complex technical issue?",
+          "difficulty": "Medium",
+          "why_prompt": "What tools do you prefer and why?",
+          "expected_keywords": [
+            "debug",
+            "logs",
+            "systematic"
+          ]
+        },
+        {
+          "id": 3,
+          "skill": "Best Practices",
+          "question": "How do you ensure code quality?",
+          "difficulty": "Medium",
+          "why_prompt": "Give a real example from your projects.",
+          "expected_keywords": [
+            "testing",
+            "review",
+            "clean code"
+          ]
+        },
+        {
+          "id": 4,
+          "skill": "System Design",
+          "question": "Design a scalable feature for Google.",
+          "difficulty": "Hard",
+          "why_prompt": "What tradeoffs would you consider?",
+          "expected_keywords": [
+            "scale",
+            "performance",
+            "tradeoffs"
+          ]
+        },
+        {
+          "id": 5,
+          "skill": "Experience",
+          "question": "Describe your most challenging project.",
+          "difficulty": "Medium",
+          "why_prompt": "What would you do differently now?",
+          "expected_keywords": [
+            "challenge",
+            "learned",
+            "improved"
+          ]
+        }
+      ]
+    },
+    "company_stack": [
+      "Angular",
+      "TypeScript",
+      "Go",
+      "Python",
+      "Java",
+      "C++"
+    ]
   }
 }

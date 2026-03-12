@@ -25,6 +25,7 @@ type QuizQuestion = {
   difficulty: string;
   question: string;
   why_prompt?: string;
+  options?: string[];
   expected_keywords?: string[];
 };
 
@@ -227,37 +228,51 @@ export default function HomeScreen() {
               <Text style={styles.questionText}>{q.question}</Text>
               {q.why_prompt ? <Text style={styles.whyPrompt}>{q.why_prompt}</Text> : null}
 
-              <Text style={styles.label}>Answer</Text>
-              <TextInput
-                style={[styles.input, styles.multilineInput]}
-                multiline
-                textAlignVertical="top"
-                placeholder="Type your answer…"
-                placeholderTextColor="#64748b"
-                value={current.answer}
-                onChangeText={(text) =>
-                  setAnswers((prev) => ({
-                    ...prev,
-                    [q.id]: { ...(prev[q.id] ?? { why: '' }), answer: text },
-                  }))
-                }
-              />
+              <Text style={styles.label}>Choose an option</Text>
+              <View style={{ marginTop: 4 }}>
+                {(q.options ?? []).map((opt) => {
+                  const isSelected = current.answer === opt;
+                  return (
+                    <TouchableOpacity
+                      key={opt}
+                      style={[styles.optionButton, isSelected && styles.optionButtonSelected]}
+                      onPress={() =>
+                        setAnswers((prev) => ({
+                          ...prev,
+                          [q.id]: { ...(prev[q.id] ?? { why: '' }), answer: opt },
+                        }))
+                      }
+                      disabled={isEvaluating}
+                    >
+                      <Text
+                        style={[styles.optionText, isSelected && styles.optionTextSelected]}
+                      >
+                        {opt}
+                      </Text>
+                    </TouchableOpacity>
+                  );
+                })}
+              </View>
 
-              <Text style={styles.label}>Why</Text>
-              <TextInput
-                style={[styles.input, styles.multilineInput]}
-                multiline
-                textAlignVertical="top"
-                placeholder="Explain your thinking…"
-                placeholderTextColor="#64748b"
-                value={current.why}
-                onChangeText={(text) =>
-                  setAnswers((prev) => ({
-                    ...prev,
-                    [q.id]: { ...(prev[q.id] ?? { answer: '' }), why: text },
-                  }))
-                }
-              />
+              {current.answer ? (
+                <>
+                  <Text style={styles.label}>Why did you choose this?</Text>
+                  <TextInput
+                    style={[styles.input, styles.multilineInput]}
+                    multiline
+                    textAlignVertical="top"
+                    placeholder="Explain your thinking…"
+                    placeholderTextColor="#64748b"
+                    value={current.why}
+                    onChangeText={(text) =>
+                      setAnswers((prev) => ({
+                        ...prev,
+                        [q.id]: { ...(prev[q.id] ?? { answer: current.answer }), why: text },
+                      }))
+                    }
+                  />
+                </>
+              ) : null}
 
               <View style={styles.navRow}>
                 <TouchableOpacity
@@ -693,5 +708,26 @@ const styles = StyleSheet.create({
   },
   authText: { color: '#9ca3af', fontSize: 13 },
   authLink: { color: '#a5b4fc', fontSize: 13, fontWeight: '600' },
+  optionButton: {
+    borderRadius: 10,
+    borderWidth: 1,
+    borderColor: '#1f2937',
+    backgroundColor: '#020617',
+    paddingVertical: 10,
+    paddingHorizontal: 12,
+    marginTop: 6,
+  },
+  optionButtonSelected: {
+    borderColor: '#a5b4fc',
+    backgroundColor: '#111827',
+  },
+  optionText: {
+    color: '#e5e7eb',
+    fontSize: 14,
+  },
+  optionTextSelected: {
+    color: '#c7d2fe',
+    fontWeight: '600',
+  },
 });
 

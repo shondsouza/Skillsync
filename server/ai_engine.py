@@ -23,9 +23,15 @@ You are interviewing a candidate for: {role}
 Company tech stack: {stack_str}
 Candidate resume skills: {resume_str}
 
-Generate exactly 5 technical interview questions.
-Focus on skills in the company stack.
-Mix difficulty: 2 Easy, 2 Medium, 1 Hard.
+Generate between 8 and 10 UNIQUE multiple-choice technical interview questions.
+Every question MUST:
+- Be directly related to BOTH the company tech stack and the candidate skills.
+- Be specific to the role and realistic for a real interview.
+- Have a clear difficulty level: "Easy", "Medium", or "Hard".
+- Include EXACTLY 4 options that are all plausible answers.
+- Avoid giving away which option is correct inside the text.
+
+DO NOT repeat the same question or trivial variations.
 
 Return ONLY valid JSON, no extra text, no markdown:
 {{
@@ -36,6 +42,12 @@ Return ONLY valid JSON, no extra text, no markdown:
       "question": "What is the Virtual DOM?",
       "difficulty": "Easy",
       "why_prompt": "Can you give a real example from your projects?",
+      "options": [
+        "A JavaScript object representation of the UI tree used for efficient updates",
+        "A browser API that directly manipulates HTML elements",
+        "A CSS optimization engine that reduces repaint cost",
+        "A build tool that bundles React components"
+      ],
       "expected_keywords": ["virtual dom", "diffing", "reconciliation"]
     }}
   ]
@@ -46,7 +58,33 @@ Return ONLY valid JSON, no extra text, no markdown:
         text = response.text
         # Clean any markdown formatting Gemini adds
         clean = text.replace("```json", "").replace("```", "").strip()
-        return json.loads(clean)
+        data = json.loads(clean)
+
+        # Post-process to guarantee options and ids
+        questions = data.get("questions", [])
+        if not isinstance(questions, list):
+            questions = []
+
+        processed = []
+        for idx, q in enumerate(questions, start=1):
+            if not isinstance(q, dict):
+                continue
+            # Ensure id is present and stable
+            q.setdefault("id", idx)
+
+            skill = q.get("skill", "General")
+            # Ensure we always have 4 options
+            opts = q.get("options")
+            if not isinstance(opts, list) or len(opts) < 4:
+                q["options"] = [
+                    f"A strong and accurate answer related to {skill}",
+                    f"A partially correct but incomplete answer about {skill}",
+                    f"An answer that confuses {skill} with a different concept",
+                    f"An irrelevant or clearly incorrect answer unrelated to {skill}",
+                ]
+            processed.append(q)
+
+        return {"questions": processed}
 
     except Exception as e:
         print(f"Gemini quiz generation error: {e}")
