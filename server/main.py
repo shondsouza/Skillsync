@@ -1,21 +1,14 @@
-# ============================================
-# main.py - ResumeMind Backend Server
-# ============================================
-# Run this with: python main.py
-# Server starts at: http://localhost:8000
-# API docs at: http://localhost:8000/docs
-# ============================================
-
-from fastapi import FastAPI, File, UploadFile, HTTPException
+from fastapi import FastAPI, File, UploadFile, HTTPException, Depends, Header
 from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel
-from typing import List, Optional
+from pydantic import BaseModel, EmailStr
+from typing import List, Optional, Dict, Any
 import uvicorn
 import shutil
 import os
 import json
 import uuid
 from datetime import datetime
+import hashlib
 
 from parser import parse_resume
 from company_intel import get_company_intelligence
@@ -25,7 +18,7 @@ from ai_engine import generate_quiz, evaluate_answers, get_gap_analysis
 # App Setup
 # ============================================
 app = FastAPI(
-    title="ResumeMind API",
+    title="Evalio",
     description="AI-powered career readiness assessment",
     version="1.0.0"
 )
@@ -44,6 +37,7 @@ os.makedirs("temp_resumes", exist_ok=True)
 
 # Simple JSON database for storing results
 RESULTS_FILE = "results_db.json"
+USERS_FILE = "users_db.json"
 
 
 def load_results():
@@ -58,8 +52,72 @@ def save_results(data):
         json.dump(data, f, indent=2)
 
 
+def load_users() -> Dict[str, Any]:
+    if os.path.exists(USERS_FILE):
+        with open(USERS_FILE, "r") as f:
+            return json.load(f)
+    return {"users": []}
+
+
+def save_users(data: Dict[str, Any]):
+    with open(USERS_FILE, "w") as f:
+        json.dump(data, f, indent=2)
+
+
+def hash_password(password: str) -> str:
+    return hashlib.sha256(password.encode("utf-8")).hexdigest()
+
+
+def create_token() -> str:
+    return str(uuid.uuid4())
+
+
+class RegisterRequest(BaseModel):
+    name: str
+    email: EmailStr
+    password: str
+
+
+class LoginRequest(BaseModel):
+    email: EmailStr
+    password: str
+
+
+class ProfileUpdate(BaseModel):
+    name: Optional[str] = None
+    headline: Optional[str] = None
+    current_role: Optional[str] = None
+    target_role: Optional[str] = None
+    years_experience: Optional[str] = None
+    bio: Optional[str] = None
+
+
+class UserPublic(BaseModel):
+    id: str
+    name: str
+    email: EmailStr
+
+
+class AuthResponse(BaseModel):
+    token: str
+    user: UserPublic
+
+
+def get_current_user(authorization: Optional[str] = Header(None)) -> Dict[str, Any]:
+    if not authorization or not authorization.lower().startswith("bearer "):
+        raise HTTPException(status_code=401, detail="Missing or invalid Authorization header")
+    token = authorization.split(" ", 1)[1].strip()
+
+    users_db = load_users()
+    for user in users_db.get("users", []):
+        if token in user.get("tokens", []):
+            return user
+
+    raise HTTPException(status_code=401, detail="Invalid or expired token")
+
+
 # ============================================
-# Request/Response Models
+# Request/Response Models for quiz flow
 # ============================================
 class QuizRequest(BaseModel):
     session_id: str
@@ -85,13 +143,119 @@ class EvaluateRequest(BaseModel):
 
 
 # ============================================
-# API Routes
+# Auth & Profile Routes
+# ============================================
+
+
+@app.post("/auth/register", response_model=AuthResponse)
+def register_user(payload: RegisterRequest):
+    users_db = load_users()
+    users = users_db.get("users", [])
+
+    # Check if email already exists
+    if any(u.get("email").lower() == payload.email.lower() for u in users):
+        raise HTTPException(status_code=400, detail="Email already registered")
+
+    user_id = str(uuid.uuid4())
+    password_hash = hash_password(payload.password)
+    token = create_token()
+
+    user = {
+        "id": user_id,
+        "name": payload.name,
+        "email": payload.email,
+        "password_hash": password_hash,
+        "tokens": [token],
+        "profile": {
+            "headline": "",
+            "current_role": "",
+            "target_role": "",
+            "years_experience": "",
+            "bio": "",
+        },
+    }
+    users.append(user)
+    users_db["users"] = users
+    save_users(users_db)
+
+    return AuthResponse(
+        token=token,
+        user=UserPublic(id=user_id, name=payload.name, email=payload.email),
+    )
+
+
+@app.post("/auth/login", response_model=AuthResponse)
+def login_user(payload: LoginRequest):
+    users_db = load_users()
+    users = users_db.get("users", [])
+    password_hash = hash_password(payload.password)
+
+    for user in users:
+        if user.get("email").lower() == payload.email.lower() and user.get("password_hash") == password_hash:
+            token = create_token()
+            tokens = user.get("tokens", [])
+            tokens.append(token)
+            user["tokens"] = tokens
+            save_users(users_db)
+            return AuthResponse(
+                token=token,
+                user=UserPublic(id=user["id"], name=user["name"], email=user["email"]),
+            )
+
+    raise HTTPException(status_code=401, detail="Invalid email or password")
+
+
+@app.get("/me")
+def get_profile(current_user: Dict[str, Any] = Depends(get_current_user)):
+    profile = current_user.get("profile", {})
+    return {
+        "id": current_user["id"],
+        "name": current_user["name"],
+        "email": current_user["email"],
+        "profile": profile,
+    }
+
+
+@app.put("/me")
+def update_profile(update: ProfileUpdate, current_user: Dict[str, Any] = Depends(get_current_user)):
+    users_db = load_users()
+    users = users_db.get("users", [])
+
+    for user in users:
+        if user.get("id") == current_user["id"]:
+            if update.name is not None:
+                user["name"] = update.name
+            profile = user.get("profile", {})
+            if update.headline is not None:
+                profile["headline"] = update.headline
+            if update.current_role is not None:
+                profile["current_role"] = update.current_role
+            if update.target_role is not None:
+                profile["target_role"] = update.target_role
+            if update.years_experience is not None:
+                profile["years_experience"] = update.years_experience
+            if update.bio is not None:
+                profile["bio"] = update.bio
+            user["profile"] = profile
+            save_users({"users": users})
+            return {
+                "id": user["id"],
+                "name": user["name"],
+                "email": user["email"],
+                "profile": profile,
+            }
+
+    raise HTTPException(status_code=404, detail="User not found")
+
+
+# ============================================
+# Quiz & Results Routes
 # ============================================
 
 @app.get("/")
 def root():
     return {
-        "message": "ResumeMind API is running!",
+        "message": "Evalio API is running!",
         "version": "1.0.0",
         "endpoints": [
             "POST /upload-resume",
@@ -336,7 +500,7 @@ def get_results(session_id: str):
 
 @app.get("/health")
 def health_check():
-    return {"status": "healthy", "message": "ResumeMind is running"}
+    return {"status": "healthy", "message": "Evalio is running"}
 
 
 # ============================================
@@ -344,7 +508,7 @@ def health_check():
 # ============================================
 if __name__ == "__main__":
     print("=" * 50)
-    print("  ResumeMind Backend Starting...")
+    print("  Evalio Backend Starting...")
     print("=" * 50)
     print("  API: http://localhost:8000")
     print("  Docs: http://localhost:8000/docs")

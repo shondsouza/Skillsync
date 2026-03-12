@@ -1,0 +1,109 @@
+{
+  "7fbe2fc7": {
+    "created_at": "2026-03-13T01:56:35.032962",
+    "resume_data": {
+      "success": true,
+      "raw_text": "S.No Team Name Aakriti ID Member Name\nAK0228 OSWIN GERARD MENEZES (Leader)\nAK0232 ELVIN MACHADO\nAK0604 SHRAVAN G KULAL\n1 ABYSS WALKERS AK0234 MANVITH\nAK0061 NAVANEETH V SAGAR (Leader)\nAK0086 PRATHAM PN\nAK0096 SHRIRAM KG\n2 Yb-Coders AK0113 K HEMANTH KUMAR\nAK0082 SMAYAN G SHETTY (Leader)\nAK0118 SANJANA M\nAK0016 DEVISHREE\n3 CodeMAXXERS AK0350 VARUN K BHAT\nAK0307 SIDHARTH THODUVAIL (Leader)\nAK0122 SUMANTH\nAK0369 VINAY L\n4 Upthrive AK0893 VAISHNAV A SHETTY\nAK0919 SUHAS S PAI (Leader)\nAK0918 VAIBHAV HARDIKAR\nAK0988 KRITHARTH JAIN\n5 SpringX AK0145 JEEVAN CHANDRAHAS NAIK\nAK1080 VIGHNESH ANAND BANDEKAR (Leader)\nAK0393 BRINDESH\nAK0555 NAGARAJ HARWADEKAR\n6 PIXEL PERFECT AK1261 Vishakh N\nAK0348 VRASHAB T K (Leader)\nAK1096 YASHAS KM\nAK1156 SHRAVAN P RAI\n7 Ctrl Alt Defeat AK1151 PRAJWAL SHETTY\nAK0355 SHREESHA KAVYA PRAKASH (Leader)\nAK0920 SANJANA J N\nAK0927 SINCHANA PRABHU\n8 Cosmic CodeX AK0922 YASHASWINI Y\nAK0314 SHREYA D SUVARNA (Leader)\nAK1111 WINONA LOBO\nAK1112 NOLAN ANTONY DSOUZA\n9 ByteBloom AK1146 TRIVIA CREDA VEIGAS\nAK0002 KAUSHIK H S (Leader)\nAK0195 PRATHAM A\nAK0629 K SATHVIK ASHOK HEGDE\n10 VoidX AK0628 RAHUL\nAK1133 VIRAJ JAIN (Leader)\nAK1135 SUSHMA S SHETTY\nAK0351 VINITH\n11 VisionX AK1319 VISHNUSMARAN B RAI\nAK0110 SATHWIK S BHANDARY (Leader)\nAK1140 PRAJATH JAYAKAR\nAK1095 YASHAS SHETTY\n12 AI AVENGERS AK1313 VIGHNESH KRISHNA POOJARY\nAK0538 YAJNESH (Leader)\nAK1077 RAHUL K U\nAK1165 AKSHAY SHETTIGAR\n13 TEAM NEXORA AK1076 ARSHITH\nAK1059 UDBHAV N C (Leader)\nAK1199 SIDDHARTH SANJAY\nAK1177 MONEET SEMITH\n14 KAVACH AK1175 SHARON\nAK1152 LIN (Leader)\nAK1259 ANKITHA R\nAK0295 AKSHAY KRISHNA\n15 Team nxtwave AK1371 NISHAN V\nAK1437 DHRUVA SHEDBALKAR (Leader)\nAK1428 GAUTHAMI\nAK1418 NIHAL SHETTY\n16 BUN AK1438 ANVITH A POOJARY\nAK1430 NITHESH (Leader)\nAK1416 KEVAL R JAIN\nAK1444 MAYANK KAMATH\n17 TEAM VYOM AK1306 LIKHITH M JOGI\nAK0779 THANUSH C J (Leader)\nAK1172 SHALINI E\nAK1171 YAKSHITH SHETTY\n18 THANUSH C J AK0762 SHIVANI NAYAK\nAK1161 NIKHIL S (Leader)\nAK1550 MUHAMMED SUFAIL M M\nAK1549 MUHAMMED SHAD\n19 NIKHIL S AK1554 FARIYAD KHAN\nAK1361 JEEVITH K R (Leader)\nAK1478 KISHAN\nAK0615 NAVANEETH H NAIK\n20 Cipher squad AK0617 ARAVIND\nAK1586 ABHINAV SHETTY (Leader)\nAK1118 NAVYA Y SUVARNA\nAK1589 DEEPTHI C J\n21 Vibe coders AK1593 PREETHESH CARVALHO\nAK1579 VAISHAL DSOUZA (Leader)\nAK1636 SUPRITHA M S\nAK1624 VRISHIKA RAI B\n22 Attack on Bugs AK1582 SOUJANYA R K\nAK1186 HARSHAVARDHAN R (Leader)\nAK1637 OMKAR P SHETTY\nAK0184 VAISHNAV KAIPANGALA\n23 Dirty Bits AK1613 PRATIK KUDKIKAR\nAK1580 VAISHNU (Leader)\nAK1621 CHANDRESH SHANIYAR MOGER\nAK1623 CHETHAN SHETTY\n24 Z Gang AK1641 NITHESH R\nAK1638 PRAJITH M (Leader)\nAK1656 PRATHAMESH D NAIK\nAK1658 KEERTHAN K\n25 PawPatrol AK1659 VAISHAK J\nAK1627 NAVEEN M KUMAR (Leader)\nAK1629 SADANANDA SS\nAK1628 SHASHWATH S\n26 Syntax Squad AK1652 SHAUN MENEZES\nAK0269 DEEKSHITH SHETTIGAR (Leader)\nAK1372 VISHAL\nAK1374 DHEERAJ PRASAD\n27 RTXv4 AK1671 HARIPRASAD SHETTIGAR\nAK0425 ABHINAND V (Leader)\nAK0784 SAMARTH HN SHENOY\nAK0672 PREETHAM R\n28 #Team Vortex AK0782 MAYUR J",
+      "skills": {
+        "frontend": [],
+        "backend": [
+          "go",
+          "spring"
+        ],
+        "data": [
+          "r",
+          "spark"
+        ],
+        "devops": [],
+        "all": [
+          "go",
+          "spring",
+          "r",
+          "spark"
+        ]
+      },
+      "experience": {
+        "education": [],
+        "companies": [],
+        "years_experience": 0,
+        "projects_count": 0
+      },
+      "red_flags": [],
+      "skill_count": 4,
+      "summary": "Found 4 skills across 0 projects"
+    },
+    "company": "",
+    "role": "",
+    "company_intel": {},
+    "gap_analysis": {},
+    "quiz_attempts": [],
+    "current_quiz": {
+      "questions": [
+        {
+          "id": 1,
+          "skill": "Core Concepts",
+          "question": "Explain a key concept in Full stack dev you use daily.",
+          "difficulty": "Easy",
+          "why_prompt": "Why is this important for the role?",
+          "expected_keywords": []
+        },
+        {
+          "id": 2,
+          "skill": "Problem Solving",
+          "question": "How do you debug a complex technical issue?",
+          "difficulty": "Medium",
+          "why_prompt": "What tools do you prefer and why?",
+          "expected_keywords": [
+            "debug",
+            "logs",
+            "systematic"
+          ]
+        },
+        {
+          "id": 3,
+          "skill": "Best Practices",
+          "question": "How do you ensure code quality?",
+          "difficulty": "Medium",
+          "why_prompt": "Give a real example from your projects.",
+          "expected_keywords": [
+            "testing",
+            "review",
+            "clean code"
+          ]
+        },
+        {
+          "id": 4,
+          "skill": "System Design",
+          "question": "Design a scalable feature for Amazon.",
+          "difficulty": "Hard",
+          "why_prompt": "What tradeoffs would you consider?",
+          "expected_keywords": [
+            "scale",
+            "performance",
+            "tradeoffs"
+          ]
+        },
+        {
+          "id": 5,
+          "skill": "Experience",
+          "question": "Describe your most challenging project.",
+          "difficulty": "Medium",
+          "why_prompt": "What would you do differently now?",
+          "expected_keywords": [
+            "challenge",
+            "learned",
+            "improved"
+          ]
+        }
+      ]
+    },
+    "company_stack": [
+      "React",
+      "Java",
+      "Python",
+      "AWS",
+      "DynamoDB",
+      "Lambda"
+    ]
+  }
+}
