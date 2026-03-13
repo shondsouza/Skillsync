@@ -1,7 +1,7 @@
 # server/ai_engine.py
 # Using Google Gemini for AI-powered quiz generation and evaluation
 
-import google.generativeai as genai
+from google import genai
 import json
 import os
 import traceback
@@ -18,8 +18,7 @@ if not _api_key:
 print(f"[ai_engine] Gemini API key loaded: {'*' * (len(_api_key) - 6)}{_api_key[-6:]}")
 
 # Configure Gemini
-genai.configure(api_key=_api_key)
-model = genai.GenerativeModel("gemini-1.5-flash")
+client = genai.Client(api_key=_api_key)
 
 
 def generate_quiz(company, role, company_stack, resume_skills, primary_field="General Developer"):
@@ -67,7 +66,10 @@ Return ONLY valid JSON with no extra text, no markdown fences:
 }}"""
 
     try:
-        response = model.generate_content(prompt)
+        response = client.models.generate_content(
+            model="gemini-2.5-flash",
+            contents=prompt
+        )
         text = response.text
         clean = text.replace("```json", "").replace("```", "").strip()
         data = json.loads(clean)
@@ -304,7 +306,10 @@ Return ONLY valid JSON, no markdown, no extra text:
 }}"""
 
     try:
-        response = model.generate_content(prompt)
+        response = client.models.generate_content(
+            model="gemini-2.5-flash",
+            contents=prompt
+        )
         text = response.text
         clean = text.replace("```json", "").replace("```", "").strip()
         result = json.loads(clean)
@@ -321,12 +326,9 @@ Return ONLY valid JSON, no markdown, no extra text:
         return result
 
     except Exception as e:
-        # Print the full traceback to the server console so you can see exactly what went wrong
         print(f"\n[evaluate_answers] ERROR: {type(e).__name__}: {e}")
         traceback.print_exc()
-        # Re-raise so /evaluate returns a real 500 error instead of silently scoring 55
         raise RuntimeError(f"Gemini evaluation failed: {type(e).__name__}: {e}") from e
-
 
 
 def get_gap_analysis(resume_skills, company_stack, role):
@@ -347,7 +349,10 @@ Return ONLY valid JSON, no markdown:
 }}"""
 
     try:
-        response = model.generate_content(prompt)
+        response = client.models.generate_content(
+            model="gemini-2.5-flash",
+            contents=prompt
+        )
         text = response.text
         clean = text.replace("```json", "").replace("```", "").strip()
         return json.loads(clean)

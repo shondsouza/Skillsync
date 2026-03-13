@@ -5,7 +5,7 @@ import { getAuthToken } from '@/utils/authStore';
 // Your phone cannot reach "localhost" on your computer.
 // Example: http://192.168.1.5:8000
 // IMPORTANT: Include both http:// and :8000
-const BASE_URL = 'http://192.168.137.1:8000';
+const BASE_URL = 'http://192.168.137.238:8000';
 
 const api = axios.create({
   baseURL: BASE_URL,

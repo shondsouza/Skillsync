@@ -1743,5 +1743,933 @@
         "Retry the assessment for a full evaluation"
       ]
     }
+  },
+  "cccca31e": {
+    "created_at": "2026-03-13T09:33:00.333343",
+    "resume_data": {
+      "success": true,
+      "raw_text": "HARSHITH VASANTH SHETTY\n7795471769 harshithshetty779@gmail.com github.com/homieshetty /in/homie-shetty/\nSUMMARY\nSeeking a challenging role in the field of coding, where I can leverage my programming skills and\ndedication to excel in software development.\nTECHNICAL SKILLS\nPython | HTML | CSS | SQL | C\nTools : Git , Github , Vercel , Netlify , Firebase (Auth,Firestore) , Supabase\nPROJECTS\nSmart Finance & Workforce Tracker Feb 2025 - Current\nBuilt a role-based workforce and finance platform with Next.js, Tailwind CSS, shadcn/ui, and Firebase,\nincluding event tracking, automated wage updates, dashboards, CSV/PDF reporting, real-time data,\nchat, and task management in a dark-themed responsive interface.\nTechSpark - Technical Event Management Platform Sept 2025 - Current\nDeveloped a full-stack event management platform using Next.js, TypeScript, Tailwind CSS, Supabase,\nand Framer Motion, enabling real-time participant registration with validation and verification, and\nproviding an admin dashboard with live tracking, search, exports, and role-based access control.\nPlanical: AI-Powered Mental Health Support Platform October 2024\nBuilt a mental health platform with React.js, FastAPI, LangChain, Groq API, Firebase, ChromaDB, and\nSocket.io, offering an AI chatbot, real-time doctor-client chat, wellness features, multi-language\ndashboard, user analytics, and scalable, secure architecture for 1000+ users.\nRPS-AI: Intelligent Rock-Paper-Scissors Game March - April 2025\nCreated an AI Rock-Paper-Scissors game in Python using OpenCV, MediaPipe, and CustomTkinter, with\nreal-time hand gesture recognition, Markov chain\u2013based AI, interactive GUI, stats tracking, and multi-\nthreaded smooth gameplay.\nEDUCATION\nFinal year, B.E. in Computer Science and Engineering 2022-2026\nShree Devi Institute of Technology\nCERTIFICATIONS AND ACHIEVEMENTS\nCode Meet 2024 Hackathon: Participated in a 24-hour hackathon at Srinivas University Institute of\nEngineering & Technology, gaining hands-on experience in problem solving and teamwork.\n(October 2024)\nReact.Js and Javascript ChatGPT clone by Devtown(issued in 2024)\nBootcamp on Backend development using NODEJSand MongoDB By Devtown(issued in 2024)\nFrontend web development using React.Js and Javascript by Devtown (issued in 2024)\nParticipated in Sankalp\u201925 held at Shree Devi Institute of Technology (issued in 2024)\nParticipated in Sankalp\u201924 held at Shree Devi Institute of Technology (issued in 2025)\nCreated a website for the college technical event TechSpark, enabling smooth event promotion and\nparticipant engagement.\nAchieved 2nd place at Technical quiz at Srinivas University.\nEXPERIENCE\nExperienced in efficiently managing groups of up to 80 people for event coordination, including roles\nat Ocean Pearl.\nVolunteered for a Harry Potter\u2013themed event at Paper Rocket, Mangalore.\nHandled logistics and transport operations for a large-scale event.\nManaged and coordinated teams across multiple events under Moulding Dreams.\nCreated a website for the college technical event TechSpark, enabling smooth event promotion and\nparticipant engagement.\nVolunteered for intra college cultural event called SURABHI in our college.\nRELEVANT COURSEWORK\nObject Oriented Programming, Database Management Systems, Discrete Maths, Data Structures and\nAlgorithms, Operating System\n",
+      "skills": {
+        "frontend": [
+          "html",
+          "css",
+          "javascript",
+          "typescript",
+          "react",
+          "next.js",
+          "tailwind"
+        ],
+        "backend": [
+          "python",
+          "java",
+          "go",
+          "fastapi",
+          "mongodb",
+          "firebase",
+          "supabase"
+        ],
+        "ai": [
+          "langchain",
+          "gpt",
+          "rag"
+        ],
+        "data": [
+          "sql",
+          "excel",
+          "r",
+          "spark",
+          "etl",
+          "analytics"
+        ],
+        "devops": [
+          "git",
+          "github"
+        ],
+        "all": [
+          "html",
+          "css",
+          "javascript",
+          "typescript",
+          "react",
+          "next.js",
+          "tailwind",
+          "python",
+          "java",
+          "go",
+          "fastapi",
+          "mongodb",
+          "firebase",
+          "supabase",
+          "langchain",
+          "gpt",
+          "rag",
+          "sql",
+          "excel",
+          "r",
+          "spark",
+          "etl",
+          "analytics",
+          "git",
+          "github"
+        ]
+      },
+      "experience": {
+        "education": [
+          "B.E"
+        ],
+        "companies": [
+          "engineer"
+        ],
+        "years_experience": 1,
+        "projects_count": 0
+      },
+      "red_flags": [
+        "Many skills listed but very few projects found. This may reduce credibility in an interview.",
+        "'langchain' listed but limited project evidence found."
+      ],
+      "skill_count": 25,
+      "primary_field": "Full Stack Developer",
+      "summary": "Detected 25 skills across 0 project(s). Primary field: Full Stack Developer."
+    },
+    "company": "",
+    "role": "",
+    "primary_field": "Full Stack Developer",
+    "company_intel": {},
+    "gap_analysis": {},
+    "quiz_attempts": [],
+    "current_quiz": {
+      "questions": [
+        {
+          "id": 1,
+          "skill": "Full Stack Developer",
+          "question": "What is the most important principle in Full Stack Developer and why?",
+          "difficulty": "Easy",
+          "why_prompt": "Give a real example from your work or projects.",
+          "options": [
+            "Writing clean, maintainable, and well-documented code that others can understand",
+            "Optimizing performance at every layer, even before functionality is complete",
+            "Shipping features as fast as possible to meet business deadlines",
+            "Using the newest and most popular frameworks regardless of project needs"
+          ],
+          "expected_keywords": [
+            "clean code",
+            "maintainability",
+            "best practices"
+          ]
+        },
+        {
+          "id": 2,
+          "skill": "Problem Solving",
+          "question": "How do you approach debugging a complex issue in production?",
+          "difficulty": "Medium",
+          "why_prompt": "Walk me through a real incident you dealt with.",
+          "options": [
+            "Reproduce locally, check logs, isolate variables systematically, then fix and monitor",
+            "Restart the service and hope the issue resolves itself",
+            "Ask a colleague to look at it since debugging is time-consuming",
+            "Roll back the last deployment without investigating the root cause"
+          ],
+          "expected_keywords": [
+            "reproduce",
+            "logs",
+            "isolate",
+            "systematic",
+            "monitor"
+          ]
+        },
+        {
+          "id": 3,
+          "skill": "System Design",
+          "question": "How would you design a scalable API for Amazon's Full stack Engineer use case?",
+          "difficulty": "Hard",
+          "why_prompt": "What tradeoffs did you consider in your design?",
+          "options": [
+            "Use load balancing, caching (Redis), database sharding, and async queues for scale",
+            "Build a monolith first, then split into microservices only when traffic demands it",
+            "Use a single server with vertical scaling since it is simpler to manage",
+            "Rely entirely on third-party SaaS solutions to avoid infrastructure complexity"
+          ],
+          "expected_keywords": [
+            "scale",
+            "cache",
+            "async",
+            "tradeoffs",
+            "load balancing"
+          ]
+        },
+        {
+          "id": 4,
+          "skill": "Code Quality",
+          "question": "What practices do you follow to ensure high code quality?",
+          "difficulty": "Medium",
+          "why_prompt": "How have these practices helped your team in the past?",
+          "options": [
+            "Code reviews, unit/integration tests, linting, CI pipelines, and documentation",
+            "Manual testing only since automated tests slow down development velocity",
+            "Having the senior dev review all code before merging without tests",
+            "Skipping reviews for small changes since they rarely introduce bugs"
+          ],
+          "expected_keywords": [
+            "tests",
+            "review",
+            "ci/cd",
+            "lint",
+            "documentation"
+          ]
+        }
+      ]
+    },
+    "company_stack": [
+      "React",
+      "Java",
+      "Python",
+      "AWS",
+      "DynamoDB",
+      "Lambda"
+    ]
+  },
+  "59281794": {
+    "created_at": "2026-03-13T09:44:11.320404",
+    "resume_data": {
+      "success": true,
+      "raw_text": "HARSHITH VASANTH SHETTY\n7795471769 harshithshetty779@gmail.com github.com/homieshetty /in/homie-shetty/\nSUMMARY\nSeeking a challenging role in the field of coding, where I can leverage my programming skills and\ndedication to excel in software development.\nTECHNICAL SKILLS\nPython | HTML | CSS | SQL | C\nTools : Git , Github , Vercel , Netlify , Firebase (Auth,Firestore) , Supabase\nPROJECTS\nSmart Finance & Workforce Tracker Feb 2025 - Current\nBuilt a role-based workforce and finance platform with Next.js, Tailwind CSS, shadcn/ui, and Firebase,\nincluding event tracking, automated wage updates, dashboards, CSV/PDF reporting, real-time data,\nchat, and task management in a dark-themed responsive interface.\nTechSpark - Technical Event Management Platform Sept 2025 - Current\nDeveloped a full-stack event management platform using Next.js, TypeScript, Tailwind CSS, Supabase,\nand Framer Motion, enabling real-time participant registration with validation and verification, and\nproviding an admin dashboard with live tracking, search, exports, and role-based access control.\nPlanical: AI-Powered Mental Health Support Platform October 2024\nBuilt a mental health platform with React.js, FastAPI, LangChain, Groq API, Firebase, ChromaDB, and\nSocket.io, offering an AI chatbot, real-time doctor-client chat, wellness features, multi-language\ndashboard, user analytics, and scalable, secure architecture for 1000+ users.\nRPS-AI: Intelligent Rock-Paper-Scissors Game March - April 2025\nCreated an AI Rock-Paper-Scissors game in Python using OpenCV, MediaPipe, and CustomTkinter, with\nreal-time hand gesture recognition, Markov chain\u2013based AI, interactive GUI, stats tracking, and multi-\nthreaded smooth gameplay.\nEDUCATION\nFinal year, B.E. in Computer Science and Engineering 2022-2026\nShree Devi Institute of Technology\nCERTIFICATIONS AND ACHIEVEMENTS\nCode Meet 2024 Hackathon: Participated in a 24-hour hackathon at Srinivas University Institute of\nEngineering & Technology, gaining hands-on experience in problem solving and teamwork.\n(October 2024)\nReact.Js and Javascript ChatGPT clone by Devtown(issued in 2024)\nBootcamp on Backend development using NODEJSand MongoDB By Devtown(issued in 2024)\nFrontend web development using React.Js and Javascript by Devtown (issued in 2024)\nParticipated in Sankalp\u201925 held at Shree Devi Institute of Technology (issued in 2024)\nParticipated in Sankalp\u201924 held at Shree Devi Institute of Technology (issued in 2025)\nCreated a website for the college technical event TechSpark, enabling smooth event promotion and\nparticipant engagement.\nAchieved 2nd place at Technical quiz at Srinivas University.\nEXPERIENCE\nExperienced in efficiently managing groups of up to 80 people for event coordination, including roles\nat Ocean Pearl.\nVolunteered for a Harry Potter\u2013themed event at Paper Rocket, Mangalore.\nHandled logistics and transport operations for a large-scale event.\nManaged and coordinated teams across multiple events under Moulding Dreams.\nCreated a website for the college technical event TechSpark, enabling smooth event promotion and\nparticipant engagement.\nVolunteered for intra college cultural event called SURABHI in our college.\nRELEVANT COURSEWORK\nObject Oriented Programming, Database Management Systems, Discrete Maths, Data Structures and\nAlgorithms, Operating System\n",
+      "skills": {
+        "frontend": [
+          "html",
+          "css",
+          "javascript",
+          "typescript",
+          "react",
+          "next.js",
+          "tailwind"
+        ],
+        "backend": [
+          "python",
+          "java",
+          "go",
+          "fastapi",
+          "mongodb",
+          "firebase",
+          "supabase"
+        ],
+        "ai": [
+          "langchain",
+          "gpt",
+          "rag"
+        ],
+        "data": [
+          "sql",
+          "excel",
+          "r",
+          "spark",
+          "etl",
+          "analytics"
+        ],
+        "devops": [
+          "git",
+          "github"
+        ],
+        "all": [
+          "html",
+          "css",
+          "javascript",
+          "typescript",
+          "react",
+          "next.js",
+          "tailwind",
+          "python",
+          "java",
+          "go",
+          "fastapi",
+          "mongodb",
+          "firebase",
+          "supabase",
+          "langchain",
+          "gpt",
+          "rag",
+          "sql",
+          "excel",
+          "r",
+          "spark",
+          "etl",
+          "analytics",
+          "git",
+          "github"
+        ]
+      },
+      "experience": {
+        "education": [
+          "B.E"
+        ],
+        "companies": [
+          "engineer"
+        ],
+        "years_experience": 1,
+        "projects_count": 0
+      },
+      "red_flags": [
+        "Many skills listed but very few projects found. This may reduce credibility in an interview.",
+        "'langchain' listed but limited project evidence found."
+      ],
+      "skill_count": 25,
+      "primary_field": "Full Stack Developer",
+      "summary": "Detected 25 skills across 0 project(s). Primary field: Full Stack Developer."
+    },
+    "company": "",
+    "role": "",
+    "primary_field": "Full Stack Developer",
+    "company_intel": {},
+    "gap_analysis": {},
+    "quiz_attempts": [
+      {
+        "attempt_number": 1,
+        "timestamp": "2026-03-13T09:52:38.109909",
+        "score": 20,
+        "eligible": false,
+        "company": "Amaxon",
+        "role": "Full stack"
+      },
+      {
+        "attempt_number": 2,
+        "timestamp": "2026-03-13T09:53:17.012588",
+        "score": 20,
+        "eligible": false,
+        "company": "Amaxon",
+        "role": "Full stack"
+      },
+      {
+        "attempt_number": 3,
+        "timestamp": "2026-03-13T09:55:53.877415",
+        "score": 25,
+        "eligible": false,
+        "company": "Amaxon",
+        "role": "Full stack"
+      }
+    ],
+    "current_quiz": {
+      "questions": [
+        {
+          "id": 1,
+          "skill": "Full Stack Developer",
+          "question": "What is the most important principle in Full Stack Developer and why?",
+          "difficulty": "Easy",
+          "why_prompt": "Give a real example from your work or projects.",
+          "options": [
+            "Writing clean, maintainable, and well-documented code that others can understand",
+            "Optimizing performance at every layer, even before functionality is complete",
+            "Shipping features as fast as possible to meet business deadlines",
+            "Using the newest and most popular frameworks regardless of project needs"
+          ],
+          "expected_keywords": [
+            "clean code",
+            "maintainability",
+            "best practices"
+          ]
+        },
+        {
+          "id": 2,
+          "skill": "Problem Solving",
+          "question": "How do you approach debugging a complex issue in production?",
+          "difficulty": "Medium",
+          "why_prompt": "Walk me through a real incident you dealt with.",
+          "options": [
+            "Reproduce locally, check logs, isolate variables systematically, then fix and monitor",
+            "Restart the service and hope the issue resolves itself",
+            "Ask a colleague to look at it since debugging is time-consuming",
+            "Roll back the last deployment without investigating the root cause"
+          ],
+          "expected_keywords": [
+            "reproduce",
+            "logs",
+            "isolate",
+            "systematic",
+            "monitor"
+          ]
+        },
+        {
+          "id": 3,
+          "skill": "System Design",
+          "question": "How would you design a scalable API for Amaxon's Full stack use case?",
+          "difficulty": "Hard",
+          "why_prompt": "What tradeoffs did you consider in your design?",
+          "options": [
+            "Use load balancing, caching (Redis), database sharding, and async queues for scale",
+            "Build a monolith first, then split into microservices only when traffic demands it",
+            "Use a single server with vertical scaling since it is simpler to manage",
+            "Rely entirely on third-party SaaS solutions to avoid infrastructure complexity"
+          ],
+          "expected_keywords": [
+            "scale",
+            "cache",
+            "async",
+            "tradeoffs",
+            "load balancing"
+          ]
+        },
+        {
+          "id": 4,
+          "skill": "Code Quality",
+          "question": "What practices do you follow to ensure high code quality?",
+          "difficulty": "Medium",
+          "why_prompt": "How have these practices helped your team in the past?",
+          "options": [
+            "Code reviews, unit/integration tests, linting, CI pipelines, and documentation",
+            "Manual testing only since automated tests slow down development velocity",
+            "Having the senior dev review all code before merging without tests",
+            "Skipping reviews for small changes since they rarely introduce bugs"
+          ],
+          "expected_keywords": [
+            "tests",
+            "review",
+            "ci/cd",
+            "lint",
+            "documentation"
+          ]
+        }
+      ]
+    },
+    "company_stack": [],
+    "latest_result": {
+      "overall_score": 25,
+      "eligible": false,
+      "minimum_required": 70,
+      "readiness_verdict": "Not Prepared",
+      "verdict": "The candidate demonstrates severe weaknesses in core full-stack development areas, especially in problem-solving, production debugging, system design for scalability, and modern code quality practices. The complete lack of meaningful reasoning for any answer further indicates a significant gap in understanding and articulation.",
+      "skill_scores": [],
+      "strengths": [],
+      "gaps": [
+        {
+          "skill": "Problem Solving & Production Debugging",
+          "score": 0,
+          "why_weak": "The candidate proposes an unsystematic and ineffective approach ('restart the service and hope the issue resolves itself') for debugging complex production issues. This demonstrates a critical lack of understanding of systematic problem-solving, incident management, and root cause analysis in a production environment.",
+          "resources": [
+            {
+              "name": "Systematic Debugging Strategies in Software Engineering",
+              "url": "https://www.youtube.com/results?search_query=systematic+debugging+strategies+software+engineering",
+              "time": "1-2 hours",
+              "type": "YouTube"
+            },
+            {
+              "name": "Google SRE Book - Effective Troubleshooting",
+              "url": "https://sre.google/sre-book/effective-troubleshooting/",
+              "time": "3-4 hours",
+              "type": "Documentation"
+            },
+            {
+              "name": "Google Cloud - Application Troubleshooting Flow",
+              "url": "https://cloud.google.com/architecture/application-troubleshooting-flow",
+              "time": "1-2 hours",
+              "type": "Additional"
+            }
+          ]
+        },
+        {
+          "skill": "System Design for Scalability",
+          "score": 10,
+          "why_weak": "While starting with a monolith can be a valid architectural choice, the answer for a 'Hard' system design question fails to address the specific mechanisms and considerations for *scalability* (e.g., caching, load balancing, asynchronous processing, database scaling, stateless services, API gateways), indicating a superficial understanding of designing high-traffic systems beyond just architectural style.",
+          "resources": [
+            {
+              "name": "System Design Fundamentals: Scalability",
+              "url": "https://www.youtube.com/results?search_query=system+design+fundamentals+scalability",
+              "time": "4-6 hours",
+              "type": "YouTube"
+            },
+            {
+              "name": "Microsoft Azure - Scalability Design Principles",
+              "url": "https://learn.microsoft.com/en-us/azure/architecture/guide/design-principles/scalability",
+              "time": "1-2 days",
+              "type": "Documentation"
+            },
+            {
+              "name": "System Design Primer",
+              "url": "https://github.com/donnemartin/system-design-primer",
+              "time": "1-2 weeks",
+              "type": "Additional"
+            }
+          ]
+        },
+        {
+          "skill": "Modern Code Quality & Automated Testing Practices",
+          "score": 0,
+          "why_weak": "The candidate explicitly dismisses automated testing as slowing down development velocity and relies solely on manual testing. This is contrary to industry best practices and reveals a fundamental misunderstanding of how to achieve high code quality, prevent regressions, and ensure long-term development efficiency and velocity.",
+          "resources": [
+            {
+              "name": "Benefits of Automated Testing in Software Development",
+              "url": "https://www.youtube.com/results?search_query=automated+testing+benefits+software+development",
+              "time": "2-3 hours",
+              "type": "YouTube"
+            },
+            {
+              "name": "Martin Fowler - The Practical Test Pyramid",
+              "url": "https://www.martinfowler.com/articles/practical-test-pyramid.html",
+              "time": "1-2 hours",
+              "type": "Documentation"
+            },
+            {
+              "name": "Atlassian - Types of Software Testing",
+              "url": "https://www.atlassian.com/continuous-delivery/software-testing/types-of-software-testing",
+              "time": "1-2 hours",
+              "type": "Additional"
+            }
+          ]
+        }
+      ],
+      "question_review": [
+        {
+          "question_number": 1,
+          "skill": "Full Stack Development Principles",
+          "question": "What is the most important principle in Full Stack Developer and why?",
+          "candidate_answer": "Writing clean, maintainable, and well-documented code that others can understand",
+          "is_correct": false,
+          "correct_answer": "The most important principle in full-stack development is often considered to be 'creating maintainable and scalable solutions.' This encompasses clean code, good documentation, robust architecture, and efficient problem-solving, ensuring the system can evolve and be supported over its lifecycle by multiple developers.",
+          "what_was_wrong": "While 'Writing clean, maintainable, and well-documented code' is an excellent core principle, the candidate's reasoning 'lvk' is completely nonsensical and does not demonstrate any understanding or ability to articulate why this principle is important or how it's applied.",
+          "resources": [
+            {
+              "name": "Clean Code Principles for Full Stack Developers",
+              "url": "https://www.youtube.com/results?search_query=clean+code+principles+full+stack",
+              "type": "YouTube"
+            },
+            {
+              "name": "Martin Fowler - Maintainability",
+              "url": "https://martinfowler.com/articles/bliki/Maintainability.html",
+              "type": "Documentation"
+            }
+          ]
+        },
+        {
+          "question_number": 2,
+          "skill": "Problem Solving",
+          "question": "How do you approach debugging a complex issue in production?",
+          "candidate_answer": "Restart the service and hope the issue resolves itself",
+          "is_correct": false,
+          "correct_answer": "Debugging a complex production issue requires a systematic approach: start by gathering information (logs, metrics, monitoring tools), try to reproduce the issue in a non-production environment, isolate the problematic component, form hypotheses, test them, and finally implement and verify a fix. Continuous monitoring should be in place to prevent recurrence.",
+          "what_was_wrong": "Restarting a service and 'hoping' for resolution is not a debugging approach; it's a workaround that avoids identifying the root cause and can often lead to recurring issues or production instability. It shows a critical lack of systematic problem-solving skills and understanding of production incident management.",
+          "resources": [
+            {
+              "name": "Systematic Debugging for Production Issues",
+              "url": "https://www.youtube.com/results?search_query=systematic+debugging+production+issues",
+              "type": "YouTube"
+            },
+            {
+              "name": "Google SRE Book - Effective Troubleshooting",
+              "url": "https://sre.google/sre-book/effective-troubleshooting/",
+              "type": "Documentation"
+            }
+          ]
+        },
+        {
+          "question_number": 3,
+          "skill": "System Design",
+          "question": "How would you design a scalable API for Amaxon's Full stack use case?",
+          "candidate_answer": "Build a monolith first, then split into microservices only when traffic demands it",
+          "is_correct": false,
+          "correct_answer": "Designing a scalable API for a platform like Amaxon involves several key strategies: implementing caching (CDN, in-memory, distributed), using load balancers, employing asynchronous processing for non-critical tasks (message queues), designing stateless services, optimizing database queries and schema, leveraging CDNs for static assets, and considering distributed systems principles for resilience and fault tolerance.",
+          "what_was_wrong": "While starting with a monolith can be a valid architectural choice, the question asks *how* to design a *scalable* API. The candidate's answer only suggests an architectural style and completely omits crucial scaling mechanisms like caching, load balancing, asynchronous processing, database optimizations, or handling high traffic. The reasoning 'nl' is meaningless, further indicating a lack of detailed understanding.",
+          "resources": [
+            {
+              "name": "System Design - Scalable API Architecture",
+              "url": "https://www.youtube.com/results?search_query=system+design+scalable+api",
+              "type": "YouTube"
+            },
+            {
+              "name": "Microsoft Azure - Scalability Design Principles",
+              "url": "https://learn.microsoft.com/en-us/azure/architecture/guide/design-principles/scalability",
+              "type": "Documentation"
+            }
+          ]
+        },
+        {
+          "question_number": 4,
+          "skill": "Code Quality",
+          "question": "What practices do you follow to ensure high code quality?",
+          "candidate_answer": "Manual testing only since automated tests slow down development velocity",
+          "is_correct": false,
+          "correct_answer": "Ensuring high code quality involves multiple practices: comprehensive automated testing (unit, integration, E2E), code reviews to catch issues and share knowledge, continuous integration/continuous deployment (CI/CD) pipelines for automated checks, linting and static analysis tools, clear documentation, and adhering to coding standards and best practices.",
+          "what_was_wrong": "Relying *only* on manual testing for code quality is highly inefficient and prone to errors, especially for a full-stack role with complex systems. Automated tests are critical for ensuring quality, catching regressions early, and *accelerating* long-term development velocity by enabling safe refactoring and faster deployments. Stating they 'slow down development velocity' reveals a fundamental misunderstanding of modern software development practices.",
+          "resources": [
+            {
+              "name": "Software Code Quality Best Practices",
+              "url": "https://www.youtube.com/results?search_query=software+code+quality+best+practices",
+              "type": "YouTube"
+            },
+            {
+              "name": "Google Testing Blog: The Testing Trophy",
+              "url": "https://testing.googleblog.com/2021/04/the-testing-trophy-new-era-of-testing.html",
+              "type": "Documentation"
+            }
+          ]
+        }
+      ],
+      "next_attempt_tips": [
+        "Develop a systematic approach to problem-solving and debugging, particularly for production environments.",
+        "Deepen understanding of core system design principles, focusing on concrete patterns and technologies for scalability, reliability, and performance.",
+        "Embrace and understand the critical role of automated testing, code reviews, and CI/CD in modern software development for achieving high code quality and velocity.",
+        "Practice articulating reasoning clearly and concisely to demonstrate understanding beyond just selecting an answer, as the provided reasoning was meaningless."
+      ]
+    }
+  },
+  "215fd2aa": {
+    "created_at": "2026-03-13T09:57:07.145766",
+    "resume_data": {
+      "success": true,
+      "raw_text": "HARSHITH VASANTH SHETTY\n7795471769 harshithshetty779@gmail.com github.com/homieshetty /in/homie-shetty/\nSUMMARY\nSeeking a challenging role in the field of coding, where I can leverage my programming skills and\ndedication to excel in software development.\nTECHNICAL SKILLS\nPython | HTML | CSS | SQL | C\nTools : Git , Github , Vercel , Netlify , Firebase (Auth,Firestore) , Supabase\nPROJECTS\nSmart Finance & Workforce Tracker Feb 2025 - Current\nBuilt a role-based workforce and finance platform with Next.js, Tailwind CSS, shadcn/ui, and Firebase,\nincluding event tracking, automated wage updates, dashboards, CSV/PDF reporting, real-time data,\nchat, and task management in a dark-themed responsive interface.\nTechSpark - Technical Event Management Platform Sept 2025 - Current\nDeveloped a full-stack event management platform using Next.js, TypeScript, Tailwind CSS, Supabase,\nand Framer Motion, enabling real-time participant registration with validation and verification, and\nproviding an admin dashboard with live tracking, search, exports, and role-based access control.\nPlanical: AI-Powered Mental Health Support Platform October 2024\nBuilt a mental health platform with React.js, FastAPI, LangChain, Groq API, Firebase, ChromaDB, and\nSocket.io, offering an AI chatbot, real-time doctor-client chat, wellness features, multi-language\ndashboard, user analytics, and scalable, secure architecture for 1000+ users.\nRPS-AI: Intelligent Rock-Paper-Scissors Game March - April 2025\nCreated an AI Rock-Paper-Scissors game in Python using OpenCV, MediaPipe, and CustomTkinter, with\nreal-time hand gesture recognition, Markov chain\u2013based AI, interactive GUI, stats tracking, and multi-\nthreaded smooth gameplay.\nEDUCATION\nFinal year, B.E. in Computer Science and Engineering 2022-2026\nShree Devi Institute of Technology\nCERTIFICATIONS AND ACHIEVEMENTS\nCode Meet 2024 Hackathon: Participated in a 24-hour hackathon at Srinivas University Institute of\nEngineering & Technology, gaining hands-on experience in problem solving and teamwork.\n(October 2024)\nReact.Js and Javascript ChatGPT clone by Devtown(issued in 2024)\nBootcamp on Backend development using NODEJSand MongoDB By Devtown(issued in 2024)\nFrontend web development using React.Js and Javascript by Devtown (issued in 2024)\nParticipated in Sankalp\u201925 held at Shree Devi Institute of Technology (issued in 2024)\nParticipated in Sankalp\u201924 held at Shree Devi Institute of Technology (issued in 2025)\nCreated a website for the college technical event TechSpark, enabling smooth event promotion and\nparticipant engagement.\nAchieved 2nd place at Technical quiz at Srinivas University.\nEXPERIENCE\nExperienced in efficiently managing groups of up to 80 people for event coordination, including roles\nat Ocean Pearl.\nVolunteered for a Harry Potter\u2013themed event at Paper Rocket, Mangalore.\nHandled logistics and transport operations for a large-scale event.\nManaged and coordinated teams across multiple events under Moulding Dreams.\nCreated a website for the college technical event TechSpark, enabling smooth event promotion and\nparticipant engagement.\nVolunteered for intra college cultural event called SURABHI in our college.\nRELEVANT COURSEWORK\nObject Oriented Programming, Database Management Systems, Discrete Maths, Data Structures and\nAlgorithms, Operating System\n",
+      "skills": {
+        "frontend": [
+          "html",
+          "css",
+          "javascript",
+          "typescript",
+          "react",
+          "next.js",
+          "tailwind"
+        ],
+        "backend": [
+          "python",
+          "java",
+          "go",
+          "fastapi",
+          "mongodb",
+          "firebase",
+          "supabase"
+        ],
+        "ai": [
+          "langchain",
+          "gpt",
+          "rag"
+        ],
+        "data": [
+          "sql",
+          "excel",
+          "r",
+          "spark",
+          "etl",
+          "analytics"
+        ],
+        "devops": [
+          "git",
+          "github"
+        ],
+        "all": [
+          "html",
+          "css",
+          "javascript",
+          "typescript",
+          "react",
+          "next.js",
+          "tailwind",
+          "python",
+          "java",
+          "go",
+          "fastapi",
+          "mongodb",
+          "firebase",
+          "supabase",
+          "langchain",
+          "gpt",
+          "rag",
+          "sql",
+          "excel",
+          "r",
+          "spark",
+          "etl",
+          "analytics",
+          "git",
+          "github"
+        ]
+      },
+      "experience": {
+        "education": [
+          "B.E"
+        ],
+        "companies": [
+          "engineer"
+        ],
+        "years_experience": 1,
+        "projects_count": 0
+      },
+      "red_flags": [
+        "Many skills listed but very few projects found. This may reduce credibility in an interview.",
+        "'langchain' listed but limited project evidence found."
+      ],
+      "skill_count": 25,
+      "primary_field": "Full Stack Developer",
+      "summary": "Detected 25 skills across 0 project(s). Primary field: Full Stack Developer."
+    },
+    "company": "",
+    "role": "",
+    "primary_field": "Full Stack Developer",
+    "company_intel": {},
+    "gap_analysis": {},
+    "quiz_attempts": [
+      {
+        "attempt_number": 1,
+        "timestamp": "2026-03-13T10:00:13.214690",
+        "score": 62,
+        "eligible": false,
+        "company": "Amazon",
+        "role": "Full stack"
+      }
+    ],
+    "current_quiz": {
+      "questions": [
+        {
+          "id": 1,
+          "skill": "React",
+          "question": "What is the primary purpose of React's Virtual DOM?",
+          "difficulty": "Easy",
+          "why_prompt": "Can you explain how this contributes to React's performance characteristics, and perhaps relate it to a time you optimized UI rendering in a project?",
+          "options": [
+            "A. To directly manipulate the browser's native DOM for faster rendering.",
+            "B. To provide a JavaScript object representation of the UI, allowing React to efficiently calculate and apply UI updates.",
+            "C. To pre-render React components on the server for improved SEO and initial load times.",
+            "D. To manage component state and props, ensuring data immutability within the application."
+          ],
+          "expected_keywords": [
+            "virtual DOM",
+            "diffing algorithm",
+            "reconciliation",
+            "performance",
+            "declarative UI",
+            "browser DOM updates"
+          ]
+        },
+        {
+          "id": 2,
+          "skill": "AWS DynamoDB / Backend Design",
+          "question": "You are building a new serverless API endpoint using AWS Lambda and DynamoDB for a high-traffic e-commerce application. This endpoint needs to retrieve product details by `productId` and also support searching products efficiently by `category`. What is the most efficient DynamoDB design strategy for this scenario?",
+          "difficulty": "Medium",
+          "why_prompt": "Explain why your chosen strategy is superior to the others, specifically addressing scalability and cost considerations for both access patterns.",
+          "options": [
+            "A. Use a single table with `productId` as the Partition Key and `category` as a Sort Key, relying solely on the primary key for all lookups.",
+            "B. Create a Global Secondary Index (GSI) with `category` as the Partition Key and `productId` as the Sort Key, while keeping `productId` as the primary Partition Key for the base table.",
+            "C. Implement two separate DynamoDB tables: one for `products_by_id` and another for `products_by_category`, managing consistency manually.",
+            "D. Store all product data in an S3 bucket and use AWS Athena for querying product details."
+          ],
+          "expected_keywords": [
+            "DynamoDB",
+            "Global Secondary Index (GSI)",
+            "Partition Key",
+            "Sort Key",
+            "access patterns",
+            "scalability",
+            "NoSQL",
+            "single-table design"
+          ]
+        },
+        {
+          "id": 3,
+          "skill": "Distributed Systems / Microservices",
+          "question": "You are designing a new feature for an online payment system that processes orders and updates inventory. The order processing involves two distinct microservices: `OrderService` (which records the order) and `InventoryService` (which decrements stock). To ensure data consistency across these services in a distributed environment, which pattern would you primarily recommend, and why?",
+          "difficulty": "Hard",
+          "why_prompt": "Discuss the trade-offs of your chosen approach, particularly concerning latency, complexity, and how it handles different types of failures (e.g., `InventoryService` failure after `OrderService` success).",
+          "options": [
+            "A. Two-Phase Commit (2PC) protocol to ensure atomic updates across both services.",
+            "B. Use a Saga pattern with asynchronous messaging (e.g., SQS/SNS or Kafka) to orchestrate local transactions and compensate for failures.",
+            "C. Rely on eventual consistency by simply calling `InventoryService` after `OrderService` completes, assuming retries will handle transient failures.",
+            "D. Consolidate both services into a single monolithic service to ensure ACID transactions with a shared database."
+          ],
+          "expected_keywords": [
+            "Saga pattern",
+            "eventual consistency",
+            "distributed transactions",
+            "microservices",
+            "compensating transactions",
+            "asynchronous messaging",
+            "idempotency",
+            "two-phase commit"
+          ]
+        },
+        {
+          "id": 4,
+          "skill": "React Performance",
+          "question": "You notice that a complex React component with many child components is re-rendering excessively, even when its props or state haven't relevantly changed, leading to noticeable UI sluggishness. What is the most effective approach to optimize this specific component's rendering performance?",
+          "difficulty": "Medium",
+          "why_prompt": "Describe a scenario where memoization might not be the best solution, and what alternative strategies you might consider in such cases.",
+          "options": [
+            "A. Refactor the component to use `useState` and `useEffect` hooks instead of class components and `shouldComponentUpdate`.",
+            "B. Implement `React.memo` for functional components or `shouldComponentUpdate` for class components, performing a shallow comparison of props and state.",
+            "C. Move all component state into a global Redux store to centralize data management.",
+            "D. Increase the `webpack` bundle size limit to allow for more JavaScript to be loaded initially."
+          ],
+          "expected_keywords": [
+            "React.memo",
+            "shouldComponentUpdate",
+            "pure components",
+            "shallow comparison",
+            "re-rendering",
+            "performance optimization",
+            "UI sluggishness",
+            "hooks"
+          ]
+        }
+      ]
+    },
+    "company_stack": [
+      "React",
+      "Java",
+      "Python",
+      "AWS",
+      "DynamoDB",
+      "Lambda"
+    ],
+    "latest_result": {
+      "overall_score": 62,
+      "eligible": false,
+      "minimum_required": 70,
+      "readiness_verdict": "Not Prepared",
+      "verdict": "The candidate demonstrates good foundational knowledge in React concepts and excellent practical understanding of DynamoDB design for specific access patterns. However, there's a critical gap in distributed systems knowledge, particularly regarding appropriate transaction patterns for microservices. There's also a recurring pattern of selecting suboptimal or incorrect multiple-choice answers despite providing better reasoning, suggesting a need for more precise articulation or careful option evaluation.",
+      "skill_scores": [
+        {
+          "skill": "React",
+          "score": 74,
+          "feedback": "Shows strong understanding of React's core mechanisms like the Virtual DOM and excellent knowledge of performance optimization techniques (memoization, profiling), though sometimes struggles with specific MCQ option choices."
+        },
+        {
+          "skill": "AWS DynamoDB / Backend Design",
+          "score": 100,
+          "feedback": "Exceptional understanding of DynamoDB design principles for common access patterns, including single-table design and Global Secondary Index (GSI) usage for scalability."
+        },
+        {
+          "skill": "Distributed Systems / Microservices",
+          "score": 0,
+          "feedback": "Lacks fundamental understanding of appropriate distributed transaction patterns for microservices, specifically the pitfalls of Two-Phase Commit and the benefits of patterns like Saga for eventual consistency."
+        }
+      ],
+      "strengths": [
+        "Solid understanding of DynamoDB schema design for efficient data access patterns.",
+        "Strong grasp of React performance optimization techniques (React.memo, useMemo, useCallback, profiling).",
+        "Good conceptual understanding of the Virtual DOM's purpose."
+      ],
+      "gaps": [
+        {
+          "skill": "Distributed Transactions in Microservices",
+          "why_weak": "Selected Two-Phase Commit (2PC) as the primary pattern for ensuring data consistency across microservices, which is an anti-pattern due to its blocking nature, performance overhead, and availability issues in large-scale distributed systems. The candidate did not demonstrate understanding of more suitable patterns like the Saga pattern for eventual consistency in distributed microservices.",
+          "resources": [
+            {
+              "name": "Saga Pattern in Microservices Explained",
+              "url": "https://www.youtube.com/results?search_query=saga+pattern+microservices+explained",
+              "time": "30 minutes",
+              "type": "YouTube"
+            },
+            {
+              "name": "Saga distributed transaction pattern - Azure Architecture Center",
+              "url": "https://docs.microsoft.com/en-us/azure/architecture/patterns/saga",
+              "time": "1 hour",
+              "type": "Documentation"
+            },
+            {
+              "name": "Saga (Microservices.io)",
+              "url": "https://microservices.io/patterns/data/saga.html",
+              "time": "2 hours",
+              "type": "Article"
+            }
+          ]
+        },
+        {
+          "skill": "React Virtual DOM Nuances and Reconciliation",
+          "why_weak": "While the candidate's reasoning demonstrated a general understanding of the Virtual DOM's purpose to optimize UI updates by minimizing direct DOM manipulation, the chosen MCQ option contradicted this by stating the VDOM 'directly manipulates' the browser DOM. This indicates a need for more precise understanding of the VDOM's intermediary role and the reconciliation process.",
+          "resources": [
+            {
+              "name": "How React's Virtual DOM Works",
+              "url": "https://www.youtube.com/results?search_query=react+virtual+dom+how+it+works",
+              "time": "20 minutes",
+              "type": "YouTube"
+            },
+            {
+              "name": "React Docs - Render and Commit",
+              "url": "https://react.dev/learn/render-and-commit",
+              "time": "45 minutes",
+              "type": "Documentation"
+            },
+            {
+              "name": "Understanding the Virtual DOM in React",
+              "url": "https://www.freecodecamp.org/news/how-react-uses-the-virtual-dom/",
+              "time": "1 hour",
+              "type": "Article"
+            }
+          ]
+        }
+      ],
+      "question_review": [
+        {
+          "question_number": 1,
+          "skill": "React",
+          "question": "What is the primary purpose of React's Virtual DOM?",
+          "candidate_answer": "A. To directly manipulate the browser's native DOM for faster rendering.",
+          "is_correct": false,
+          "correct_answer": "The primary purpose of React's Virtual DOM (VDOM) is to provide an in-memory representation of the actual DOM. React uses a diffing algorithm to compare the VDOM with a previous snapshot, calculating the minimal set of changes needed to update the browser's native DOM efficiently, thus *minimizing direct manipulation* for performance.",
+          "what_was_wrong": "The candidate incorrectly chose an option stating the VDOM 'directly manipulates' the DOM. The Virtual DOM acts as an intermediary; React compares VDOM trees and then *React* (not the VDOM itself) performs the minimal updates on the *real* browser DOM. The candidate's reasoning, however, correctly identifies the goal of 'minimizing direct manipulation' which contradicts their chosen MCQ.",
+          "resources": [
+            {
+              "name": "How React's Virtual DOM Works",
+              "url": "https://www.youtube.com/results?search_query=react+virtual+dom+how+it+works",
+              "type": "YouTube"
+            },
+            {
+              "name": "React Docs - Render and Commit",
+              "url": "https://react.dev/learn/render-and-commit",
+              "type": "Documentation"
+            }
+          ]
+        },
+        {
+          "question_number": 2,
+          "skill": "AWS DynamoDB / Backend Design",
+          "question": "You are building a new serverless API endpoint using AWS Lambda and DynamoDB for a high-traffic e-commerce application. This endpoint needs to retrieve product details by `productId` and also support searching products efficiently by `category`. What is the most efficient DynamoDB design strategy for this scenario?",
+          "candidate_answer": "B. Create a Global Secondary Index (GSI) with `category` as the Partition Key and `productId` as the Sort Key, while keeping `productId` as the primary Partition Key for the base table.",
+          "is_correct": true,
+          "correct_answer": "For efficient retrieval by `productId`, the base table should use `productId` as its primary Partition Key. To efficiently search by `category` and potentially sort within a category, a Global Secondary Index (GSI) is ideal, using `category` as its Partition Key and `productId` as its Sort Key. This design optimally supports both required access patterns.",
+          "what_was_wrong": "",
+          "resources": []
+        },
+        {
+          "question_number": 3,
+          "skill": "Distributed Systems / Microservices",
+          "question": "You are designing a new feature for an online payment system that processes orders and updates inventory. The order processing involves two distinct microservices: `OrderService` (which records the order) and `InventoryService` (which decrements stock). To ensure data consistency across these services in a distributed environment, which pattern would you primarily recommend, and why?",
+          "candidate_answer": "A. Two-Phase Commit (2PC) protocol to ensure atomic updates across both services.",
+          "is_correct": false,
+          "correct_answer": "For data consistency across microservices in a distributed environment, the Saga pattern is primarily recommended. It manages distributed transactions as a sequence of local transactions, with each service updating its own data and publishing events, using compensating transactions to undo prior work if a step fails. This approach maintains high availability and scalability, unlike Two-Phase Commit which introduces blocking and tight coupling.",
+          "what_was_wrong": "The candidate recommended Two-Phase Commit (2PC), which is generally considered an anti-pattern for distributed transactions in modern microservices architectures due to its blocking nature, high latency, and single point of failure. The reasoning provided ('ok') was completely insufficient, indicating a severe lack of understanding of this critical distributed systems concept.",
+          "resources": [
+            {
+              "name": "Saga pattern vs Two-Phase Commit for microservices",
+              "url": "https://www.youtube.com/results?search_query=saga+pattern+vs+two+phase+commit+microservices",
+              "type": "YouTube"
+            },
+            {
+              "name": "Saga (Microservices.io)",
+              "url": "https://microservices.io/patterns/data/saga.html",
+              "type": "Documentation"
+            }
+          ]
+        },
+        {
+          "question_number": 4,
+          "skill": "React Performance",
+          "question": "You notice that a complex React component with many child components is re-rendering excessively, even when its props or state haven't relevantly changed, leading to noticeable UI sluggishness. What is the most effective approach to optimize this specific component's rendering performance?",
+          "candidate_answer": "A. Refactor the component to use `useState` and `useEffect` hooks instead of class components and `shouldComponentUpdate`.",
+          "is_correct": false,
+          "correct_answer": "The most effective approach is to apply memoization techniques. For functional components, this means wrapping components with `React.memo` and memoizing values/functions with `useMemo` and `useCallback`, respectively. This prevents unnecessary re-renders of components and their children if their props or dependencies haven't shallowly changed, often preceded by profiling to identify bottlenecks.",
+          "what_was_wrong": "The candidate chose refactoring to hooks, which, while a modern practice, does not inherently solve excessive re-renders; `shouldComponentUpdate` (or its functional equivalent, `React.memo`) is specifically designed for this. However, the candidate's reasoning correctly identified `React.memo`, `useMemo`, and `useCallback` as the key solutions, along with profiling, showing a strong practical understanding despite the incorrect MCQ choice.",
+          "resources": [
+            {
+              "name": "React.memo, useMemo, useCallback for performance",
+              "url": "https://www.youtube.com/results?search_query=react.memo+usememo+usecallback+performance",
+              "type": "YouTube"
+            },
+            {
+              "name": "React Docs - `memo`",
+              "url": "https://react.dev/reference/react/memo",
+              "type": "Documentation"
+            }
+          ]
+        }
+      ],
+      "next_attempt_tips": [
+        "Deepen understanding of distributed transaction patterns for microservices, focusing on eventual consistency and the Saga pattern over 2PC.",
+        "Practice interpreting and selecting the most precise answers in multiple-choice questions, even when the underlying concept is understood, to ensure consistency between knowledge and articulation.",
+        "Explore different strategies for handling eventual consistency and idempotency in distributed systems for robust backend design."
+      ]
+    }
   }
 }
