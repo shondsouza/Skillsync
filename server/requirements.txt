@@ -7,3 +7,5 @@ requests
 anthropic
 python-multipart
 supabase
+google-generativeai
+email-validator

@@ -26,7 +26,8 @@ app = FastAPI(
 # Allow React frontend to talk to this backend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://localhost:5173"],
+    # CRA may switch to 3001 if 3000 is busy; include both for local dev.
+    allow_origins=["http://localhost:3000", "http://localhost:3001", "http://localhost:5173"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -123,6 +124,7 @@ class QuizRequest(BaseModel):
     session_id: str
     company: str
     role: str
+    primary_field: Optional[str] = "General Developer"
 
 
 class AnswerItem(BaseModel):
@@ -323,6 +325,7 @@ async def upload_resume(
         "resume_data": resume_data,
         "company": company,
         "role": role,
+        "primary_field": resume_data.get("primary_field", "General Developer"),
         "company_intel": company_intel,
         "gap_analysis": gap_analysis,
         "quiz_attempts": []
@@ -337,6 +340,7 @@ async def upload_resume(
         "session_id": session_id,
         "skills_found": resume_data["skills"]["all"],
         "skill_count": resume_data["skill_count"],
+        "primary_field": resume_data.get("primary_field", "General Developer"),
         "red_flags": resume_data["red_flags"],
         "company_stack": company_intel.get("role_specific_stack", []),
         "gap_analysis": gap_analysis,
@@ -373,13 +377,15 @@ async def generate_quiz_endpoint(request: QuizRequest):
     )
 
     resume_skills = session["resume_data"]["skills"]["all"]
+    primary_field = session.get("primary_field", request.primary_field or "General Developer")
 
-    # Generate quiz using AI
+    # Generate quiz using AI — tailored to the candidate's primary field
     quiz_data = generate_quiz(
         company=request.company,
         role=request.role,
         company_stack=company_stack,
-        resume_skills=resume_skills
+        resume_skills=resume_skills,
+        primary_field=primary_field
     )
 
     # Save quiz to session
@@ -392,6 +398,7 @@ async def generate_quiz_endpoint(request: QuizRequest):
         "session_id": request.session_id,
         "company": request.company,
         "role": request.role,
+        "primary_field": primary_field,
         "company_stack": company_stack,
         "questions": quiz_data["questions"],
         "total_questions": len(quiz_data["questions"])
@@ -427,12 +434,18 @@ async def evaluate_endpoint(request: EvaluateRequest):
     ]
 
     # Evaluate using AI
-    evaluation = evaluate_answers(
-        company=request.company,
-        role=request.role,
-        answers=answers_list,
-        company_stack=company_stack
-    )
+    try:
+        evaluation = evaluate_answers(
+            company=request.company,
+            role=request.role,
+            answers=answers_list,
+            company_stack=company_stack
+        )
+    except Exception as e:
+        raise HTTPException(
+            status_code=500,
+            detail=f"AI evaluation failed — {str(e)}. Check server console for full traceback."
+        )
 
     # Save attempt to history
     if session:
