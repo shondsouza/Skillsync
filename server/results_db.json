@@ -1321,5 +1321,427 @@
       "Java",
       "C++"
     ]
+  },
+  "1b0132f0": {
+    "created_at": "2026-03-13T08:24:29.193202",
+    "resume_data": {
+      "success": true,
+      "raw_text": "HARSHITH VASANTH SHETTY\n7795471769 harshithshetty779@gmail.com github.com/homieshetty /in/homie-shetty/\nSUMMARY\nSeeking a challenging role in the field of coding, where I can leverage my programming skills and\ndedication to excel in software development.\nTECHNICAL SKILLS\nPython | HTML | CSS | SQL | C\nTools : Git , Github , Vercel , Netlify , Firebase (Auth,Firestore) , Supabase\nPROJECTS\nSmart Finance & Workforce Tracker Feb 2025 - Current\nBuilt a role-based workforce and finance platform with Next.js, Tailwind CSS, shadcn/ui, and Firebase,\nincluding event tracking, automated wage updates, dashboards, CSV/PDF reporting, real-time data,\nchat, and task management in a dark-themed responsive interface.\nTechSpark - Technical Event Management Platform Sept 2025 - Current\nDeveloped a full-stack event management platform using Next.js, TypeScript, Tailwind CSS, Supabase,\nand Framer Motion, enabling real-time participant registration with validation and verification, and\nproviding an admin dashboard with live tracking, search, exports, and role-based access control.\nPlanical: AI-Powered Mental Health Support Platform October 2024\nBuilt a mental health platform with React.js, FastAPI, LangChain, Groq API, Firebase, ChromaDB, and\nSocket.io, offering an AI chatbot, real-time doctor-client chat, wellness features, multi-language\ndashboard, user analytics, and scalable, secure architecture for 1000+ users.\nRPS-AI: Intelligent Rock-Paper-Scissors Game March - April 2025\nCreated an AI Rock-Paper-Scissors game in Python using OpenCV, MediaPipe, and CustomTkinter, with\nreal-time hand gesture recognition, Markov chain\u2013based AI, interactive GUI, stats tracking, and multi-\nthreaded smooth gameplay.\nEDUCATION\nFinal year, B.E. in Computer Science and Engineering 2022-2026\nShree Devi Institute of Technology\nCERTIFICATIONS AND ACHIEVEMENTS\nCode Meet 2024 Hackathon: Participated in a 24-hour hackathon at Srinivas University Institute of\nEngineering & Technology, gaining hands-on experience in problem solving and teamwork.\n(October 2024)\nReact.Js and Javascript ChatGPT clone by Devtown(issued in 2024)\nBootcamp on Backend development using NODEJSand MongoDB By Devtown(issued in 2024)\nFrontend web development using React.Js and Javascript by Devtown (issued in 2024)\nParticipated in Sankalp\u201925 held at Shree Devi Institute of Technology (issued in 2024)\nParticipated in Sankalp\u201924 held at Shree Devi Institute of Technology (issued in 2025)\nCreated a website for the college technical event TechSpark, enabling smooth event promotion and\nparticipant engagement.\nAchieved 2nd place at Technical quiz at Srinivas University.\nEXPERIENCE\nExperienced in efficiently managing groups of up to 80 people for event coordination, including roles\nat Ocean Pearl.\nVolunteered for a Harry Potter\u2013themed event at Paper Rocket, Mangalore.\nHandled logistics and transport operations for a large-scale event.\nManaged and coordinated teams across multiple events under Moulding Dreams.\nCreated a website for the college technical event TechSpark, enabling smooth event promotion and\nparticipant engagement.\nVolunteered for intra college cultural event called SURABHI in our college.\nRELEVANT COURSEWORK\nObject Oriented Programming, Database Management Systems, Discrete Maths, Data Structures and\nAlgorithms, Operating System\n",
+      "skills": {
+        "frontend": [
+          "html",
+          "css",
+          "javascript",
+          "typescript",
+          "react",
+          "next.js",
+          "tailwind"
+        ],
+        "backend": [
+          "python",
+          "java",
+          "go",
+          "fastapi",
+          "mongodb",
+          "firebase",
+          "supabase"
+        ],
+        "ai": [
+          "langchain",
+          "gpt",
+          "rag"
+        ],
+        "data": [
+          "sql",
+          "excel",
+          "r",
+          "spark",
+          "etl",
+          "analytics"
+        ],
+        "devops": [
+          "git",
+          "github"
+        ],
+        "all": [
+          "html",
+          "css",
+          "javascript",
+          "typescript",
+          "react",
+          "next.js",
+          "tailwind",
+          "python",
+          "java",
+          "go",
+          "fastapi",
+          "mongodb",
+          "firebase",
+          "supabase",
+          "langchain",
+          "gpt",
+          "rag",
+          "sql",
+          "excel",
+          "r",
+          "spark",
+          "etl",
+          "analytics",
+          "git",
+          "github"
+        ]
+      },
+      "experience": {
+        "education": [
+          "B.E"
+        ],
+        "companies": [
+          "engineer"
+        ],
+        "years_experience": 1,
+        "projects_count": 0
+      },
+      "red_flags": [
+        "Many skills listed but very few projects found. This may reduce credibility in an interview.",
+        "'langchain' listed but limited project evidence found."
+      ],
+      "skill_count": 25,
+      "primary_field": "Full Stack Developer",
+      "summary": "Detected 25 skills across 0 project(s). Primary field: Full Stack Developer."
+    },
+    "company": "",
+    "role": "",
+    "primary_field": "Full Stack Developer",
+    "company_intel": {},
+    "gap_analysis": {},
+    "quiz_attempts": [
+      {
+        "attempt_number": 1,
+        "timestamp": "2026-03-13T08:24:59.749908",
+        "score": 55,
+        "eligible": false,
+        "company": "Google",
+        "role": "Full Stack"
+      },
+      {
+        "attempt_number": 2,
+        "timestamp": "2026-03-13T08:32:23.439561",
+        "score": 55,
+        "eligible": false,
+        "company": "Google",
+        "role": "Full Stack"
+      }
+    ],
+    "current_quiz": {
+      "questions": [
+        {
+          "id": 1,
+          "skill": "Full Stack Developer",
+          "question": "What is the most important principle in Full Stack Developer and why?",
+          "difficulty": "Easy",
+          "why_prompt": "Give a real example from your work or projects.",
+          "options": [
+            "Writing clean, maintainable, and well-documented code that others can understand",
+            "Optimizing performance at every layer, even before functionality is complete",
+            "Shipping features as fast as possible to meet business deadlines",
+            "Using the newest and most popular frameworks regardless of project needs"
+          ],
+          "expected_keywords": [
+            "clean code",
+            "maintainability",
+            "best practices"
+          ]
+        },
+        {
+          "id": 2,
+          "skill": "Problem Solving",
+          "question": "How do you approach debugging a complex issue in production?",
+          "difficulty": "Medium",
+          "why_prompt": "Walk me through a real incident you dealt with.",
+          "options": [
+            "Reproduce locally, check logs, isolate variables systematically, then fix and monitor",
+            "Restart the service and hope the issue resolves itself",
+            "Ask a colleague to look at it since debugging is time-consuming",
+            "Roll back the last deployment without investigating the root cause"
+          ],
+          "expected_keywords": [
+            "reproduce",
+            "logs",
+            "isolate",
+            "systematic",
+            "monitor"
+          ]
+        },
+        {
+          "id": 3,
+          "skill": "System Design",
+          "question": "How would you design a scalable API for Google's Full Stack use case?",
+          "difficulty": "Hard",
+          "why_prompt": "What tradeoffs did you consider in your design?",
+          "options": [
+            "Use load balancing, caching (Redis), database sharding, and async queues for scale",
+            "Build a monolith first, then split into microservices only when traffic demands it",
+            "Use a single server with vertical scaling since it is simpler to manage",
+            "Rely entirely on third-party SaaS solutions to avoid infrastructure complexity"
+          ],
+          "expected_keywords": [
+            "scale",
+            "cache",
+            "async",
+            "tradeoffs",
+            "load balancing"
+          ]
+        },
+        {
+          "id": 4,
+          "skill": "Code Quality",
+          "question": "What practices do you follow to ensure high code quality?",
+          "difficulty": "Medium",
+          "why_prompt": "How have these practices helped your team in the past?",
+          "options": [
+            "Code reviews, unit/integration tests, linting, CI pipelines, and documentation",
+            "Manual testing only since automated tests slow down development velocity",
+            "Having the senior dev review all code before merging without tests",
+            "Skipping reviews for small changes since they rarely introduce bugs"
+          ],
+          "expected_keywords": [
+            "tests",
+            "review",
+            "ci/cd",
+            "lint",
+            "documentation"
+          ]
+        }
+      ]
+    },
+    "company_stack": [
+      "Angular",
+      "TypeScript",
+      "Go",
+      "Python",
+      "Java",
+      "C++"
+    ],
+    "latest_result": {
+      "overall_score": 55,
+      "eligible": false,
+      "minimum_required": 70,
+      "readiness_verdict": "Not Prepared",
+      "verdict": "Evaluation could not be completed. Please try again.",
+      "skill_scores": [],
+      "strengths": [],
+      "gaps": [],
+      "question_review": [],
+      "next_attempt_tips": [
+        "Retry the assessment for a full evaluation"
+      ]
+    }
+  },
+  "a96630ec": {
+    "created_at": "2026-03-13T08:33:36.197176",
+    "resume_data": {
+      "success": true,
+      "raw_text": "HARSHITH VASANTH SHETTY\n7795471769 harshithshetty779@gmail.com github.com/homieshetty /in/homie-shetty/\nSUMMARY\nSeeking a challenging role in the field of coding, where I can leverage my programming skills and\ndedication to excel in software development.\nTECHNICAL SKILLS\nPython | HTML | CSS | SQL | C\nTools : Git , Github , Vercel , Netlify , Firebase (Auth,Firestore) , Supabase\nPROJECTS\nSmart Finance & Workforce Tracker Feb 2025 - Current\nBuilt a role-based workforce and finance platform with Next.js, Tailwind CSS, shadcn/ui, and Firebase,\nincluding event tracking, automated wage updates, dashboards, CSV/PDF reporting, real-time data,\nchat, and task management in a dark-themed responsive interface.\nTechSpark - Technical Event Management Platform Sept 2025 - Current\nDeveloped a full-stack event management platform using Next.js, TypeScript, Tailwind CSS, Supabase,\nand Framer Motion, enabling real-time participant registration with validation and verification, and\nproviding an admin dashboard with live tracking, search, exports, and role-based access control.\nPlanical: AI-Powered Mental Health Support Platform October 2024\nBuilt a mental health platform with React.js, FastAPI, LangChain, Groq API, Firebase, ChromaDB, and\nSocket.io, offering an AI chatbot, real-time doctor-client chat, wellness features, multi-language\ndashboard, user analytics, and scalable, secure architecture for 1000+ users.\nRPS-AI: Intelligent Rock-Paper-Scissors Game March - April 2025\nCreated an AI Rock-Paper-Scissors game in Python using OpenCV, MediaPipe, and CustomTkinter, with\nreal-time hand gesture recognition, Markov chain\u2013based AI, interactive GUI, stats tracking, and multi-\nthreaded smooth gameplay.\nEDUCATION\nFinal year, B.E. in Computer Science and Engineering 2022-2026\nShree Devi Institute of Technology\nCERTIFICATIONS AND ACHIEVEMENTS\nCode Meet 2024 Hackathon: Participated in a 24-hour hackathon at Srinivas University Institute of\nEngineering & Technology, gaining hands-on experience in problem solving and teamwork.\n(October 2024)\nReact.Js and Javascript ChatGPT clone by Devtown(issued in 2024)\nBootcamp on Backend development using NODEJSand MongoDB By Devtown(issued in 2024)\nFrontend web development using React.Js and Javascript by Devtown (issued in 2024)\nParticipated in Sankalp\u201925 held at Shree Devi Institute of Technology (issued in 2024)\nParticipated in Sankalp\u201924 held at Shree Devi Institute of Technology (issued in 2025)\nCreated a website for the college technical event TechSpark, enabling smooth event promotion and\nparticipant engagement.\nAchieved 2nd place at Technical quiz at Srinivas University.\nEXPERIENCE\nExperienced in efficiently managing groups of up to 80 people for event coordination, including roles\nat Ocean Pearl.\nVolunteered for a Harry Potter\u2013themed event at Paper Rocket, Mangalore.\nHandled logistics and transport operations for a large-scale event.\nManaged and coordinated teams across multiple events under Moulding Dreams.\nCreated a website for the college technical event TechSpark, enabling smooth event promotion and\nparticipant engagement.\nVolunteered for intra college cultural event called SURABHI in our college.\nRELEVANT COURSEWORK\nObject Oriented Programming, Database Management Systems, Discrete Maths, Data Structures and\nAlgorithms, Operating System\n",
+      "skills": {
+        "frontend": [
+          "html",
+          "css",
+          "javascript",
+          "typescript",
+          "react",
+          "next.js",
+          "tailwind"
+        ],
+        "backend": [
+          "python",
+          "java",
+          "go",
+          "fastapi",
+          "mongodb",
+          "firebase",
+          "supabase"
+        ],
+        "ai": [
+          "langchain",
+          "gpt",
+          "rag"
+        ],
+        "data": [
+          "sql",
+          "excel",
+          "r",
+          "spark",
+          "etl",
+          "analytics"
+        ],
+        "devops": [
+          "git",
+          "github"
+        ],
+        "all": [
+          "html",
+          "css",
+          "javascript",
+          "typescript",
+          "react",
+          "next.js",
+          "tailwind",
+          "python",
+          "java",
+          "go",
+          "fastapi",
+          "mongodb",
+          "firebase",
+          "supabase",
+          "langchain",
+          "gpt",
+          "rag",
+          "sql",
+          "excel",
+          "r",
+          "spark",
+          "etl",
+          "analytics",
+          "git",
+          "github"
+        ]
+      },
+      "experience": {
+        "education": [
+          "B.E"
+        ],
+        "companies": [
+          "engineer"
+        ],
+        "years_experience": 1,
+        "projects_count": 0
+      },
+      "red_flags": [
+        "Many skills listed but very few projects found. This may reduce credibility in an interview.",
+        "'langchain' listed but limited project evidence found."
+      ],
+      "skill_count": 25,
+      "primary_field": "Full Stack Developer",
+      "summary": "Detected 25 skills across 0 project(s). Primary field: Full Stack Developer."
+    },
+    "company": "",
+    "role": "",
+    "primary_field": "Full Stack Developer",
+    "company_intel": {},
+    "gap_analysis": {},
+    "quiz_attempts": [
+      {
+        "attempt_number": 1,
+        "timestamp": "2026-03-13T08:34:07.432413",
+        "score": 55,
+        "eligible": false,
+        "company": "Google",
+        "role": "Devops"
+      }
+    ],
+    "current_quiz": {
+      "questions": [
+        {
+          "id": 1,
+          "skill": "Full Stack Developer",
+          "question": "What is the most important principle in Full Stack Developer and why?",
+          "difficulty": "Easy",
+          "why_prompt": "Give a real example from your work or projects.",
+          "options": [
+            "Writing clean, maintainable, and well-documented code that others can understand",
+            "Optimizing performance at every layer, even before functionality is complete",
+            "Shipping features as fast as possible to meet business deadlines",
+            "Using the newest and most popular frameworks regardless of project needs"
+          ],
+          "expected_keywords": [
+            "clean code",
+            "maintainability",
+            "best practices"
+          ]
+        },
+        {
+          "id": 2,
+          "skill": "Problem Solving",
+          "question": "How do you approach debugging a complex issue in production?",
+          "difficulty": "Medium",
+          "why_prompt": "Walk me through a real incident you dealt with.",
+          "options": [
+            "Reproduce locally, check logs, isolate variables systematically, then fix and monitor",
+            "Restart the service and hope the issue resolves itself",
+            "Ask a colleague to look at it since debugging is time-consuming",
+            "Roll back the last deployment without investigating the root cause"
+          ],
+          "expected_keywords": [
+            "reproduce",
+            "logs",
+            "isolate",
+            "systematic",
+            "monitor"
+          ]
+        },
+        {
+          "id": 3,
+          "skill": "System Design",
+          "question": "How would you design a scalable API for Google's Devops use case?",
+          "difficulty": "Hard",
+          "why_prompt": "What tradeoffs did you consider in your design?",
+          "options": [
+            "Use load balancing, caching (Redis), database sharding, and async queues for scale",
+            "Build a monolith first, then split into microservices only when traffic demands it",
+            "Use a single server with vertical scaling since it is simpler to manage",
+            "Rely entirely on third-party SaaS solutions to avoid infrastructure complexity"
+          ],
+          "expected_keywords": [
+            "scale",
+            "cache",
+            "async",
+            "tradeoffs",
+            "load balancing"
+          ]
+        },
+        {
+          "id": 4,
+          "skill": "Code Quality",
+          "question": "What practices do you follow to ensure high code quality?",
+          "difficulty": "Medium",
+          "why_prompt": "How have these practices helped your team in the past?",
+          "options": [
+            "Code reviews, unit/integration tests, linting, CI pipelines, and documentation",
+            "Manual testing only since automated tests slow down development velocity",
+            "Having the senior dev review all code before merging without tests",
+            "Skipping reviews for small changes since they rarely introduce bugs"
+          ],
+          "expected_keywords": [
+            "tests",
+            "review",
+            "ci/cd",
+            "lint",
+            "documentation"
+          ]
+        }
+      ]
+    },
+    "company_stack": [
+      "Angular",
+      "TypeScript",
+      "Go",
+      "Python",
+      "Java",
+      "C++"
+    ],
+    "latest_result": {
+      "overall_score": 55,
+      "eligible": false,
+      "minimum_required": 70,
+      "readiness_verdict": "Not Prepared",
+      "verdict": "Evaluation could not be completed. Please try again.",
+      "skill_scores": [],
+      "strengths": [],
+      "gaps": [],
+      "question_review": [],
+      "next_attempt_tips": [
+        "Retry the assessment for a full evaluation"
+      ]
+    }
   }
 }
