@@ -36,7 +36,7 @@ Evalio/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/shondsouza/Skillsync.git
+git clone https://github.com/shondsouza/Skillsync.w git
 cd Evalio
 ```
 
