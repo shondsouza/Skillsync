@@ -62,10 +62,3 @@ npm start
 4. Complete the AI-generated quiz
 5. View results and learning recommendations
 
-## License
-
-This project is for educational purposes.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
