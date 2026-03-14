@@ -65,7 +65,7 @@ export default function UploadFlow() {
     } catch (e) {
       setStep(0);
       if (e?.code === 'ERR_NETWORK' || e?.message === 'Network Error') {
-        setError('Cannot connect to the server. Please make sure the backend is running at http://localhost:8000');
+        setError('');
       } else {
         setError(e?.response?.data?.detail || e?.message || 'Something went wrong. Please try again.');
       }
@@ -224,11 +224,6 @@ export default function UploadFlow() {
               '🚀 Upload & Start Quiz'
             )}
           </button>
-        </div>
-
-        <div className="hint" style={{ marginTop: 12 }}>
-          💡 Make sure the backend is running at <code>http://localhost:8000</code> and this app is on{' '}
-          <code>{typeof window !== 'undefined' ? window.location.origin : 'http://localhost:3000'}</code>
         </div>
       </Card>
     </div>

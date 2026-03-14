@@ -2671,5 +2671,1701 @@
         "Explore different strategies for handling eventual consistency and idempotency in distributed systems for robust backend design."
       ]
     }
+  },
+  "683a3555": {
+    "created_at": "2026-03-13T11:22:13.738640",
+    "resume_data": {
+      "success": true,
+      "raw_text": "HARSHITH VASANTH SHETTY\n7795471769 harshithshetty779@gmail.com github.com/homieshetty /in/homie-shetty/\nSUMMARY\nSeeking a challenging role in the field of coding, where I can leverage my programming skills and\ndedication to excel in software development.\nTECHNICAL SKILLS\nPython | HTML | CSS | SQL | C\nTools : Git , Github , Vercel , Netlify , Firebase (Auth,Firestore) , Supabase\nPROJECTS\nSmart Finance & Workforce Tracker Feb 2025 - Current\nBuilt a role-based workforce and finance platform with Next.js, Tailwind CSS, shadcn/ui, and Firebase,\nincluding event tracking, automated wage updates, dashboards, CSV/PDF reporting, real-time data,\nchat, and task management in a dark-themed responsive interface.\nTechSpark - Technical Event Management Platform Sept 2025 - Current\nDeveloped a full-stack event management platform using Next.js, TypeScript, Tailwind CSS, Supabase,\nand Framer Motion, enabling real-time participant registration with validation and verification, and\nproviding an admin dashboard with live tracking, search, exports, and role-based access control.\nPlanical: AI-Powered Mental Health Support Platform October 2024\nBuilt a mental health platform with React.js, FastAPI, LangChain, Groq API, Firebase, ChromaDB, and\nSocket.io, offering an AI chatbot, real-time doctor-client chat, wellness features, multi-language\ndashboard, user analytics, and scalable, secure architecture for 1000+ users.\nRPS-AI: Intelligent Rock-Paper-Scissors Game March - April 2025\nCreated an AI Rock-Paper-Scissors game in Python using OpenCV, MediaPipe, and CustomTkinter, with\nreal-time hand gesture recognition, Markov chain\u2013based AI, interactive GUI, stats tracking, and multi-\nthreaded smooth gameplay.\nEDUCATION\nFinal year, B.E. in Computer Science and Engineering 2022-2026\nShree Devi Institute of Technology\nCERTIFICATIONS AND ACHIEVEMENTS\nCode Meet 2024 Hackathon: Participated in a 24-hour hackathon at Srinivas University Institute of\nEngineering & Technology, gaining hands-on experience in problem solving and teamwork.\n(October 2024)\nReact.Js and Javascript ChatGPT clone by Devtown(issued in 2024)\nBootcamp on Backend development using NODEJSand MongoDB By Devtown(issued in 2024)\nFrontend web development using React.Js and Javascript by Devtown (issued in 2024)\nParticipated in Sankalp\u201925 held at Shree Devi Institute of Technology (issued in 2024)\nParticipated in Sankalp\u201924 held at Shree Devi Institute of Technology (issued in 2025)\nCreated a website for the college technical event TechSpark, enabling smooth event promotion and\nparticipant engagement.\nAchieved 2nd place at Technical quiz at Srinivas University.\nEXPERIENCE\nExperienced in efficiently managing groups of up to 80 people for event coordination, including roles\nat Ocean Pearl.\nVolunteered for a Harry Potter\u2013themed event at Paper Rocket, Mangalore.\nHandled logistics and transport operations for a large-scale event.\nManaged and coordinated teams across multiple events under Moulding Dreams.\nCreated a website for the college technical event TechSpark, enabling smooth event promotion and\nparticipant engagement.\nVolunteered for intra college cultural event called SURABHI in our college.\nRELEVANT COURSEWORK\nObject Oriented Programming, Database Management Systems, Discrete Maths, Data Structures and\nAlgorithms, Operating System\n",
+      "skills": {
+        "frontend": [
+          "html",
+          "css",
+          "javascript",
+          "typescript",
+          "react",
+          "next.js",
+          "tailwind"
+        ],
+        "backend": [
+          "python",
+          "java",
+          "go",
+          "fastapi",
+          "mongodb",
+          "firebase",
+          "supabase"
+        ],
+        "ai": [
+          "langchain",
+          "gpt",
+          "rag"
+        ],
+        "data": [
+          "sql",
+          "excel",
+          "r",
+          "spark",
+          "etl",
+          "analytics"
+        ],
+        "devops": [
+          "git",
+          "github"
+        ],
+        "all": [
+          "html",
+          "css",
+          "javascript",
+          "typescript",
+          "react",
+          "next.js",
+          "tailwind",
+          "python",
+          "java",
+          "go",
+          "fastapi",
+          "mongodb",
+          "firebase",
+          "supabase",
+          "langchain",
+          "gpt",
+          "rag",
+          "sql",
+          "excel",
+          "r",
+          "spark",
+          "etl",
+          "analytics",
+          "git",
+          "github"
+        ]
+      },
+      "experience": {
+        "education": [
+          "B.E"
+        ],
+        "companies": [
+          "engineer"
+        ],
+        "years_experience": 1,
+        "projects_count": 0
+      },
+      "red_flags": [
+        "Many skills listed but very few projects found. This may reduce credibility in an interview.",
+        "'langchain' listed but limited project evidence found."
+      ],
+      "skill_count": 25,
+      "primary_field": "Full Stack Developer",
+      "summary": "Detected 25 skills across 0 project(s). Primary field: Full Stack Developer."
+    },
+    "company": "",
+    "role": "",
+    "primary_field": "Full Stack Developer",
+    "company_intel": {},
+    "gap_analysis": {},
+    "quiz_attempts": [],
+    "current_quiz": {
+      "questions": [
+        {
+          "id": 1,
+          "skill": "React",
+          "question": "What is the Virtual DOM and why does React use it?",
+          "difficulty": "Easy",
+          "why_prompt": "Can you relate this to a real project you built, explaining how React's approach helped manage UI updates?",
+          "options": [
+            "A JavaScript object representation of the UI tree, used for efficient diffing and batching updates to the real DOM.",
+            "A browser API that directly manipulates native HTML elements faster than standard DOM operations.",
+            "A CSS optimization engine that predicts and reduces browser repaint and reflow costs.",
+            "A build tool that pre-renders React components to static HTML at compile time, bypassing DOM manipulation."
+          ],
+          "expected_keywords": [
+            "virtual DOM",
+            "diffing algorithm",
+            "reconciliation",
+            "performance optimization",
+            "batch updates"
+          ]
+        },
+        {
+          "id": 2,
+          "skill": "MongoDB / Backend Performance",
+          "question": "You are designing an e-commerce API using FastAPI and MongoDB. For a product listing page, users frequently filter by `category`, sort by `price` (ascending or descending), and `created_at` (newest first). Which MongoDB indexing strategy would be most effective for optimizing this common query pattern?",
+          "difficulty": "Medium",
+          "why_prompt": "Explain your choice, discussing why other options might be less effective for this specific use case, and outline potential trade-offs of your chosen strategy.",
+          "options": [
+            "A compound index on `{'category': 1, 'price': 1, 'created_at': -1}`",
+            "Separate single-field indexes on `category`, `price`, and `created_at`",
+            "A text index on the product description field for full-text search",
+            "A covered index on `{'category': 1, 'name': 1}` for fast category lookups"
+          ],
+          "expected_keywords": [
+            "MongoDB index",
+            "compound index",
+            "query optimization",
+            "sort order",
+            "indexing strategy",
+            "performance"
+          ]
+        },
+        {
+          "id": 3,
+          "skill": "TypeScript / Frontend Architecture",
+          "question": "When building a large-scale React application with TypeScript, you have a component that accepts a comprehensive `UserProps` object. For a specific sub-component, you only need to pass a subset of these props, excluding sensitive information or props irrelevant to the child. Which TypeScript utility type is most suitable for creating a new type that represents this subset of `UserProps` while ensuring type safety and reusability?",
+          "difficulty": "Medium",
+          "why_prompt": "Explain how your chosen utility type works and provide a concise example of its application in a React component's prop definition. Discuss scenarios where other options might be more suitable or how this approach aids in code maintainability.",
+          "options": [
+            "A. `Partial<UserProps>`",
+            "B. `Pick<UserProps, 'id' | 'name' | 'email'>`",
+            "C. `Omit<UserProps, 'passwordHash' | 'lastLoginIp'>`",
+            "D. `Record<'id' | 'name', string>`"
+          ],
+          "expected_keywords": [
+            "TypeScript",
+            "utility types",
+            "Pick",
+            "Omit",
+            "type safety",
+            "props",
+            "reusability"
+          ]
+        },
+        {
+          "id": 4,
+          "skill": "System Design / Real-time Architecture",
+          "question": "You need to implement a real-time 'online users' counter for a web application. The frontend is built with Next.js, and the backend is in Go. The counter should update instantly across all connected clients whenever a user logs in or out. Which architecture is most appropriate for this feature, prioritizing scalability for thousands of concurrent users and responsiveness?",
+          "difficulty": "Hard",
+          "why_prompt": "Justify your chosen architecture, discussing its advantages and disadvantages compared to the other options. Outline the key considerations for implementing this solution at scale, including how you'd handle potential disconnections or backend state synchronization.",
+          "options": [
+            "A. Long polling from Next.js to a Go REST endpoint that frequently queries a database for the current count.",
+            "B. Server-Sent Events (SSE) from a Go backend, pushing updates directly to clients whenever the user count changes.",
+            "C. WebSockets from Next.js to a Go backend, leveraging a pub/sub mechanism (e.g., Redis) for state synchronization across backend instances.",
+            "D. Client-side polling using `setInterval` in Next.js to a simple Go REST endpoint returning the user count."
+          ],
+          "expected_keywords": [
+            "WebSockets",
+            "real-time",
+            "pub/sub",
+            "scalability",
+            "Go concurrency",
+            "state management",
+            "Next.js"
+          ]
+        }
+      ]
+    },
+    "company_stack": [
+      "Angular",
+      "TypeScript",
+      "Go",
+      "Python",
+      "Java",
+      "C++"
+    ]
+  },
+  "ebbd92a5": {
+    "created_at": "2026-03-13T11:23:55.207163",
+    "resume_data": {
+      "success": true,
+      "raw_text": "HARSHITH VASANTH SHETTY\n7795471769 harshithshetty779@gmail.com github.com/homieshetty /in/homie-shetty/\nSUMMARY\nSeeking a challenging role in the field of coding, where I can leverage my programming skills and\ndedication to excel in software development.\nTECHNICAL SKILLS\nPython | HTML | CSS | SQL | C\nTools : Git , Github , Vercel , Netlify , Firebase (Auth,Firestore) , Supabase\nPROJECTS\nSmart Finance & Workforce Tracker Feb 2025 - Current\nBuilt a role-based workforce and finance platform with Next.js, Tailwind CSS, shadcn/ui, and Firebase,\nincluding event tracking, automated wage updates, dashboards, CSV/PDF reporting, real-time data,\nchat, and task management in a dark-themed responsive interface.\nTechSpark - Technical Event Management Platform Sept 2025 - Current\nDeveloped a full-stack event management platform using Next.js, TypeScript, Tailwind CSS, Supabase,\nand Framer Motion, enabling real-time participant registration with validation and verification, and\nproviding an admin dashboard with live tracking, search, exports, and role-based access control.\nPlanical: AI-Powered Mental Health Support Platform October 2024\nBuilt a mental health platform with React.js, FastAPI, LangChain, Groq API, Firebase, ChromaDB, and\nSocket.io, offering an AI chatbot, real-time doctor-client chat, wellness features, multi-language\ndashboard, user analytics, and scalable, secure architecture for 1000+ users.\nRPS-AI: Intelligent Rock-Paper-Scissors Game March - April 2025\nCreated an AI Rock-Paper-Scissors game in Python using OpenCV, MediaPipe, and CustomTkinter, with\nreal-time hand gesture recognition, Markov chain\u2013based AI, interactive GUI, stats tracking, and multi-\nthreaded smooth gameplay.\nEDUCATION\nFinal year, B.E. in Computer Science and Engineering 2022-2026\nShree Devi Institute of Technology\nCERTIFICATIONS AND ACHIEVEMENTS\nCode Meet 2024 Hackathon: Participated in a 24-hour hackathon at Srinivas University Institute of\nEngineering & Technology, gaining hands-on experience in problem solving and teamwork.\n(October 2024)\nReact.Js and Javascript ChatGPT clone by Devtown(issued in 2024)\nBootcamp on Backend development using NODEJSand MongoDB By Devtown(issued in 2024)\nFrontend web development using React.Js and Javascript by Devtown (issued in 2024)\nParticipated in Sankalp\u201925 held at Shree Devi Institute of Technology (issued in 2024)\nParticipated in Sankalp\u201924 held at Shree Devi Institute of Technology (issued in 2025)\nCreated a website for the college technical event TechSpark, enabling smooth event promotion and\nparticipant engagement.\nAchieved 2nd place at Technical quiz at Srinivas University.\nEXPERIENCE\nExperienced in efficiently managing groups of up to 80 people for event coordination, including roles\nat Ocean Pearl.\nVolunteered for a Harry Potter\u2013themed event at Paper Rocket, Mangalore.\nHandled logistics and transport operations for a large-scale event.\nManaged and coordinated teams across multiple events under Moulding Dreams.\nCreated a website for the college technical event TechSpark, enabling smooth event promotion and\nparticipant engagement.\nVolunteered for intra college cultural event called SURABHI in our college.\nRELEVANT COURSEWORK\nObject Oriented Programming, Database Management Systems, Discrete Maths, Data Structures and\nAlgorithms, Operating System\n",
+      "skills": {
+        "frontend": [
+          "html",
+          "css",
+          "javascript",
+          "typescript",
+          "react",
+          "next.js",
+          "tailwind"
+        ],
+        "backend": [
+          "python",
+          "java",
+          "go",
+          "fastapi",
+          "mongodb",
+          "firebase",
+          "supabase"
+        ],
+        "ai": [
+          "langchain",
+          "gpt",
+          "rag"
+        ],
+        "data": [
+          "sql",
+          "excel",
+          "r",
+          "spark",
+          "etl",
+          "analytics"
+        ],
+        "devops": [
+          "git",
+          "github"
+        ],
+        "all": [
+          "html",
+          "css",
+          "javascript",
+          "typescript",
+          "react",
+          "next.js",
+          "tailwind",
+          "python",
+          "java",
+          "go",
+          "fastapi",
+          "mongodb",
+          "firebase",
+          "supabase",
+          "langchain",
+          "gpt",
+          "rag",
+          "sql",
+          "excel",
+          "r",
+          "spark",
+          "etl",
+          "analytics",
+          "git",
+          "github"
+        ]
+      },
+      "experience": {
+        "education": [
+          "B.E"
+        ],
+        "companies": [
+          "engineer"
+        ],
+        "years_experience": 1,
+        "projects_count": 0
+      },
+      "red_flags": [
+        "Many skills listed but very few projects found. This may reduce credibility in an interview.",
+        "'langchain' listed but limited project evidence found."
+      ],
+      "skill_count": 25,
+      "primary_field": "Full Stack Developer",
+      "summary": "Detected 25 skills across 0 project(s). Primary field: Full Stack Developer."
+    },
+    "company": "",
+    "role": "",
+    "primary_field": "Full Stack Developer",
+    "company_intel": {},
+    "gap_analysis": {},
+    "quiz_attempts": [
+      {
+        "attempt_number": 1,
+        "timestamp": "2026-03-13T11:25:06.822033",
+        "score": 100,
+        "eligible": true,
+        "company": "Google",
+        "role": "Full stack Engineer"
+      }
+    ],
+    "current_quiz": {
+      "questions": [
+        {
+          "id": 1,
+          "skill": "React",
+          "question": "What is the primary purpose of the `useState` Hook in React functional components?",
+          "difficulty": "Easy",
+          "why_prompt": "Can you describe a scenario where you'd prefer using the `useState` Hook over managing state in a class component, and why?",
+          "options": [
+            "A. To perform side effects such as data fetching or subscriptions in a functional component.",
+            "B. To declare state variables that persist across re-renders and trigger component updates in a functional component.",
+            "C. To optimize component rendering by memoizing expensive computations or preventing unnecessary re-renders.",
+            "D. To manage global application state across multiple components without the need for prop drilling."
+          ],
+          "expected_keywords": [
+            "useState",
+            "functional components",
+            "state management",
+            "re-renders",
+            "component updates"
+          ]
+        },
+        {
+          "id": 2,
+          "skill": "Go/Python FastAPI/API Design",
+          "question": "You're developing a RESTful API using Go or FastAPI for an e-commerce application. When a client successfully creates a new product resource via a POST request, which HTTP status code is the most appropriate to return in the response?",
+          "difficulty": "Medium",
+          "why_prompt": "Besides the status code, what other critical pieces of information would you include in the response body for a successful resource creation, and why are they important?",
+          "options": [
+            "A. 200 OK",
+            "B. 201 Created",
+            "C. 202 Accepted",
+            "D. 204 No Content"
+          ],
+          "expected_keywords": [
+            "RESTful API",
+            "HTTP Status Code",
+            "201 Created",
+            "resource creation",
+            "POST"
+          ]
+        },
+        {
+          "id": 3,
+          "skill": "MongoDB/Data Modeling",
+          "question": "You are designing a MongoDB schema for a social media application where users can create posts, and each post can have many comments. Comments are frequently accessed with their parent post, but comment authors' full user profiles are only needed occasionally (e.g., on their dedicated profile page). Considering performance and scalability for frequent post+comment reads, which schema design approach is most appropriate?",
+          "difficulty": "Hard",
+          "why_prompt": "Discuss the trade-offs of the other options in terms of read/write performance, data consistency, and data size, and explain when they might be more suitable.",
+          "options": [
+            "A. Embed `Comments` directly within the `Post` document, and embed full `User` details within each `Comment`.",
+            "B. Store `Comments` in a separate collection, referencing the `Post` by `postId` and the `User` by `userId`, performing lookups (e.g., `$lookup`) when needed.",
+            "C. Embed `Comments` directly within the `Post` document, but only reference the `User` by `userId` within each `Comment`.",
+            "D. Store `Comments` in a separate collection, but denormalize and duplicate `Post` details within each `Comment` document."
+          ],
+          "expected_keywords": [
+            "MongoDB",
+            "schema design",
+            "embedding",
+            "referencing",
+            "denormalization",
+            "performance",
+            "scalability",
+            "read patterns"
+          ]
+        },
+        {
+          "id": 4,
+          "skill": "Next.js/Frontend Performance",
+          "question": "You are building a Next.js page for a news article that needs to be SEO-friendly, provide a very fast initial page load (perceived performance), and display content that updates several times a day. Which Next.js data fetching strategy is the most suitable for these combined requirements?",
+          "difficulty": "Medium",
+          "why_prompt": "Explain the advantages of your chosen strategy over the others for the given scenario, specifically addressing how it balances SEO, initial page load speed, and content freshness.",
+          "options": [
+            "A. Client-Side Rendering (CSR) using `useEffect` to fetch data after the initial render.",
+            "B. Static Site Generation (SSG) using `getStaticProps` without `revalidate`.",
+            "C. Server-Side Rendering (SSR) using `getServerSideProps`.",
+            "D. Incremental Static Regeneration (ISR) using `getStaticProps` with a `revalidate` option."
+          ],
+          "expected_keywords": [
+            "Next.js",
+            "ISR",
+            "getStaticProps",
+            "revalidate",
+            "SEO",
+            "Initial Page Load",
+            "Dynamic Content"
+          ]
+        }
+      ]
+    },
+    "company_stack": [
+      "Angular",
+      "TypeScript",
+      "Go",
+      "Python",
+      "Java",
+      "C++"
+    ],
+    "latest_result": {
+      "overall_score": 100,
+      "eligible": true,
+      "minimum_required": 70,
+      "readiness_verdict": "Interview Ready",
+      "verdict": "Candidate demonstrates strong foundational knowledge across all assessed full-stack domains, including modern frontend frameworks, backend API design, and database schema optimization. The candidate is well-prepared for a technical interview, with potential growth areas in deeper language-specific features and broader system design concepts not covered by this quiz.",
+      "skill_scores": [
+        {
+          "skill": "React",
+          "score": 100,
+          "feedback": "Excellent understanding of core React Hooks and functional component state management."
+        },
+        {
+          "skill": "API Design (Go/Python)",
+          "score": 100,
+          "feedback": "Solid grasp of RESTful API principles and correct HTTP status code usage."
+        },
+        {
+          "skill": "MongoDB/Data Modeling",
+          "score": 100,
+          "feedback": "Strong knowledge of MongoDB schema design for optimal read performance and scalability."
+        },
+        {
+          "skill": "Next.js/Frontend Performance",
+          "score": 100,
+          "feedback": "Proficiency in advanced Next.js data fetching strategies for SEO and dynamic content."
+        }
+      ],
+      "strengths": [
+        "Excellent understanding of core React Hooks and functional component state management.",
+        "Solid grasp of RESTful API principles and correct HTTP status code usage for resource creation.",
+        "Strong knowledge of MongoDB schema design for optimal read performance and scalability in social media contexts.",
+        "Proficiency in advanced Next.js data fetching strategies (ISR) for SEO, fast initial load, and dynamic content updates.",
+        "Ability to make technically sound architectural decisions tailored to specific application requirements."
+      ],
+      "gaps": [
+        {
+          "skill": "TypeScript Advanced Concepts",
+          "score": 80,
+          "why_weak": "The candidate was not assessed on advanced TypeScript features such as utility types, complex generics, conditional types, or deeper type inference patterns, which are crucial for developing robust and maintainable large-scale applications within Google's tech stack.",
+          "resources": [
+            {
+              "name": "Advanced TypeScript Patterns and Best Practices",
+              "url": "https://www.youtube.com/results?search_query=advanced+typescript+patterns+best+practices",
+              "time": "5 hours",
+              "type": "YouTube"
+            },
+            {
+              "name": "TypeScript Official Handbook - Advanced Types",
+              "url": "https://www.typescriptlang.org/docs/handbook/advanced-types.html",
+              "time": "3 hours",
+              "type": "Documentation"
+            },
+            {
+              "name": "TypeScript Deep Dive (Free Book)",
+              "url": "https://basarat.gitbook.io/typescript/",
+              "time": "2 weeks",
+              "type": "Book"
+            }
+          ]
+        },
+        {
+          "skill": "Go Language Features & Concurrency",
+          "score": 80,
+          "why_weak": "The assessment focused on API design, but did not cover core Go language features, concurrency primitives (goroutines, channels), common error handling patterns, or memory management and performance optimization techniques specific to Go, which are vital for backend engineering roles.",
+          "resources": [
+            {
+              "name": "Go Concurrency Explained",
+              "url": "https://www.youtube.com/results?search_query=go+concurrency+goroutines+channels+explained",
+              "time": "4 hours",
+              "type": "YouTube"
+            },
+            {
+              "name": "A Tour of Go - Concurrency",
+              "url": "https://go.dev/tour/concurrency/1",
+              "time": "2 hours",
+              "type": "Documentation"
+            },
+            {
+              "name": "Go By Example",
+              "url": "https://gobyexample.com/",
+              "time": "1 week",
+              "type": "Course"
+            }
+          ]
+        },
+        {
+          "skill": "Broader System Design Principles",
+          "score": 85,
+          "why_weak": "While data modeling was assessed, a Google Full-stack Engineer is expected to demonstrate a comprehensive understanding of broader system design concerns, including distributed systems, caching strategies, load balancing, message queues, microservices architecture, and ensuring scalability and resilience.",
+          "resources": [
+            {
+              "name": "System Design Interview Prep",
+              "url": "https://www.youtube.com/results?search_query=system+design+interview+patterns+google",
+              "time": "10 hours",
+              "type": "YouTube"
+            },
+            {
+              "name": "Google Cloud Architecture Framework: System Design for Developers",
+              "url": "https://cloud.google.com/architecture/system-design-for-developers",
+              "time": "5 hours",
+              "type": "Documentation"
+            },
+            {
+              "name": "System Design Primer (GitHub)",
+              "url": "https://github.com/donnemartin/system-design-primer",
+              "time": "2 weeks",
+              "type": "GitHub repo"
+            }
+          ]
+        }
+      ],
+      "question_review": [
+        {
+          "question_number": 1,
+          "skill": "React",
+          "question": "What is the primary purpose of the `useState` Hook in React functional components?",
+          "candidate_answer": "B. To declare state variables that persist across re-renders and trigger component updates in a functional component.",
+          "is_correct": true,
+          "correct_answer": "The `useState` Hook in React functional components is used to declare state variables that enable components to manage and store data locally. It allows these variables to persist across re-renders and automatically triggers component updates whenever the state changes, ensuring the UI reflects the latest data.",
+          "what_was_wrong": "",
+          "resources": []
+        },
+        {
+          "question_number": 2,
+          "skill": "Go/Python FastAPI/API Design",
+          "question": "You're developing a RESTful API using Go or FastAPI for an e-commerce application. When a client successfully creates a new product resource via a POST request, which HTTP status code is the most appropriate to return in the response?",
+          "candidate_answer": "B. 201 Created",
+          "is_correct": true,
+          "correct_answer": "When a client successfully creates a new resource via a POST request in a RESTful API, the most appropriate HTTP status code to return is `201 Created`. This code indicates that the request has been fulfilled and has resulted in one or more new resources being created, with the response body typically containing a representation of the new resource and a `Location` header pointing to its URI.",
+          "what_was_wrong": "",
+          "resources": []
+        },
+        {
+          "question_number": 3,
+          "skill": "MongoDB/Data Modeling",
+          "question": "You are designing a MongoDB schema for a social media application where users can create posts, and each post can have many comments. Comments are frequently accessed with their parent post, but comment authors' full user profiles are only needed occasionally (e.g., on their dedicated profile page). Considering performance and scalability for frequent post+comment reads, which schema design approach is most appropriate?",
+          "candidate_answer": "C. Embed `Comments` directly within the `Post` document, but only reference the `User` by `userId` within each `Comment`.",
+          "is_correct": true,
+          "correct_answer": "The most appropriate schema design for frequent post+comment reads is to embed `Comments` directly within the `Post` document. This allows for retrieving all comments with a single query to the `Post` collection. Referencing the `User` by `userId` within each `Comment` avoids duplicating large user profiles, which are only occasionally needed, optimizing for common read patterns and data consistency.",
+          "what_was_wrong": "",
+          "resources": []
+        },
+        {
+          "question_number": 4,
+          "skill": "Next.js/Frontend Performance",
+          "question": "You are building a Next.js page for a news article that needs to be SEO-friendly, provide a very fast initial page load (perceived performance), and display content that updates several times a day. Which Next.js data fetching strategy is the most suitable for these combined requirements?",
+          "candidate_answer": "D. Incremental Static Regeneration (ISR) using `getStaticProps` with a `revalidate` option.",
+          "is_correct": true,
+          "correct_answer": "Incremental Static Regeneration (ISR) using `getStaticProps` with a `revalidate` option is ideal for these requirements. It pre-renders pages at build time for excellent SEO and a fast initial load, and then intelligently re-generates them in the background (after a specified `revalidate` interval) when a user visits, ensuring the content is fresh without requiring a full redeploy.",
+          "what_was_wrong": "",
+          "resources": []
+        }
+      ],
+      "next_attempt_tips": [
+        "Deepen understanding of advanced TypeScript features like generics, utility types, and conditional types.",
+        "Practice core Go language features, including its concurrency model (goroutines, channels), error handling, and performance optimization techniques.",
+        "Study broader system design principles, focusing on distributed systems, caching strategies, load balancing, and microservices architecture."
+      ]
+    }
+  },
+  "f116ebea": {
+    "created_at": "2026-03-13T11:25:38.107780",
+    "resume_data": {
+      "success": true,
+      "raw_text": "HARSHITH VASANTH SHETTY\n7795471769 harshithshetty779@gmail.com github.com/homieshetty /in/homie-shetty/\nSUMMARY\nSeeking a challenging role in the field of coding, where I can leverage my programming skills and\ndedication to excel in software development.\nTECHNICAL SKILLS\nPython | HTML | CSS | SQL | C\nTools : Git , Github , Vercel , Netlify , Firebase (Auth,Firestore) , Supabase\nPROJECTS\nSmart Finance & Workforce Tracker Feb 2025 - Current\nBuilt a role-based workforce and finance platform with Next.js, Tailwind CSS, shadcn/ui, and Firebase,\nincluding event tracking, automated wage updates, dashboards, CSV/PDF reporting, real-time data,\nchat, and task management in a dark-themed responsive interface.\nTechSpark - Technical Event Management Platform Sept 2025 - Current\nDeveloped a full-stack event management platform using Next.js, TypeScript, Tailwind CSS, Supabase,\nand Framer Motion, enabling real-time participant registration with validation and verification, and\nproviding an admin dashboard with live tracking, search, exports, and role-based access control.\nPlanical: AI-Powered Mental Health Support Platform October 2024\nBuilt a mental health platform with React.js, FastAPI, LangChain, Groq API, Firebase, ChromaDB, and\nSocket.io, offering an AI chatbot, real-time doctor-client chat, wellness features, multi-language\ndashboard, user analytics, and scalable, secure architecture for 1000+ users.\nRPS-AI: Intelligent Rock-Paper-Scissors Game March - April 2025\nCreated an AI Rock-Paper-Scissors game in Python using OpenCV, MediaPipe, and CustomTkinter, with\nreal-time hand gesture recognition, Markov chain\u2013based AI, interactive GUI, stats tracking, and multi-\nthreaded smooth gameplay.\nEDUCATION\nFinal year, B.E. in Computer Science and Engineering 2022-2026\nShree Devi Institute of Technology\nCERTIFICATIONS AND ACHIEVEMENTS\nCode Meet 2024 Hackathon: Participated in a 24-hour hackathon at Srinivas University Institute of\nEngineering & Technology, gaining hands-on experience in problem solving and teamwork.\n(October 2024)\nReact.Js and Javascript ChatGPT clone by Devtown(issued in 2024)\nBootcamp on Backend development using NODEJSand MongoDB By Devtown(issued in 2024)\nFrontend web development using React.Js and Javascript by Devtown (issued in 2024)\nParticipated in Sankalp\u201925 held at Shree Devi Institute of Technology (issued in 2024)\nParticipated in Sankalp\u201924 held at Shree Devi Institute of Technology (issued in 2025)\nCreated a website for the college technical event TechSpark, enabling smooth event promotion and\nparticipant engagement.\nAchieved 2nd place at Technical quiz at Srinivas University.\nEXPERIENCE\nExperienced in efficiently managing groups of up to 80 people for event coordination, including roles\nat Ocean Pearl.\nVolunteered for a Harry Potter\u2013themed event at Paper Rocket, Mangalore.\nHandled logistics and transport operations for a large-scale event.\nManaged and coordinated teams across multiple events under Moulding Dreams.\nCreated a website for the college technical event TechSpark, enabling smooth event promotion and\nparticipant engagement.\nVolunteered for intra college cultural event called SURABHI in our college.\nRELEVANT COURSEWORK\nObject Oriented Programming, Database Management Systems, Discrete Maths, Data Structures and\nAlgorithms, Operating System\n",
+      "skills": {
+        "frontend": [
+          "html",
+          "css",
+          "javascript",
+          "typescript",
+          "react",
+          "next.js",
+          "tailwind"
+        ],
+        "backend": [
+          "python",
+          "java",
+          "go",
+          "fastapi",
+          "mongodb",
+          "firebase",
+          "supabase"
+        ],
+        "ai": [
+          "langchain",
+          "gpt",
+          "rag"
+        ],
+        "data": [
+          "sql",
+          "excel",
+          "r",
+          "spark",
+          "etl",
+          "analytics"
+        ],
+        "devops": [
+          "git",
+          "github"
+        ],
+        "all": [
+          "html",
+          "css",
+          "javascript",
+          "typescript",
+          "react",
+          "next.js",
+          "tailwind",
+          "python",
+          "java",
+          "go",
+          "fastapi",
+          "mongodb",
+          "firebase",
+          "supabase",
+          "langchain",
+          "gpt",
+          "rag",
+          "sql",
+          "excel",
+          "r",
+          "spark",
+          "etl",
+          "analytics",
+          "git",
+          "github"
+        ]
+      },
+      "experience": {
+        "education": [
+          "B.E"
+        ],
+        "companies": [
+          "engineer"
+        ],
+        "years_experience": 1,
+        "projects_count": 0
+      },
+      "red_flags": [
+        "Many skills listed but very few projects found. This may reduce credibility in an interview.",
+        "'langchain' listed but limited project evidence found."
+      ],
+      "skill_count": 25,
+      "primary_field": "Full Stack Developer",
+      "summary": "Detected 25 skills across 0 project(s). Primary field: Full Stack Developer."
+    },
+    "company": "",
+    "role": "",
+    "primary_field": "Full Stack Developer",
+    "company_intel": {},
+    "gap_analysis": {},
+    "quiz_attempts": [
+      {
+        "attempt_number": 1,
+        "timestamp": "2026-03-13T11:26:56.033046",
+        "score": 15,
+        "eligible": false,
+        "company": "Google",
+        "role": "Full stack Engineer"
+      }
+    ],
+    "current_quiz": {
+      "questions": [
+        {
+          "id": 1,
+          "skill": "React, TypeScript",
+          "question": "In a React functional component written in TypeScript, what is the primary purpose of the `useEffect` hook?",
+          "difficulty": "Easy",
+          "why_prompt": "Provide an example of a common scenario where `useEffect` would be used with a cleanup function in a project you've worked on, and explain why cleanup is important.",
+          "options": [
+            "A. To declare state variables that persist across renders.",
+            "B. To perform side effects (data fetching, subscriptions, manual DOM manipulation) after render.",
+            "C. To optimize rendering performance by memoizing component outputs.",
+            "D. To define custom hooks that encapsulate reusable logic."
+          ],
+          "expected_keywords": [
+            "side effects",
+            "component lifecycle",
+            "data fetching",
+            "subscriptions",
+            "cleanup function"
+          ]
+        },
+        {
+          "id": 2,
+          "skill": "FastAPI, Python, REST API",
+          "question": "When designing a RESTful API with FastAPI in Python, what HTTP status code is most appropriate for a successful resource creation where the server provides the new resource's URI in the `Location` header of the response?",
+          "difficulty": "Medium",
+          "why_prompt": "How would you handle validation errors (e.g., missing required fields or incorrect data types) in a FastAPI endpoint, and what HTTP status code and response body structure would you return in that case?",
+          "options": [
+            "A. 200 OK",
+            "B. 201 Created",
+            "C. 202 Accepted",
+            "D. 204 No Content"
+          ],
+          "expected_keywords": [
+            "HTTP status codes",
+            "RESTful API",
+            "resource creation",
+            "FastAPI",
+            "Location header"
+          ]
+        },
+        {
+          "id": 3,
+          "skill": "Full Stack, System Design, Real-time, Go, Next.js, MongoDB",
+          "question": "You are building a real-time collaborative document editor using Next.js for the frontend and Go for the backend, backed by MongoDB. To ensure immediate propagation of changes, data consistency, and minimal latency for concurrent edits from multiple users, which architectural pattern or technology would be most effective for synchronizing changes?",
+          "difficulty": "Hard",
+          "why_prompt": "Beyond the chosen option, discuss potential challenges and alternative approaches for managing conflict resolution and ensuring eventual consistency in such a system. What are the trade-offs?",
+          "options": [
+            "A. Long Polling with frequent database writes from the server.",
+            "B. Server-Sent Events (SSE) combined with optimistic locking on the backend.",
+            "C. WebSockets with Operational Transformation (OT) or Conflict-free Replicated Data Types (CRDTs).",
+            "D. Regular HTTP POST requests with a client-side polling mechanism."
+          ],
+          "expected_keywords": [
+            "WebSockets",
+            "real-time",
+            "operational transformation",
+            "CRDTs",
+            "data consistency",
+            "concurrency",
+            "synchronization"
+          ]
+        },
+        {
+          "id": 4,
+          "skill": "Security, Full Stack, React, Go",
+          "question": "In a full-stack application using React for the frontend and a Go backend, when a user successfully logs in, a JWT (JSON Web Token) is issued. For storing this JWT on the client-side (React) to facilitate subsequent authenticated requests, where is the most secure and practical place, especially considering common attack vectors?",
+          "difficulty": "Medium",
+          "why_prompt": "Explain the security trade-offs between storing JWTs in `localStorage` vs. `httpOnly` cookies, specifically discussing vulnerabilities like XSS and CSRF in each scenario.",
+          "options": [
+            "A. In `localStorage`.",
+            "B. In `sessionStorage`.",
+            "C. In an `httpOnly` and `secure` cookie.",
+            "D. In a JavaScript variable in the component state."
+          ],
+          "expected_keywords": [
+            "JWT",
+            "security",
+            "httpOnly cookie",
+            "CSRF",
+            "XSS",
+            "authentication",
+            "client-side storage"
+          ]
+        }
+      ]
+    },
+    "company_stack": [
+      "Angular",
+      "TypeScript",
+      "Go",
+      "Python",
+      "Java",
+      "C++"
+    ],
+    "latest_result": {
+      "overall_score": 15,
+      "eligible": false,
+      "minimum_required": 70,
+      "readiness_verdict": "Not Prepared",
+      "verdict": "The candidate demonstrated very limited understanding across core full-stack domains. While the answer to a challenging system design question was technically correct, the complete lack of reasoning for all questions, coupled with incorrect answers in fundamental areas like React hooks, REST API principles, and application security, indicates significant gaps in foundational knowledge and the ability to articulate technical concepts. This candidate is not ready for a Full Stack Engineer interview at Google.",
+      "skill_scores": [
+        {
+          "skill": "React",
+          "score": 0,
+          "feedback": "Did not understand the primary purpose of the `useEffect` hook, which is fundamental for managing side effects and component lifecycle in React functional components."
+        },
+        {
+          "skill": "REST API & Backend Fundamentals",
+          "score": 0,
+          "feedback": "Misidentified the correct HTTP status code for successful resource creation, indicating a gap in understanding fundamental RESTful API design principles."
+        },
+        {
+          "skill": "System Design (Real-time)",
+          "score": 60,
+          "feedback": "Correctly identified WebSockets with Operational Transformation (OT) or Conflict-free Replicated Data Types (CRDTs) as the most effective solution for real-time collaboration. However, the complete absence of reasoning makes it impossible to assess the depth of understanding behind this complex solution."
+        },
+        {
+          "skill": "Application Security (JWT)",
+          "score": 0,
+          "feedback": "Demonstrated a critical lack of knowledge regarding secure client-side storage for JWTs, choosing a method highly vulnerable to Cross-Site Scripting (XSS) attacks."
+        }
+      ],
+      "strengths": [
+        "Identified the correct architectural pattern for a complex real-time system design problem (WebSockets with OT/CRDTs), indicating a potential awareness of advanced solutions, though lacking explanatory depth."
+      ],
+      "gaps": [
+        {
+          "skill": "React Fundamentals",
+          "score": 0,
+          "why_weak": "Misunderstood the core purpose of the `useEffect` hook, a foundational concept for managing side effects and component lifecycle in React functional components.",
+          "resources": [
+            {
+              "name": "React Hooks: useEffect Tutorial",
+              "url": "https://www.youtube.com/results?search_query=react+useeffect+tutorial+2024",
+              "time": "1 hour",
+              "type": "YouTube"
+            },
+            {
+              "name": "React Docs: useEffect Hook",
+              "url": "https://react.dev/reference/react/useEffect",
+              "time": "2 hours",
+              "type": "Documentation"
+            },
+            {
+              "name": "A Complete Guide to useEffect",
+              "url": "https://overreacted.io/a-complete-guide-to-useeffect/",
+              "time": "2 hours",
+              "type": "Article"
+            }
+          ]
+        },
+        {
+          "skill": "REST API Design & HTTP Protocols",
+          "score": 0,
+          "why_weak": "Did not correctly identify the appropriate HTTP status code for successful resource creation with a `Location` header, which is a fundamental aspect of RESTful API design.",
+          "resources": [
+            {
+              "name": "HTTP Status Codes Explained",
+              "url": "https://www.youtube.com/results?search_query=rest+api+http+status+codes+explained",
+              "time": "30 minutes",
+              "type": "YouTube"
+            },
+            {
+              "name": "MDN Web Docs: HTTP Status Codes",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status",
+              "time": "2 hours",
+              "type": "Documentation"
+            },
+            {
+              "name": "RESTful API HTTP Status Codes Best Practices",
+              "url": "https://restfulapi.net/http-status-codes/",
+              "time": "1 hour",
+              "type": "Article"
+            }
+          ]
+        },
+        {
+          "skill": "Application Security (Client-side Storage & Authentication)",
+          "score": 0,
+          "why_weak": "Chose a highly insecure method for client-side JWT storage, demonstrating a critical lack of awareness regarding common web security vulnerabilities like XSS and best practices for authentication token management.",
+          "resources": [
+            {
+              "name": "JWT Storage Security Best Practices (XSS, CSRF)",
+              "url": "https://www.youtube.com/results?search_query=jwt+storage+security+best+practices+xss+csrf",
+              "time": "1 hour",
+              "type": "YouTube"
+            },
+            {
+              "name": "OWASP JSON Web Token Cheat Sheet: Token Storage",
+              "url": "https://cheatsheetseries.owasp.org/cheatsheets/JSON_Web_Token_Cheat_Sheet.html#token-storage",
+              "time": "1 hour",
+              "type": "Documentation"
+            },
+            {
+              "name": "Where to Store JWTs \u2013 Cookies vs. Local Storage",
+              "url": "https://auth0.com/blog/where-to-store-your-jwts-cookies-vs-html5-web-storage/",
+              "time": "1 hour",
+              "type": "Article"
+            }
+          ]
+        },
+        {
+          "skill": "Technical Communication & Reasoning",
+          "score": 0,
+          "why_weak": "Provided nonsensical or extremely shallow reasoning for all answers. This indicates a significant inability to articulate technical understanding, justify choices, or provide any depth to answers, which is crucial for engineering roles.",
+          "resources": [
+            {
+              "name": "How to Explain Technical Concepts in an Interview",
+              "url": "https://www.youtube.com/results?search_query=how+to+explain+technical+concepts+interview+tips",
+              "time": "30 minutes",
+              "type": "YouTube"
+            },
+            {
+              "name": "Google Tech Dev Guide: Interviewing for a Software Engineering Job",
+              "url": "https://techdevguide.withgoogle.com/paths/interview",
+              "time": "2 hours",
+              "type": "Documentation"
+            },
+            {
+              "name": "Cracking the Coding Interview (Chapter on Behavioral/Design)",
+              "url": "https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850",
+              "time": "Varies",
+              "type": "Book"
+            }
+          ]
+        }
+      ],
+      "question_review": [
+        {
+          "question_number": 1,
+          "skill": "React",
+          "question": "In a React functional component written in TypeScript, what is the primary purpose of the `useEffect` hook?",
+          "candidate_answer": "D. To define custom hooks that encapsulate reusable logic.",
+          "is_correct": false,
+          "correct_answer": "The primary purpose of the `useEffect` hook in a React functional component is to manage side effects, which are operations that interact with the outside world. This includes data fetching, subscriptions, manual DOM manipulations, and setting up event listeners, often mimicking lifecycle methods like `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount`.",
+          "what_was_wrong": "The candidate confused the purpose of `useEffect` with the concept of custom hooks. While custom hooks often *use* `useEffect`, `useEffect` itself is for executing side effects within a component's lifecycle, not for defining the custom hook structure.",
+          "resources": [
+            {
+              "name": "React Docs: useEffect Hook",
+              "url": "https://react.dev/reference/react/useEffect",
+              "type": "Documentation"
+            },
+            {
+              "name": "React useEffect Hook Tutorial for Beginners",
+              "url": "https://www.youtube.com/results?search_query=react+useeffect+hook+explained+2024",
+              "type": "YouTube"
+            }
+          ]
+        },
+        {
+          "question_number": 2,
+          "skill": "FastAPI, Python, REST API",
+          "question": "When designing a RESTful API with FastAPI in Python, what HTTP status code is most appropriate for a successful resource creation where the server provides the new resource's URI in the `Location` header of the response?",
+          "candidate_answer": "C. 202 Accepted",
+          "is_correct": false,
+          "correct_answer": "For a successful resource creation where the server provides the new resource's URI in the `Location` header, the most appropriate HTTP status code is **201 Created**. This status explicitly indicates that a new resource has been created as a result of the request and is typically accompanied by the `Location` header pointing to its new URI.",
+          "what_was_wrong": "The candidate chose '202 Accepted', which signifies that a request has been accepted for processing but has not yet completed. The correct status code for a completed resource creation is '201 Created', especially when the new resource's URI is provided.",
+          "resources": [
+            {
+              "name": "MDN Web Docs: HTTP Status Code 201 Created",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/201",
+              "type": "Documentation"
+            },
+            {
+              "name": "REST API Design: HTTP Status Codes Explained",
+              "url": "https://www.youtube.com/results?search_query=rest+api+design+http+status+codes+creation",
+              "type": "YouTube"
+            }
+          ]
+        },
+        {
+          "question_number": 3,
+          "skill": "Full Stack, System Design, Real-time",
+          "question": "You are building a real-time collaborative document editor using Next.js for the frontend and Go for the backend, backed by MongoDB. To ensure immediate propagation of changes, data consistency, and minimal latency for concurrent edits from multiple users, which architectural pattern or technology would be most effective for synchronizing changes?",
+          "candidate_answer": "C. WebSockets with Operational Transformation (OT) or Conflict-free Replicated Data Types (CRDTs).",
+          "is_correct": false,
+          "correct_answer": "The most effective approach for a real-time collaborative document editor is **WebSockets with Operational Transformation (OT) or Conflict-free Replicated Data Types (CRDTs)**. WebSockets enable persistent, low-latency, bidirectional communication for immediate change propagation, while OT or CRDTs are critical algorithms that handle concurrent edits from multiple users, resolve conflicts, and ensure eventual data consistency across all clients.",
+          "what_was_wrong": "Although the selected option (WebSockets with OT/CRDTs) is indeed the correct and most effective solution for the problem described, the candidate's reasoning 'ipkj' provides no evidence of understanding *why* this is the case or what these complex technologies entail. For a hard system design question, demonstrating comprehension is crucial, not just selecting the right term.",
+          "resources": [
+            {
+              "name": "System Design: Real-time Collaborative Editor (OT vs CRDTs)",
+              "url": "https://www.youtube.com/results?search_query=system+design+realtime+collaborative+document+editor+ot+crdt",
+              "type": "YouTube"
+            },
+            {
+              "name": "Wikipedia: Operational Transformation",
+              "url": "https://en.wikipedia.org/wiki/Operational_transformation",
+              "type": "Documentation"
+            }
+          ]
+        },
+        {
+          "question_number": 4,
+          "skill": "Security, Full Stack",
+          "question": "In a full-stack application using React for the frontend and a Go backend, when a user successfully logs in, a JWT (JSON Web Token) is issued. For storing this JWT on the client-side (React) to facilitate subsequent authenticated requests, where is the most secure and practical place, especially considering common attack vectors?",
+          "candidate_answer": "D. In a JavaScript variable in the component state.",
+          "is_correct": false,
+          "correct_answer": "The most secure and practical place for storing a JWT on the client-side is in an **HTTP-only cookie**. This prevents client-side JavaScript from accessing the token, thus significantly mitigating Cross-Site Scripting (XSS) attacks. Additionally, the cookie should be marked `Secure` (to ensure it's only sent over HTTPS) and `SameSite` (to help mitigate Cross-Site Request Forgery (CSRF) attacks, often in conjunction with other CSRF protections).",
+          "what_was_wrong": "Storing JWTs in client-side JavaScript variables (or local/session storage) makes them highly susceptible to Cross-Site Scripting (XSS) attacks. If malicious JavaScript is injected into the page, the attacker can easily steal the JWT and impersonate the user. HTTP-only cookies are generally preferred for their XSS resistance.",
+          "resources": [
+            {
+              "name": "OWASP JSON Web Token Cheat Sheet: Token Storage",
+              "url": "https://cheatsheetseries.owasp.org/cheatsheets/JSON_Web_Token_Cheat_Sheet.html#token-storage",
+              "type": "Documentation"
+            },
+            {
+              "name": "JWT Authentication: Where to Store Tokens Securely",
+              "url": "https://www.youtube.com/results?search_query=jwt+authentication+secure+storage+httpOnly+cookie",
+              "type": "YouTube"
+            }
+          ]
+        }
+      ],
+      "next_attempt_tips": [
+        "Dedicate time to fundamental React hooks and their intended use cases.",
+        "Review standard HTTP status codes and best practices for RESTful API design.",
+        "Prioritize learning secure authentication practices and client-side token storage to avoid critical vulnerabilities.",
+        "Practice articulating technical concepts, especially for system design, to demonstrate understanding beyond just choosing the right terms."
+      ]
+    }
+  },
+  "71c42901": {
+    "created_at": "2026-03-13T11:29:36.722839",
+    "resume_data": {
+      "success": true,
+      "raw_text": "HARSHITH VASANTH SHETTY\n7795471769 harshithshetty779@gmail.com github.com/homieshetty /in/homie-shetty/\nSUMMARY\nSeeking a challenging role in the field of coding, where I can leverage my programming skills and\ndedication to excel in software development.\nTECHNICAL SKILLS\nPython | HTML | CSS | SQL | C\nTools : Git , Github , Vercel , Netlify , Firebase (Auth,Firestore) , Supabase\nPROJECTS\nSmart Finance & Workforce Tracker Feb 2025 - Current\nBuilt a role-based workforce and finance platform with Next.js, Tailwind CSS, shadcn/ui, and Firebase,\nincluding event tracking, automated wage updates, dashboards, CSV/PDF reporting, real-time data,\nchat, and task management in a dark-themed responsive interface.\nTechSpark - Technical Event Management Platform Sept 2025 - Current\nDeveloped a full-stack event management platform using Next.js, TypeScript, Tailwind CSS, Supabase,\nand Framer Motion, enabling real-time participant registration with validation and verification, and\nproviding an admin dashboard with live tracking, search, exports, and role-based access control.\nPlanical: AI-Powered Mental Health Support Platform October 2024\nBuilt a mental health platform with React.js, FastAPI, LangChain, Groq API, Firebase, ChromaDB, and\nSocket.io, offering an AI chatbot, real-time doctor-client chat, wellness features, multi-language\ndashboard, user analytics, and scalable, secure architecture for 1000+ users.\nRPS-AI: Intelligent Rock-Paper-Scissors Game March - April 2025\nCreated an AI Rock-Paper-Scissors game in Python using OpenCV, MediaPipe, and CustomTkinter, with\nreal-time hand gesture recognition, Markov chain\u2013based AI, interactive GUI, stats tracking, and multi-\nthreaded smooth gameplay.\nEDUCATION\nFinal year, B.E. in Computer Science and Engineering 2022-2026\nShree Devi Institute of Technology\nCERTIFICATIONS AND ACHIEVEMENTS\nCode Meet 2024 Hackathon: Participated in a 24-hour hackathon at Srinivas University Institute of\nEngineering & Technology, gaining hands-on experience in problem solving and teamwork.\n(October 2024)\nReact.Js and Javascript ChatGPT clone by Devtown(issued in 2024)\nBootcamp on Backend development using NODEJSand MongoDB By Devtown(issued in 2024)\nFrontend web development using React.Js and Javascript by Devtown (issued in 2024)\nParticipated in Sankalp\u201925 held at Shree Devi Institute of Technology (issued in 2024)\nParticipated in Sankalp\u201924 held at Shree Devi Institute of Technology (issued in 2025)\nCreated a website for the college technical event TechSpark, enabling smooth event promotion and\nparticipant engagement.\nAchieved 2nd place at Technical quiz at Srinivas University.\nEXPERIENCE\nExperienced in efficiently managing groups of up to 80 people for event coordination, including roles\nat Ocean Pearl.\nVolunteered for a Harry Potter\u2013themed event at Paper Rocket, Mangalore.\nHandled logistics and transport operations for a large-scale event.\nManaged and coordinated teams across multiple events under Moulding Dreams.\nCreated a website for the college technical event TechSpark, enabling smooth event promotion and\nparticipant engagement.\nVolunteered for intra college cultural event called SURABHI in our college.\nRELEVANT COURSEWORK\nObject Oriented Programming, Database Management Systems, Discrete Maths, Data Structures and\nAlgorithms, Operating System\n",
+      "skills": {
+        "frontend": [
+          "html",
+          "css",
+          "javascript",
+          "typescript",
+          "react",
+          "next.js",
+          "tailwind"
+        ],
+        "backend": [
+          "python",
+          "java",
+          "go",
+          "fastapi",
+          "mongodb",
+          "firebase",
+          "supabase"
+        ],
+        "ai": [
+          "langchain",
+          "gpt",
+          "rag"
+        ],
+        "data": [
+          "sql",
+          "excel",
+          "r",
+          "spark",
+          "etl",
+          "analytics"
+        ],
+        "devops": [
+          "git",
+          "github"
+        ],
+        "all": [
+          "html",
+          "css",
+          "javascript",
+          "typescript",
+          "react",
+          "next.js",
+          "tailwind",
+          "python",
+          "java",
+          "go",
+          "fastapi",
+          "mongodb",
+          "firebase",
+          "supabase",
+          "langchain",
+          "gpt",
+          "rag",
+          "sql",
+          "excel",
+          "r",
+          "spark",
+          "etl",
+          "analytics",
+          "git",
+          "github"
+        ]
+      },
+      "experience": {
+        "education": [
+          "B.E"
+        ],
+        "companies": [
+          "engineer"
+        ],
+        "years_experience": 1,
+        "projects_count": 0
+      },
+      "red_flags": [
+        "Many skills listed but very few projects found. This may reduce credibility in an interview.",
+        "'langchain' listed but limited project evidence found."
+      ],
+      "skill_count": 25,
+      "primary_field": "Full Stack Developer",
+      "summary": "Detected 25 skills across 0 project(s). Primary field: Full Stack Developer."
+    },
+    "company": "",
+    "role": "",
+    "primary_field": "Full Stack Developer",
+    "company_intel": {},
+    "gap_analysis": {},
+    "quiz_attempts": [],
+    "current_quiz": {
+      "questions": [
+        {
+          "id": 1,
+          "skill": "React",
+          "question": "What is the primary difference between using `useState` and `useReducer` for state management in a React functional component?",
+          "difficulty": "Easy",
+          "why_prompt": "Describe a scenario where `useReducer` would be a more suitable choice than `useState`, and why.",
+          "options": [
+            "A. `useState` is for local component state, while `useReducer` is exclusively for global application state management.",
+            "B. `useState` is for simple state updates (e.g., boolean toggles, string changes), while `useReducer` is for complex state logic involving multiple related sub-values or next states that depend on the previous state.",
+            "C. `useState` is an older hook for class components, while `useReducer` is the modern hook specifically designed for functional components.",
+            "D. `useState` can only manage primitive values (numbers, strings, booleans), whereas `useReducer` can manage objects and arrays."
+          ],
+          "expected_keywords": [
+            "useState",
+            "useReducer",
+            "complex state logic",
+            "multiple actions",
+            "reducer function",
+            "dispatch"
+          ]
+        },
+        {
+          "id": 2,
+          "skill": "Backend / NoSQL",
+          "question": "When designing a microservice API with FastAPI and using a NoSQL database like MongoDB or DynamoDB, what is the most appropriate strategy for handling eventual consistency issues when updating related data across different services?",
+          "difficulty": "Medium",
+          "why_prompt": "Beyond your chosen option, what are the trade-offs or additional considerations for implementing eventual consistency in a high-traffic distributed system?",
+          "options": [
+            "A. Use distributed transactions with 2PC (Two-Phase Commit) across all services and databases to ensure strong atomicity and consistency.",
+            "B. Implement compensating transactions or sagas to orchestrate a sequence of local transactions, reversing partial failures and maintaining data integrity over time.",
+            "C. Store all related data in a single document or table within one service to completely avoid cross-service updates and eventual consistency concerns.",
+            "D. Rely solely on client-side polling mechanisms to detect and reconcile data inconsistencies after multiple service updates."
+          ],
+          "expected_keywords": [
+            "eventual consistency",
+            "sagas",
+            "compensating transactions",
+            "microservices",
+            "distributed systems",
+            "NoSQL trade-offs"
+          ]
+        },
+        {
+          "id": 3,
+          "skill": "AWS / System Design",
+          "question": "You are designing a service that needs to serve highly concurrent read requests for customer profiles, each identified by a unique `customer_id`. The profiles are stored in DynamoDB, and each profile document can be up to 100KB. Queries are primarily by `customer_id`. What is the most cost-effective and scalable approach to serve these reads globally with low latency using AWS services?",
+          "difficulty": "Hard",
+          "why_prompt": "Justify your choice, explaining the performance and cost implications of the other options for this specific use case, and mention any potential bottlenecks or edge cases for your chosen solution.",
+          "options": [
+            "A. Use an API Gateway directly invoking a Lambda function that performs a `GetItem` operation on the DynamoDB table.",
+            "B. Implement a GraphQL API using AWS AppSync backed by DynamoDB, leveraging AppSync's built-in caching capabilities.",
+            "C. Deploy DynamoDB Accelerator (DAX) in front of the DynamoDB table, accessed by Lambda functions via the DAX SDK.",
+            "D. Create a global DynamoDB table and use Amazon CloudFront with a Lambda@Edge function to cache and serve customer profiles geographically closer to users."
+          ],
+          "expected_keywords": [
+            "DynamoDB",
+            "DAX",
+            "caching",
+            "low latency",
+            "cost-effective",
+            "global reads",
+            "scalability",
+            "eventual consistency"
+          ]
+        },
+        {
+          "id": 4,
+          "skill": "Full Stack / API Security",
+          "question": "A React frontend makes an API call to a FastAPI backend. The frontend receives a 401 Unauthorized response. What is the most likely cause, assuming the user *should* have access, and what is the typical first step a full-stack developer would take to diagnose this issue?",
+          "difficulty": "Medium",
+          "why_prompt": "Describe the typical flow of an authenticated request from a React client to a FastAPI backend, highlighting where common issues leading to a 401 might occur and how you would debug them.",
+          "options": [
+            "A. The backend API route is incorrect or misspelled, leading to a 401 error instead of a 404 Not Found.",
+            "B. The frontend is not sending the correct authentication token (e.g., JWT, API key) in the request headers, or the token is expired/invalid/malformed, causing the backend to reject the request.",
+            "C. The backend is experiencing a database connection error, resulting in a generic 401 Unauthorized response as a fallback.",
+            "D. A Cross-Origin Resource Sharing (CORS) policy is blocking the request from the frontend domain to the backend, causing the server to return a 401."
+          ],
+          "expected_keywords": [
+            "401 Unauthorized",
+            "authentication token",
+            "JWT",
+            "API key",
+            "request headers",
+            "token expiration",
+            "backend validation",
+            "debugging network requests"
+          ]
+        }
+      ]
+    },
+    "company_stack": [
+      "React",
+      "Java",
+      "Python",
+      "AWS",
+      "DynamoDB",
+      "Lambda"
+    ]
+  },
+  "22449c62": {
+    "created_at": "2026-03-14T15:02:14.342764",
+    "resume_data": {
+      "success": true,
+      "raw_text": "HARSHITH VASANTH SHETTY\n7795471769 harshithshetty779@gmail.com github.com/homieshetty /in/homie-shetty/\nSUMMARY\nSeeking a challenging role in the field of coding, where I can leverage my programming skills and\ndedication to excel in software development.\nTECHNICAL SKILLS\nPython | HTML | CSS | SQL | C\nTools : Git , Github , Vercel , Netlify , Firebase (Auth,Firestore) , Supabase\nPROJECTS\nSmart Finance & Workforce Tracker Feb 2025 - Current\nBuilt a role-based workforce and finance platform with Next.js, Tailwind CSS, shadcn/ui, and Firebase,\nincluding event tracking, automated wage updates, dashboards, CSV/PDF reporting, real-time data,\nchat, and task management in a dark-themed responsive interface.\nTechSpark - Technical Event Management Platform Sept 2025 - Current\nDeveloped a full-stack event management platform using Next.js, TypeScript, Tailwind CSS, Supabase,\nand Framer Motion, enabling real-time participant registration with validation and verification, and\nproviding an admin dashboard with live tracking, search, exports, and role-based access control.\nPlanical: AI-Powered Mental Health Support Platform October 2024\nBuilt a mental health platform with React.js, FastAPI, LangChain, Groq API, Firebase, ChromaDB, and\nSocket.io, offering an AI chatbot, real-time doctor-client chat, wellness features, multi-language\ndashboard, user analytics, and scalable, secure architecture for 1000+ users.\nRPS-AI: Intelligent Rock-Paper-Scissors Game March - April 2025\nCreated an AI Rock-Paper-Scissors game in Python using OpenCV, MediaPipe, and CustomTkinter, with\nreal-time hand gesture recognition, Markov chain\u2013based AI, interactive GUI, stats tracking, and multi-\nthreaded smooth gameplay.\nEDUCATION\nFinal year, B.E. in Computer Science and Engineering 2022-2026\nShree Devi Institute of Technology\nCERTIFICATIONS AND ACHIEVEMENTS\nCode Meet 2024 Hackathon: Participated in a 24-hour hackathon at Srinivas University Institute of\nEngineering & Technology, gaining hands-on experience in problem solving and teamwork.\n(October 2024)\nReact.Js and Javascript ChatGPT clone by Devtown(issued in 2024)\nBootcamp on Backend development using NODEJSand MongoDB By Devtown(issued in 2024)\nFrontend web development using React.Js and Javascript by Devtown (issued in 2024)\nParticipated in Sankalp\u201925 held at Shree Devi Institute of Technology (issued in 2024)\nParticipated in Sankalp\u201924 held at Shree Devi Institute of Technology (issued in 2025)\nCreated a website for the college technical event TechSpark, enabling smooth event promotion and\nparticipant engagement.\nAchieved 2nd place at Technical quiz at Srinivas University.\nEXPERIENCE\nExperienced in efficiently managing groups of up to 80 people for event coordination, including roles\nat Ocean Pearl.\nVolunteered for a Harry Potter\u2013themed event at Paper Rocket, Mangalore.\nHandled logistics and transport operations for a large-scale event.\nManaged and coordinated teams across multiple events under Moulding Dreams.\nCreated a website for the college technical event TechSpark, enabling smooth event promotion and\nparticipant engagement.\nVolunteered for intra college cultural event called SURABHI in our college.\nRELEVANT COURSEWORK\nObject Oriented Programming, Database Management Systems, Discrete Maths, Data Structures and\nAlgorithms, Operating System\n",
+      "skills": {
+        "frontend": [
+          "html",
+          "css",
+          "javascript",
+          "typescript",
+          "react",
+          "next.js",
+          "tailwind"
+        ],
+        "backend": [
+          "python",
+          "java",
+          "go",
+          "fastapi",
+          "mongodb",
+          "firebase",
+          "supabase"
+        ],
+        "ai": [
+          "langchain",
+          "gpt",
+          "rag"
+        ],
+        "data": [
+          "sql",
+          "excel",
+          "r",
+          "spark",
+          "etl",
+          "analytics"
+        ],
+        "devops": [
+          "git",
+          "github"
+        ],
+        "all": [
+          "html",
+          "css",
+          "javascript",
+          "typescript",
+          "react",
+          "next.js",
+          "tailwind",
+          "python",
+          "java",
+          "go",
+          "fastapi",
+          "mongodb",
+          "firebase",
+          "supabase",
+          "langchain",
+          "gpt",
+          "rag",
+          "sql",
+          "excel",
+          "r",
+          "spark",
+          "etl",
+          "analytics",
+          "git",
+          "github"
+        ]
+      },
+      "experience": {
+        "education": [
+          "B.E"
+        ],
+        "companies": [
+          "engineer"
+        ],
+        "years_experience": 1,
+        "projects_count": 0
+      },
+      "red_flags": [
+        "Many skills listed but very few projects found. This may reduce credibility in an interview.",
+        "'langchain' listed but limited project evidence found."
+      ],
+      "skill_count": 25,
+      "primary_field": "Full Stack Developer",
+      "summary": "Detected 25 skills across 0 project(s). Primary field: Full Stack Developer."
+    },
+    "company": "",
+    "role": "",
+    "primary_field": "Full Stack Developer",
+    "company_intel": {},
+    "gap_analysis": {},
+    "quiz_attempts": [],
+    "current_quiz": {
+      "questions": [
+        {
+          "id": 1,
+          "skill": "React",
+          "question": "What is the Virtual DOM and why does React use it?",
+          "difficulty": "Easy",
+          "why_prompt": "Can you relate this to a real project you built and explain how understanding the Virtual DOM helped you optimize a component's performance?",
+          "options": [
+            "A. A JavaScript object representation of the UI tree used for efficient diffing and updates.",
+            "B. A browser API that directly manipulates native HTML elements faster than standard DOM.",
+            "C. A CSS optimization engine that reduces browser repaint and reflow costs.",
+            "D. A build tool that pre-renders React components to static HTML at compile time."
+          ],
+          "expected_keywords": [
+            "virtual dom",
+            "diffing",
+            "reconciliation",
+            "performance",
+            "re-render"
+          ]
+        },
+        {
+          "id": 2,
+          "skill": "MongoDB",
+          "question": "When designing a NoSQL database schema for a new e-commerce product catalog using MongoDB, what is a key consideration regarding data relationships compared to a relational database approach?",
+          "difficulty": "Medium",
+          "why_prompt": "Describe a specific scenario where you chose to embed or reference data in a MongoDB schema, and explain the trade-offs you considered for that decision.",
+          "options": [
+            "A. Relationships are primarily managed through foreign keys and JOIN operations, similar to SQL databases.",
+            "B. Data denormalization and embedding related data within documents is often preferred for read performance, at the cost of potential data duplication.",
+            "C. A strict, predefined schema must be designed upfront and adhered to throughout development.",
+            "D. Complex multi-document transactions are MongoDB's strong suit, making data integrity in distributed systems straightforward."
+          ],
+          "expected_keywords": [
+            "MongoDB",
+            "NoSQL",
+            "data modeling",
+            "embedding",
+            "referencing",
+            "denormalization",
+            "read performance"
+          ]
+        },
+        {
+          "id": 3,
+          "skill": "Next.js, FastAPI, Security",
+          "question": "You're building a full-stack application with a Next.js frontend (using SSR) and a FastAPI backend. What is the most robust and scalable approach to implement authentication and authorization, specifically addressing common web vulnerabilities like CSRF and XSS?",
+          "difficulty": "Hard",
+          "why_prompt": "Detail the specific steps and technologies involved in your chosen approach. What are the potential pitfalls, and how would you handle session invalidation and token refresh securely?",
+          "options": [
+            "A. Store a stateless JWT in `localStorage` on the client, sending it in an `Authorization` header with every API request, and rely on `SameSite=Lax` cookies for CSRF protection.",
+            "B. Implement a session-based approach where the FastAPI backend issues a secure, HTTP-only, `SameSite=Strict` cookie containing a session ID, and generate a unique CSRF token per user session, passed via a hidden form field or custom header.",
+            "C. Use a combination of a short-lived access token and a long-lived refresh token. Store the access token in `localStorage` and the refresh token in an HTTP-only cookie. Implement token validation and rotation, along with a `SameSite=Strict` cookie for CSRF.",
+            "D. Leverage only API keys passed as query parameters for authentication, and implement custom rate-limiting on the backend to prevent brute-force attacks, ignoring specific CSRF/XSS concerns due to API key usage."
+          ],
+          "expected_keywords": [
+            "authentication",
+            "authorization",
+            "CSRF",
+            "XSS",
+            "HTTP-only cookie",
+            "SameSite",
+            "session management",
+            "token security",
+            "Next.js",
+            "FastAPI"
+          ]
+        },
+        {
+          "id": 4,
+          "skill": "Go, Python, Concurrency",
+          "question": "You need to build a high-performance backend service for real-time data processing that can handle thousands of concurrent client connections. Given your skills in Python/FastAPI and Go, which language would you primarily choose for the core processing logic and why, considering concurrency models?",
+          "difficulty": "Medium",
+          "why_prompt": "Explain the fundamental differences in their concurrency models and how they impact performance and scalability in this specific use case, including the role of the GIL in Python.",
+          "options": [
+            "A. Python with FastAPI, leveraging its asynchronous capabilities (`async/await`) and the Global Interpreter Lock (GIL) for efficient CPU-bound parallelism.",
+            "B. Go, utilizing goroutines and channels, as its concurrency model is designed for efficient handling of many concurrent operations with minimal overhead, suitable for I/O-bound and CPU-bound tasks.",
+            "C. Python with a multi-process architecture to bypass the GIL, as Python's native threads are better suited for I/O-bound tasks than Go's goroutines.",
+            "D. Go, but only if the tasks are purely CPU-bound, as its goroutines are not as efficient as Python's `async/await` for I/O-bound operations."
+          ],
+          "expected_keywords": [
+            "Go",
+            "goroutines",
+            "channels",
+            "concurrency",
+            "parallelism",
+            "GIL",
+            "async/await",
+            "I/O-bound",
+            "scalability"
+          ]
+        }
+      ]
+    },
+    "company_stack": []
+  },
+  "48dfdc39": {
+    "created_at": "2026-03-14T20:51:03.067968",
+    "resume_data": {
+      "success": true,
+      "raw_text": "HARSHITH VASANTH SHETTY\n7795471769 harshithshetty779@gmail.com github.com/homieshetty /in/homie-shetty/\nSUMMARY\nSeeking a challenging role in the field of coding, where I can leverage my programming skills and\ndedication to excel in software development.\nTECHNICAL SKILLS\nPython | HTML | CSS | SQL | C\nTools : Git , Github , Vercel , Netlify , Firebase (Auth,Firestore) , Supabase\nPROJECTS\nSmart Finance & Workforce Tracker Feb 2025 - Current\nBuilt a role-based workforce and finance platform with Next.js, Tailwind CSS, shadcn/ui, and Firebase,\nincluding event tracking, automated wage updates, dashboards, CSV/PDF reporting, real-time data,\nchat, and task management in a dark-themed responsive interface.\nTechSpark - Technical Event Management Platform Sept 2025 - Current\nDeveloped a full-stack event management platform using Next.js, TypeScript, Tailwind CSS, Supabase,\nand Framer Motion, enabling real-time participant registration with validation and verification, and\nproviding an admin dashboard with live tracking, search, exports, and role-based access control.\nPlanical: AI-Powered Mental Health Support Platform October 2024\nBuilt a mental health platform with React.js, FastAPI, LangChain, Groq API, Firebase, ChromaDB, and\nSocket.io, offering an AI chatbot, real-time doctor-client chat, wellness features, multi-language\ndashboard, user analytics, and scalable, secure architecture for 1000+ users.\nRPS-AI: Intelligent Rock-Paper-Scissors Game March - April 2025\nCreated an AI Rock-Paper-Scissors game in Python using OpenCV, MediaPipe, and CustomTkinter, with\nreal-time hand gesture recognition, Markov chain\u2013based AI, interactive GUI, stats tracking, and multi-\nthreaded smooth gameplay.\nEDUCATION\nFinal year, B.E. in Computer Science and Engineering 2022-2026\nShree Devi Institute of Technology\nCERTIFICATIONS AND ACHIEVEMENTS\nCode Meet 2024 Hackathon: Participated in a 24-hour hackathon at Srinivas University Institute of\nEngineering & Technology, gaining hands-on experience in problem solving and teamwork.\n(October 2024)\nReact.Js and Javascript ChatGPT clone by Devtown(issued in 2024)\nBootcamp on Backend development using NODEJSand MongoDB By Devtown(issued in 2024)\nFrontend web development using React.Js and Javascript by Devtown (issued in 2024)\nParticipated in Sankalp\u201925 held at Shree Devi Institute of Technology (issued in 2024)\nParticipated in Sankalp\u201924 held at Shree Devi Institute of Technology (issued in 2025)\nCreated a website for the college technical event TechSpark, enabling smooth event promotion and\nparticipant engagement.\nAchieved 2nd place at Technical quiz at Srinivas University.\nEXPERIENCE\nExperienced in efficiently managing groups of up to 80 people for event coordination, including roles\nat Ocean Pearl.\nVolunteered for a Harry Potter\u2013themed event at Paper Rocket, Mangalore.\nHandled logistics and transport operations for a large-scale event.\nManaged and coordinated teams across multiple events under Moulding Dreams.\nCreated a website for the college technical event TechSpark, enabling smooth event promotion and\nparticipant engagement.\nVolunteered for intra college cultural event called SURABHI in our college.\nRELEVANT COURSEWORK\nObject Oriented Programming, Database Management Systems, Discrete Maths, Data Structures and\nAlgorithms, Operating System\n",
+      "skills": {
+        "frontend": [
+          "html",
+          "css",
+          "javascript",
+          "typescript",
+          "react",
+          "next.js",
+          "tailwind"
+        ],
+        "backend": [
+          "python",
+          "java",
+          "go",
+          "fastapi",
+          "mongodb",
+          "firebase",
+          "supabase"
+        ],
+        "ai": [
+          "langchain",
+          "gpt",
+          "rag"
+        ],
+        "data": [
+          "sql",
+          "excel",
+          "r",
+          "spark",
+          "etl",
+          "analytics"
+        ],
+        "devops": [
+          "git",
+          "github"
+        ],
+        "all": [
+          "html",
+          "css",
+          "javascript",
+          "typescript",
+          "react",
+          "next.js",
+          "tailwind",
+          "python",
+          "java",
+          "go",
+          "fastapi",
+          "mongodb",
+          "firebase",
+          "supabase",
+          "langchain",
+          "gpt",
+          "rag",
+          "sql",
+          "excel",
+          "r",
+          "spark",
+          "etl",
+          "analytics",
+          "git",
+          "github"
+        ]
+      },
+      "experience": {
+        "education": [
+          "B.E"
+        ],
+        "companies": [
+          "engineer"
+        ],
+        "years_experience": 1,
+        "projects_count": 0
+      },
+      "red_flags": [
+        "Many skills listed but very few projects found. This may reduce credibility in an interview.",
+        "'langchain' listed but limited project evidence found."
+      ],
+      "skill_count": 25,
+      "primary_field": "Full Stack Developer",
+      "summary": "Detected 25 skills across 0 project(s). Primary field: Full Stack Developer."
+    },
+    "company": "",
+    "role": "",
+    "primary_field": "Full Stack Developer",
+    "company_intel": {},
+    "gap_analysis": {},
+    "quiz_attempts": [
+      {
+        "attempt_number": 1,
+        "timestamp": "2026-03-14T20:52:15.729563",
+        "score": 59,
+        "eligible": false,
+        "company": "Google",
+        "role": "Full stack Engineer"
+      }
+    ],
+    "current_quiz": {
+      "questions": [
+        {
+          "id": 1,
+          "skill": "React",
+          "question": "What is the Virtual DOM and why does React use it?",
+          "difficulty": "Easy",
+          "why_prompt": "Can you relate this to a real project you built where understanding the Virtual DOM helped you debug or optimize a rendering issue?",
+          "options": [
+            "A JavaScript object representation of the UI tree used for efficient diffing and updates.",
+            "A browser API that directly manipulates native HTML elements faster than standard DOM operations.",
+            "A CSS optimization engine that reduces browser repaint and reflow costs.",
+            "A build tool that pre-renders React components to static HTML at compile time."
+          ],
+          "expected_keywords": [
+            "virtual dom",
+            "diffing",
+            "reconciliation",
+            "performance",
+            "re-render"
+          ]
+        },
+        {
+          "id": 2,
+          "skill": "MongoDB",
+          "question": "When designing a large-scale API with MongoDB, what is the most effective strategy to ensure fast read performance for frequently accessed data, assuming your data model involves embedded documents?",
+          "difficulty": "Medium",
+          "why_prompt": "Explain how this strategy helps avoid common performance bottlenecks in MongoDB and how you've applied it in a backend service.",
+          "options": [
+            "Create a separate collection for each embedded document type and use `$lookup` for joins.",
+            "Implement extensive client-side caching only, without server-side indexing or schema optimizations.",
+            "Design composite indexes on frequently queried fields and optimize document structure for common access patterns.",
+            "Increase the database server's RAM and CPU without specific index creation."
+          ],
+          "expected_keywords": [
+            "indexing",
+            "schema design",
+            "embedded documents",
+            "query optimization",
+            "read performance"
+          ]
+        },
+        {
+          "id": 3,
+          "skill": "Architecture/Security",
+          "question": "In a Next.js application served by a Go/FastAPI backend, if you need to implement secure, stateless authentication and authorization for microservices communicating with each other and the frontend, which approach provides the most robust and scalable solution?",
+          "difficulty": "Hard",
+          "why_prompt": "Discuss the trade-offs and potential vulnerabilities of the other options in a real-world, distributed system scenario. How would you handle token revocation?",
+          "options": [
+            "Session-based authentication where the backend stores user sessions and the client sends session IDs with each request.",
+            "Using JWTs (JSON Web Tokens) with refresh tokens, signed by an Authorization Server, and proper token validation at each microservice and the frontend.",
+            "Storing API keys directly in the frontend and passing them as `Authorization` headers for every request.",
+            "Relying solely on client-side authentication mechanisms and user input validation, without backend verification."
+          ],
+          "expected_keywords": [
+            "JWT",
+            "stateless authentication",
+            "microservices",
+            "authorization server",
+            "refresh token",
+            "scalability",
+            "token validation"
+          ]
+        },
+        {
+          "id": 4,
+          "skill": "Next.js/React",
+          "question": "You are building a complex Next.js application with multiple layouts, nested routes, and server-side data fetching for various components. What is the most effective approach for managing global application state that needs to be accessible across different parts of your application, including initial server-render and subsequent client-side updates?",
+          "difficulty": "Medium",
+          "why_prompt": "How does this approach integrate with Next.js's data fetching methods like `getServerSideProps` or `getStaticProps`, and what are its advantages over simpler methods for complex state management?",
+          "options": [
+            "Rely solely on React Context API for all global state, fetching data exclusively within components using `useEffect` hooks.",
+            "Implement a custom Redux store (or similar global state library like Zustand/Jotai) with asynchronous action handling, rehydrating the store on the client from server-fetched initial state.",
+            "Store all global state in browser `localStorage` and retrieve it on every page load.",
+            "Pass state as props through every component in the component tree from the top-level `_app.tsx` component."
+          ],
+          "expected_keywords": [
+            "global state",
+            "Next.js",
+            "SSR",
+            "client-side rehydration",
+            "Redux",
+            "state management",
+            "getServerSideProps"
+          ]
+        }
+      ]
+    },
+    "company_stack": [
+      "Angular",
+      "TypeScript",
+      "Go",
+      "Python",
+      "Java",
+      "C++"
+    ],
+    "latest_result": {
+      "overall_score": 59,
+      "eligible": false,
+      "minimum_required": 70,
+      "readiness_verdict": "Not Prepared",
+      "verdict": "The candidate demonstrates foundational knowledge in frontend frameworks (React/Next.js) and a good grasp of secure, scalable authentication patterns for microservices. However, there is a critical gap in understanding fundamental database performance optimization strategies, particularly with MongoDB. The consistent lack of detailed reasoning for chosen answers across all difficulty levels also suggests a need for deeper conceptual understanding and the ability to articulate technical decisions.",
+      "skill_scores": [
+        {
+          "skill": "React/Next.js (Frontend)",
+          "score": 78,
+          "feedback": "Solid understanding of core React concepts like Virtual DOM and effective Next.js state management strategies for SSR applications."
+        },
+        {
+          "skill": "MongoDB (Backend/Database)",
+          "score": 10,
+          "feedback": "Critical gap in understanding database performance optimization, specifically indexing and schema design for MongoDB, instead prioritizing client-side caching."
+        },
+        {
+          "skill": "Architecture/Security (System Design)",
+          "score": 70,
+          "feedback": "Correctly identified a robust solution for stateless microservice authentication but lacked depth in explaining the rationale, trade-offs, or implementation details."
+        }
+      ],
+      "strengths": [
+        "Good grasp of React's Virtual DOM concept.",
+        "Understands effective global state management in Next.js applications, including server-side rendering (SSR).",
+        "Identified a strong, scalable approach for stateless authentication using JWTs in a microservice architecture."
+      ],
+      "gaps": [
+        {
+          "skill": "Database Performance & Data Modeling (MongoDB)",
+          "why_weak": "The candidate demonstrated a critical misunderstanding of how to ensure fast read performance in large-scale MongoDB deployments. They advocated solely for client-side caching while explicitly neglecting essential server-side strategies like indexing and optimal schema design (especially relevant with embedded documents). This indicates a fundamental knowledge gap in database optimization.",
+          "resources": [
+            {
+              "name": "MongoDB Indexing and Schema Design for Performance Best Practices",
+              "url": "https://www.youtube.com/results?search_query=mongodb+indexing+and+schema+design+performance+best+practices",
+              "time": "2 hours",
+              "type": "YouTube"
+            },
+            {
+              "name": "MongoDB Official Documentation: Indexes",
+              "url": "https://www.mongodb.com/docs/manual/indexes/",
+              "time": "3 hours",
+              "type": "Documentation"
+            },
+            {
+              "name": "MongoDB Official Documentation: Data Model Design",
+              "url": "https://www.mongodb.com/docs/manual/core/data-model-design/",
+              "time": "4 hours",
+              "type": "Documentation"
+            }
+          ]
+        },
+        {
+          "skill": "Depth of Technical Reasoning & Articulation",
+          "why_weak": "While often selecting correct answers, the candidate consistently provided minimal or 'ok' reasoning. This indicates a potential lack of ability to articulate the underlying principles, trade-offs, or detailed implementation considerations behind complex technical decisions (e.g., microservice authentication, global state management in SSR applications). The ability to explain 'why' is crucial for senior engineering roles.",
+          "resources": [
+            {
+              "name": "System Design Interview: Communication Tips",
+              "url": "https://www.youtube.com/results?search_query=system+design+interview+communication+tips",
+              "time": "1 hour",
+              "type": "YouTube"
+            },
+            {
+              "name": "How to Approach a System Design Interview",
+              "url": "https://www.interviewbit.com/blog/how-to-approach-system-design-interview/",
+              "time": "1.5 hours",
+              "type": "Additional Resource"
+            },
+            {
+              "name": "How to Prepare for a System Design Interview",
+              "url": "https://www.freecodecamp.org/news/how-to-prepare-for-a-system-design-interview/",
+              "time": "2 hours",
+              "type": "Additional Resource"
+            }
+          ]
+        }
+      ],
+      "question_review": [
+        {
+          "question_number": 1,
+          "skill": "React",
+          "question": "What is the Virtual DOM and why does React use it?",
+          "candidate_answer": "A JavaScript object representation of the UI tree used for efficient diffing and updates.",
+          "is_correct": true,
+          "correct_answer": "The Virtual DOM is a lightweight JavaScript object representation of the actual UI tree (DOM). React uses it to efficiently compare (diff) the current virtual DOM with the previous one, calculating the minimal set of changes needed to update the real DOM, thereby optimizing rendering performance and abstracting direct DOM manipulation.",
+          "what_was_wrong": "",
+          "resources": []
+        },
+        {
+          "question_number": 2,
+          "skill": "MongoDB",
+          "question": "When designing a large-scale API with MongoDB, what is the most effective strategy to ensure fast read performance for frequently accessed data, assuming your data model involves embedded documents?",
+          "candidate_answer": "Implement extensive client-side caching only, without server-side indexing or schema optimizations.",
+          "is_correct": false,
+          "correct_answer": "For large-scale MongoDB APIs with frequently accessed data and embedded documents, the most effective strategy for fast read performance involves a combination of robust indexing, optimal schema design (considering embedded documents for read-heavy patterns), and potentially server-side caching (e.g., Redis). Client-side caching helps, but without fundamental server-side optimizations, database performance will be a bottleneck.",
+          "what_was_wrong": "The candidate incorrectly prioritized client-side caching as the 'most effective strategy' while explicitly excluding server-side indexing and schema optimizations. Indexing and proper schema design are fundamental for MongoDB read performance, especially for frequently accessed data and specific query patterns, and cannot be replaced by client-side caching alone. This shows a critical misunderstanding of database performance principles.",
+          "resources": [
+            {
+              "name": "MongoDB Docs: Query Optimization",
+              "url": "https://www.mongodb.com/docs/manual/tutorial/optimize-queries/",
+              "type": "Documentation"
+            },
+            {
+              "name": "MongoDB Data Modeling and Performance Best Practices",
+              "url": "https://www.youtube.com/results?search_query=mongodb+data+modeling+performance+best+practices",
+              "type": "YouTube"
+            }
+          ]
+        },
+        {
+          "question_number": 3,
+          "skill": "Architecture/Security",
+          "question": "In a Next.js application served by a Go/FastAPI backend, if you need to implement secure, stateless authentication and authorization for microservices communicating with each other and the frontend, which approach provides the most robust and scalable solution?",
+          "candidate_answer": "Using JWTs (JSON Web Tokens) with refresh tokens, signed by an Authorization Server, and proper token validation at each microservice and the frontend.",
+          "is_correct": true,
+          "correct_answer": "Using JWTs with refresh tokens, signed by an Authorization Server, provides a robust and scalable stateless authentication and authorization solution for microservices. JWTs allow microservices to validate tokens independently, refresh tokens ensure security by limiting access token lifespan, and the Authorization Server centralizes token issuance and revocation and handles proper validation.",
+          "what_was_wrong": "",
+          "resources": []
+        },
+        {
+          "question_number": 4,
+          "skill": "Next.js/React",
+          "question": "You are building a complex Next.js application with multiple layouts, nested routes, and server-side data fetching for various components. What is the most effective approach for managing global application state that needs to be accessible across different parts of your application, including initial server-render and subsequent client-side updates?",
+          "candidate_answer": "Implement a custom Redux store (or similar global state library like Zustand/Jotai) with asynchronous action handling, rehydrating the store on the client from server-fetched initial state.",
+          "is_correct": true,
+          "correct_answer": "For complex global state in a Next.js application requiring server-side rendering and client-side updates, implementing a dedicated global state library (like Redux, Zustand, or Jotai) with asynchronous action handling and a mechanism to rehydrate the client-side store from initial state fetched on the server (e.g., via `getServerSideProps` or `getInitialProps`) is the most effective approach.",
+          "what_was_wrong": "",
+          "resources": []
+        }
+      ],
+      "next_attempt_tips": [
+        "Deepen understanding of database indexing, query optimization, and schema design, particularly for NoSQL databases like MongoDB.",
+        "Practice articulating technical decisions by explaining the 'why' behind chosen solutions, including trade-offs and alternative approaches, especially for system design questions.",
+        "Review common performance bottlenecks in backend services and how to mitigate them through various strategies (e.g., caching layers, database tuning, distributed systems patterns)."
+      ]
+    }
   }
 }

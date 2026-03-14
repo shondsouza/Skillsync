@@ -19,7 +19,33 @@
         "6ccadbd6-f490-48de-b94f-d9248e7aaba4",
         "d064c674-10fe-41a3-95fb-f9708c53f571",
         "f3a4e99b-3930-475d-8a38-67d21ec9f550",
-        "975d6c9f-503a-4bab-bb6c-7f5cfe27a271"
+        "975d6c9f-503a-4bab-bb6c-7f5cfe27a271",
+        "f9943904-9c58-494f-9759-55a0e9811405",
+        "5a672637-88fe-4656-9f3f-8d0959ed194a",
+        "e382e537-5d44-41fd-b452-c2b813c12011",
+        "24076255-e652-41d8-8bf9-89664f23d8ba",
+        "9eeda31e-558e-45a3-bba6-8bc716658cef",
+        "034c6ed2-a142-446c-923a-484f34dff417",
+        "770f2522-b6b6-4219-8d50-d99d5816cf94",
+        "30e701f3-6f1a-4ebc-b680-65228606181c",
+        "1ce2939e-fc37-45ab-91f0-60811a1057fc",
+        "626aebb9-84f7-4acd-9825-f1cac55449ca"
+      ],
+      "profile": {
+        "headline": "",
+        "current_role": "",
+        "target_role": "",
+        "years_experience": "",
+        "bio": ""
+      }
+    },
+    {
+      "id": "34fc94b5-c30c-4f41-80ac-6da14663fa04",
+      "name": "Test User",
+      "email": "testrunner@example.com",
+      "password_hash": "a109e36947ad56de1dca1cc49f0ef8ac9ad9a7b1aa0df41fb3c4cb73c1ff01ea",
+      "tokens": [
+        "5b91f58a-d0e0-4d91-b62c-3f0b1571f986"
       ],
       "profile": {
         "headline": "",

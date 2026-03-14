@@ -3,6 +3,7 @@ import {
   KeyboardAvoidingView,
   Platform,
   SafeAreaView,
+  ScrollView,
   StyleSheet,
   Text,
   TextInput,
@@ -12,6 +13,9 @@ import {
 import { Link, useRouter } from 'expo-router';
 import { registerUser } from '@/utils/api';
 import { setAuth } from '@/utils/authStore';
+import { BlurView } from 'expo-blur';
+import { Image } from 'expo-image';
+import { User, Mail, Lock } from 'lucide-react-native';
 
 export default function RegisterScreen() {
   const router = useRouter();
@@ -42,59 +46,83 @@ export default function RegisterScreen() {
 
   return (
     <SafeAreaView style={styles.safe}>
+      {/* Absolute Background Image */}
+      <Image 
+        source={require('@/assets/images/banner.jpg')} 
+        style={[StyleSheet.absoluteFillObject, { opacity: 0.15 }]} 
+        contentFit="cover" 
+        transition={1000}
+      />
+      
       <KeyboardAvoidingView
-        style={styles.flex}
+        style={[styles.flex, { zIndex: 1 }]}
         behavior={Platform.OS === 'ios' ? 'padding' : undefined}
         keyboardVerticalOffset={Platform.OS === 'ios' ? 8 : 0}
       >
-        <View style={styles.container}>
+        <ScrollView contentContainerStyle={styles.container}>
           <View style={styles.header}>
-            <Text style={styles.brand}>Create account</Text>
-            <Text style={styles.subtitle}>Set up Evalio so we can track your progress.</Text>
+            <Image 
+              source={require('@/assets/images/logo.png')} 
+              style={{ width: 140, height: 48, marginBottom: 16 }} 
+              contentFit="contain" 
+            />
+            <Text style={styles.subtitle}>Set up Evalio to track your progress.</Text>
           </View>
 
-          <View style={styles.card}>
+          <BlurView intensity={20} tint="dark" style={styles.card}>
             <Text style={styles.label}>Full name</Text>
-            <TextInput
-              style={styles.input}
-              placeholder="Jane Doe"
-              placeholderTextColor="#64748b"
-              value={name}
-              onChangeText={setName}
-            />
+            <View style={styles.inputWrap}>
+              <User color="#9ca3af" size={20} style={styles.inputIcon} />
+              <TextInput
+                style={styles.input}
+                placeholder="Jane Doe"
+                placeholderTextColor="#64748b"
+                value={name}
+                onChangeText={setName}
+              />
+            </View>
 
             <Text style={styles.label}>Email</Text>
-            <TextInput
-              style={styles.input}
-              placeholder="you@example.com"
-              placeholderTextColor="#64748b"
-              autoCapitalize="none"
-              keyboardType="email-address"
-              autoComplete="email"
-              value={email}
-              onChangeText={setEmail}
-            />
+            <View style={styles.inputWrap}>
+              <Mail color="#9ca3af" size={20} style={styles.inputIcon} />
+              <TextInput
+                style={styles.input}
+                placeholder="you@example.com"
+                placeholderTextColor="#64748b"
+                autoCapitalize="none"
+                keyboardType="email-address"
+                autoComplete="email"
+                value={email}
+                onChangeText={setEmail}
+              />
+            </View>
 
             <Text style={styles.label}>Password</Text>
-            <TextInput
-              style={styles.input}
-              placeholder="At least 6 characters"
-              placeholderTextColor="#64748b"
-              secureTextEntry
-              autoComplete="password-new"
-              value={password}
-              onChangeText={setPassword}
-            />
+            <View style={styles.inputWrap}>
+              <Lock color="#9ca3af" size={20} style={styles.inputIcon} />
+              <TextInput
+                style={styles.input}
+                placeholder="At least 6 characters"
+                placeholderTextColor="#64748b"
+                secureTextEntry
+                autoComplete="password-new"
+                value={password}
+                onChangeText={setPassword}
+              />
+            </View>
 
             <Text style={styles.label}>Confirm password</Text>
-            <TextInput
-              style={styles.input}
-              placeholder="Repeat password"
-              placeholderTextColor="#64748b"
-              secureTextEntry
-              value={confirm}
-              onChangeText={setConfirm}
-            />
+            <View style={styles.inputWrap}>
+              <Lock color="#9ca3af" size={20} style={styles.inputIcon} />
+              <TextInput
+                style={styles.input}
+                placeholder="Repeat password"
+                placeholderTextColor="#64748b"
+                secureTextEntry
+                value={confirm}
+                onChangeText={setConfirm}
+              />
+            </View>
 
             {!passwordsMatch && confirm.length > 0 && (
               <Text style={styles.errorText}>Passwords don&apos;t match yet.</Text>
@@ -109,7 +137,7 @@ export default function RegisterScreen() {
             >
               <Text style={styles.buttonText}>{isSubmitting ? 'Creating account…' : 'Sign up'}</Text>
             </TouchableOpacity>
-          </View>
+          </BlurView>
 
           <View style={styles.authRow}>
             <Text style={styles.authText}>Already have an account?</Text>
@@ -119,7 +147,7 @@ export default function RegisterScreen() {
               </TouchableOpacity>
             </Link>
           </View>
-        </View>
+        </ScrollView>
       </KeyboardAvoidingView>
     </SafeAreaView>
   );
@@ -132,33 +160,47 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingHorizontal: 20,
     paddingTop: 32,
-    backgroundColor: '#050816',
+    backgroundColor: 'transparent',
   },
-  header: { marginBottom: 24 },
+  header: { marginBottom: 32, alignItems: 'center' },
   brand: { fontSize: 28, fontWeight: '800', color: '#eef2ff', marginBottom: 4 },
-  subtitle: { fontSize: 14, color: '#9ca3af' },
+  subtitle: { fontSize: 14, color: '#9ca3af', textAlign: 'center' },
   card: {
-    backgroundColor: '#0b1120',
-    borderRadius: 16,
-    padding: 16,
+    backgroundColor: 'rgba(11, 17, 32, 0.4)',
+    borderRadius: 20,
+    padding: 24,
     borderWidth: 1,
-    borderColor: '#111827',
+    borderColor: 'rgba(255, 255, 255, 0.08)',
+    overflow: 'hidden',
   },
   label: {
-    fontSize: 14,
+    fontSize: 13,
+    fontWeight: '600',
     color: '#d1d5db',
-    marginBottom: 6,
-    marginTop: 8,
+    marginBottom: 8,
+    marginTop: 12,
+    textTransform: 'uppercase',
+    letterSpacing: 0.5,
+  },
+  inputWrap: {
+    position: 'relative',
+    justifyContent: 'center',
+  },
+  inputIcon: {
+    position: 'absolute',
+    left: 14,
+    zIndex: 1,
   },
   input: {
-    borderRadius: 10,
+    borderRadius: 12,
     borderWidth: 1,
-    borderColor: '#1f2937',
-    backgroundColor: '#020617',
+    borderColor: 'rgba(255, 255, 255, 0.12)',
+    backgroundColor: 'rgba(255, 255, 255, 0.03)',
     color: '#e5e7eb',
-    paddingHorizontal: 12,
-    paddingVertical: 10,
-    fontSize: 14,
+    paddingLeft: 44,
+    paddingRight: 14,
+    paddingVertical: 14,
+    fontSize: 15,
   },
   button: {
     borderRadius: 999,

@@ -14,6 +14,9 @@ import {
 } from 'react-native';
 import { Link } from 'expo-router';
 import * as DocumentPicker from 'expo-document-picker';
+import { BlurView } from 'expo-blur';
+import { Image } from 'expo-image';
+import { Building2, Briefcase, FileText, CheckCircle2, ChevronRight, UploadCloud } from 'lucide-react-native';
 
 import { uploadResume, generateQuiz, evaluateAnswers } from '@/utils/api';
 
@@ -202,9 +205,9 @@ export default function HomeScreen() {
           behavior={Platform.OS === 'ios' ? 'padding' : undefined}
           keyboardVerticalOffset={Platform.OS === 'ios' ? 8 : 0}
         >
-          <ScrollView contentContainerStyle={styles.container}>
+          <ScrollView contentContainerStyle={[styles.container, { paddingTop: 40 }]}>
             <View style={styles.header}>
-              <Text style={styles.brand}>Evalio</Text>
+              <Text style={styles.brand}>Quiz</Text>
               <Text style={styles.subtitle}>
                 {company} • {role}
               </Text>
@@ -219,7 +222,7 @@ export default function HomeScreen() {
               </View>
             </View>
 
-            <View style={styles.card}>
+            <BlurView intensity={20} tint="dark" style={styles.card}>
               <View style={styles.metaRow}>
                 <Text style={styles.pill}>{q.skill}</Text>
                 <Text style={[styles.pill, styles.pillSoft]}>{q.difficulty}</Text>
@@ -313,7 +316,7 @@ export default function HomeScreen() {
                   </TouchableOpacity>
                 )}
               </View>
-            </View>
+            </BlurView>
 
             <TouchableOpacity style={styles.secondaryButton} onPress={handleRestart} disabled={isEvaluating}>
               <Text style={styles.secondaryButtonText}>Start over</Text>
@@ -327,20 +330,20 @@ export default function HomeScreen() {
   if (step === 'results' && results) {
     return (
       <SafeAreaView style={styles.safe}>
-        <ScrollView contentContainerStyle={styles.container}>
-          <View style={styles.header}>
-            <Text style={styles.brand}>Results</Text>
-            <Text style={styles.subtitle}>
-              {company} • {role}
-            </Text>
-          </View>
+          <ScrollView contentContainerStyle={[styles.container, { paddingTop: 40 }]}>
+            <View style={styles.header}>
+              <Text style={styles.brand}>Results</Text>
+              <Text style={styles.subtitle}>
+                {company} • {role}
+              </Text>
+            </View>
 
-          <View style={styles.card}>
+          <BlurView intensity={20} tint="dark" style={[styles.card, { borderColor: results.eligible ? 'rgba(16, 185, 129, 0.3)' : 'rgba(239, 68, 68, 0.3)' }]}>
             <View style={styles.scoreRow}>
-              <Text style={styles.scoreNumber}>{results.overall_score}</Text>
+              <Text style={[styles.scoreNumber, { color: results.eligible ? '#10b981' : '#ef4444' }]}>{results.overall_score}</Text>
               <View style={styles.scoreMeta}>
                 <Text style={styles.scoreLabel}>Overall score</Text>
-                <Text style={styles.resultEligible}>
+                <Text style={[styles.resultEligible, { color: results.eligible ? '#34d399' : '#fca5a5' }]}>
                   {results.eligible ? 'Eligible' : 'Not yet eligible'}
                 </Text>
                 {typeof results.minimum_required === 'number' && (
@@ -349,21 +352,21 @@ export default function HomeScreen() {
               </View>
             </View>
             <Text style={styles.resultVerdict}>{results.verdict}</Text>
-          </View>
+          </BlurView>
 
           {results.strengths && results.strengths.length > 0 && (
-            <View style={styles.card}>
+            <BlurView intensity={20} tint="dark" style={styles.card}>
               <Text style={styles.sectionTitle}>Strengths</Text>
               {results.strengths.map((s, idx) => (
                 <Text key={idx} style={styles.listItem}>
                   • {s}
                 </Text>
               ))}
-            </View>
+            </BlurView>
           )}
 
           {results.gaps && results.gaps.length > 0 && (
-            <View style={styles.card}>
+            <BlurView intensity={20} tint="dark" style={styles.card}>
               <Text style={styles.sectionTitle}>Gaps & resources</Text>
               {results.gaps.map((g, idx) => (
                 <View key={idx} style={styles.gapItem}>
@@ -375,7 +378,7 @@ export default function HomeScreen() {
                   {g.resources && g.resources.length > 0 && (
                     <View style={styles.resourcesList}>
                       {g.resources.map((r, rIdx) => (
-                        <Text key={rIdx} style={styles.listItem}>
+                        <Text key={rIdx} style={styles.resourceListItem}>
                           • {r.name}
                           {r.type ? ` — ${r.type}` : ''}
                           {r.time ? ` (${r.time})` : ''}
@@ -385,18 +388,18 @@ export default function HomeScreen() {
                   )}
                 </View>
               ))}
-            </View>
+            </BlurView>
           )}
 
           {results.next_attempt_tips && results.next_attempt_tips.length > 0 && (
-            <View style={styles.card}>
+            <BlurView intensity={20} tint="dark" style={styles.card}>
               <Text style={styles.sectionTitle}>Next attempt tips</Text>
               {results.next_attempt_tips.map((t, idx) => (
                 <Text key={idx} style={styles.listItem}>
                   • {t}
                 </Text>
               ))}
-            </View>
+            </BlurView>
           )}
 
           <TouchableOpacity style={[styles.button, styles.primaryButton]} onPress={handleRetake}>
@@ -414,67 +417,114 @@ export default function HomeScreen() {
   // Upload step (default)
   return (
     <SafeAreaView style={styles.safe}>
+      {/* Background Image common across steps */}
+      <Image 
+        source={require('@/assets/images/banner.jpg')} 
+        style={[StyleSheet.absoluteFillObject, { opacity: 0.1 }]} 
+        contentFit="cover" 
+        transition={1000}
+      />
+      
       <KeyboardAvoidingView
-        style={styles.flex}
+        style={[styles.flex, { zIndex: 1 }]}
         behavior={Platform.OS === 'ios' ? 'padding' : undefined}
         keyboardVerticalOffset={Platform.OS === 'ios' ? 8 : 0}
       >
         <ScrollView contentContainerStyle={styles.container} keyboardShouldPersistTaps="handled">
           <View style={styles.header}>
-            <Text style={styles.brand}>Evalio</Text>
+            <Image 
+              source={require('@/assets/images/logo.png')} 
+              style={{ width: 120, height: 40, marginBottom: 12 }} 
+              contentFit="contain" 
+            />
             <Text style={styles.subtitle}>AI-powered interview readiness</Text>
           </View>
 
-          <View style={styles.card}>
-            <Text style={styles.label}>Company</Text>
-            <TextInput
-              style={styles.input}
-              placeholder="e.g. Google"
-              placeholderTextColor="#64748b"
-              value={company}
-              onChangeText={setCompany}
-              editable={!isBusy}
-              returnKeyType="next"
-            />
+          {/* Stepper equivalent */}
+          <View style={styles.stepperWrap}>
+             <View style={[styles.stepDot, styles.stepActive]}><Text style={styles.stepNum}>1</Text></View>
+             <View style={styles.stepLine} />
+             <View style={styles.stepDot}><Text style={styles.stepNumInactive}>2</Text></View>
+             <View style={styles.stepLine} />
+             <View style={styles.stepDot}><Text style={styles.stepNumInactive}>3</Text></View>
+          </View>
 
-            <Text style={styles.label}>Role</Text>
-            <TextInput
-              style={styles.input}
-              placeholder="e.g. Senior Frontend Engineer"
-              placeholderTextColor="#64748b"
-              value={role}
-              onChangeText={setRole}
-              editable={!isBusy}
-              returnKeyType="done"
-            />
+          <BlurView intensity={20} tint="dark" style={styles.card}>
+            <View style={styles.inputGrid}>
+              <View style={styles.inputCol}>
+                <Text style={styles.label}>Company</Text>
+                <View style={styles.inputWrap}>
+                  <Building2 color="#9ca3af" size={18} style={styles.inputIcon} />
+                  <TextInput
+                    style={styles.input}
+                    placeholder="e.g. Google"
+                    placeholderTextColor="#64748b"
+                    value={company}
+                    onChangeText={setCompany}
+                    editable={!isBusy}
+                    returnKeyType="next"
+                  />
+                </View>
+              </View>
 
-            <View style={styles.infoBox}>
-              <Text style={styles.infoTitle}>Before you start</Text>
-              <Text style={styles.infoText}>
-                Your phone must be able to reach your laptop. In `utils/api.ts`, set `BASE_URL` to
-                your laptop’s IPv4 + `:8000`.
-              </Text>
+              <View style={[styles.inputCol, { marginLeft: 12 }]}>
+                <Text style={styles.label}>Role</Text>
+                <View style={styles.inputWrap}>
+                  <Briefcase color="#9ca3af" size={18} style={styles.inputIcon} />
+                  <TextInput
+                    style={styles.input}
+                    placeholder="e.g. Frontend"
+                    placeholderTextColor="#64748b"
+                    value={role}
+                    onChangeText={setRole}
+                    editable={!isBusy}
+                    returnKeyType="done"
+                  />
+                </View>
+              </View>
             </View>
 
-            {pickedFileName ? (
-              <Text style={styles.filePill}>Selected: {pickedFileName}</Text>
-            ) : null}
-
-            <TouchableOpacity
-              style={[styles.button, styles.primaryButton, isBusy && styles.disabled]}
+            <Text style={[styles.label, { marginTop: 24, marginBottom: 16 }]}>Resume PDF</Text>
+            
+            <TouchableOpacity 
+              style={[styles.uploadZone, pickedFileName && styles.uploadZoneActive]} 
               onPress={handlePickAndUpload}
               disabled={isBusy}
+              activeOpacity={0.8}
             >
-              {isBusy ? (
-                <View style={styles.busyRow}>
-                  <ActivityIndicator color="#0b1020" />
-                  <Text style={styles.busyText}>{busyLabel}</Text>
-                </View>
+              {pickedFileName ? (
+                <>
+                   <CheckCircle2 color="#10b981" size={32} style={{ marginBottom: 12 }} />
+                   <Text style={[styles.uploadText, { color: '#10b981' }]}>{pickedFileName}</Text>
+                   <Text style={styles.uploadSubtext}>Tap to change file</Text>
+                </>
               ) : (
-                <Text style={styles.buttonText}>Upload resume PDF</Text>
+                <>
+                   <UploadCloud color="#6366f1" size={32} style={{ marginBottom: 12 }} />
+                   <Text style={styles.uploadText}>Tap to select PDF</Text>
+                   <Text style={styles.uploadSubtext}>Maximum size 5MB</Text>
+                </>
               )}
             </TouchableOpacity>
-          </View>
+
+            {isBusy ? (
+              <View style={styles.busyContainer}>
+                 <ActivityIndicator color="#6366f1" size="small" />
+                 <Text style={styles.busyTextLabel}>{busyLabel}</Text>
+              </View>
+            ) : null}
+
+            {!isBusy && pickedFileName && (
+               <TouchableOpacity
+                 style={[styles.button, styles.primaryButton, { marginTop: 24 }]}
+                 onPress={handlePickAndUpload}
+               >
+                 <Text style={styles.buttonText}>Start Evaluation</Text>
+                 <ChevronRight color="#fff" size={20} />
+               </TouchableOpacity>
+            )}
+
+          </BlurView>
 
           <View style={styles.authRow}>
             <Text style={styles.authText}>Already have an account?</Text>
@@ -501,84 +551,142 @@ export default function HomeScreen() {
 
 const styles = StyleSheet.create({
   flex: { flex: 1 },
-  safe: { flex: 1, backgroundColor: '#050816' },
+  safe: { flex: 1, backgroundColor: '#03050a' },
   container: {
     flexGrow: 1,
     padding: 20,
+    paddingTop: 32,
     paddingBottom: 40,
-    backgroundColor: '#050816',
+    backgroundColor: 'transparent',
   },
-  header: { alignItems: 'center', marginBottom: 16 },
+  header: { alignItems: 'center', marginBottom: 24 },
   brand: { fontSize: 28, fontWeight: '800', color: '#eef2ff', letterSpacing: 0.4 },
   subtitle: {
-    fontSize: 14,
+    fontSize: 15,
     color: '#9ca3af',
     textAlign: 'center',
-    marginBottom: 20,
+    marginBottom: 8,
+  },
+  stepperWrap: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginBottom: 32,
+    paddingHorizontal: 40,
+  },
+  stepDot: {
+    width: 28,
+    height: 28,
+    borderRadius: 14,
+    backgroundColor: 'rgba(255,255,255,0.05)',
+    borderWidth: 1,
+    borderColor: 'rgba(255,255,255,0.1)',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  stepActive: {
+    backgroundColor: 'rgba(99, 102, 241, 0.2)',
+    borderColor: '#6366f1',
+  },
+  stepNum: { color: '#c7d2fe', fontSize: 13, fontWeight: '700' },
+  stepNumInactive: { color: '#64748b', fontSize: 13, fontWeight: '600' },
+  stepLine: {
+    flex: 1,
+    height: 1,
+    backgroundColor: 'rgba(255,255,255,0.1)',
+    marginHorizontal: 8,
   },
   card: {
-    backgroundColor: '#0b1120',
-    borderRadius: 16,
-    padding: 16,
-    marginBottom: 16,
+    backgroundColor: 'rgba(11, 17, 32, 0.4)',
+    borderRadius: 20,
+    padding: 24,
+    marginBottom: 20,
     borderWidth: 1,
-    borderColor: '#111827',
+    borderColor: 'rgba(255, 255, 255, 0.08)',
+    overflow: 'hidden',
   },
+  inputGrid: { flexDirection: 'row', justifyContent: 'space-between' },
+  inputCol: { flex: 1 },
   label: {
-    fontSize: 14,
+    fontSize: 13,
+    fontWeight: '600',
     color: '#d1d5db',
-    marginBottom: 6,
-    marginTop: 8,
+    marginBottom: 8,
+    textTransform: 'uppercase',
+    letterSpacing: 0.5,
+  },
+  inputWrap: {
+    position: 'relative',
+    justifyContent: 'center',
+  },
+  inputIcon: {
+    position: 'absolute',
+    left: 12,
+    zIndex: 1,
   },
   input: {
-    borderRadius: 10,
+    borderRadius: 12,
     borderWidth: 1,
-    borderColor: '#1f2937',
-    backgroundColor: '#020617',
+    borderColor: 'rgba(255, 255, 255, 0.12)',
+    backgroundColor: 'rgba(255, 255, 255, 0.03)',
     color: '#e5e7eb',
-    paddingHorizontal: 12,
-    paddingVertical: 10,
-    fontSize: 14,
+    paddingLeft: 40,
+    paddingRight: 14,
+    paddingVertical: 14,
+    fontSize: 15,
   },
   multilineInput: {
     minHeight: 110,
   },
-  infoBox: {
-    marginTop: 12,
-    marginBottom: 12,
-    borderRadius: 12,
-    padding: 12,
-    backgroundColor: '#060b1f',
-    borderWidth: 1,
-    borderColor: '#1e293b',
+  uploadZone: {
+    borderWidth: 1.5,
+    borderStyle: 'dashed',
+    borderColor: 'rgba(99, 102, 241, 0.3)',
+    borderRadius: 16,
+    backgroundColor: 'rgba(99, 102, 241, 0.03)',
+    padding: 24,
+    alignItems: 'center',
+    justifyContent: 'center',
   },
-  infoTitle: { color: '#c7d2fe', fontWeight: '700', marginBottom: 4 },
-  infoText: { color: '#94a3b8', fontSize: 12, lineHeight: 17 },
-  filePill: {
-    marginTop: 4,
-    marginBottom: 8,
-    color: '#cbd5e1',
-    fontSize: 12,
+  uploadZoneActive: {
+    borderColor: 'rgba(16, 185, 129, 0.5)',
+    backgroundColor: 'rgba(16, 185, 129, 0.05)',
+  },
+  uploadText: { fontSize: 16, fontWeight: '700', color: '#e0e7ff', marginBottom: 6 },
+  uploadSubtext: { fontSize: 13, color: '#64748b' },
+  busyContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginTop: 24,
+    backgroundColor: 'rgba(99, 102, 241, 0.1)',
+    paddingVertical: 12,
+    borderRadius: 10,
+  },
+  busyTextLabel: {
+    color: '#c7d2fe',
+    fontSize: 14,
+    fontWeight: '600',
+    marginLeft: 10,
   },
   button: {
     borderRadius: 999,
-    paddingVertical: 12,
+    paddingVertical: 14,
     paddingHorizontal: 20,
+    flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    marginTop: 8,
   },
   primaryButton: {
-    backgroundColor: '#4f46e5',
+    backgroundColor: '#6366f1',
   },
   buttonText: {
-    color: '#f9fafb',
-    fontSize: 15,
-    fontWeight: '600',
+    color: '#ffffff',
+    fontSize: 16,
+    fontWeight: '700',
+    marginRight: 6,
   },
   disabled: { opacity: 0.55 },
-  busyRow: { flexDirection: 'row', alignItems: 'center', gap: 10 },
-  busyText: { color: '#0b1020', fontWeight: '700' },
   secondaryButton: {
     borderRadius: 999,
     paddingVertical: 10,
@@ -679,22 +787,32 @@ const styles = StyleSheet.create({
     marginBottom: 6,
   },
   listItem: {
-    fontSize: 13,
+    fontSize: 14,
     color: '#d1d5db',
-    marginBottom: 4,
+    marginBottom: 6,
+    lineHeight: 20,
+  },
+  resourceListItem: {
+    fontSize: 13,
+    color: '#a5b4fc',
+    marginBottom: 6,
   },
   gapItem: {
-    marginBottom: 10,
+    marginBottom: 16,
+    paddingBottom: 16,
+    borderBottomWidth: 1,
+    borderBottomColor: 'rgba(255,255,255,0.05)',
   },
   gapTitle: {
-    fontSize: 14,
-    fontWeight: '600',
-    color: '#e5e7eb',
+    fontSize: 15,
+    fontWeight: '700',
+    color: '#eef2ff',
   },
   gapWhy: {
-    fontSize: 13,
+    fontSize: 14,
     color: '#9ca3af',
-    marginTop: 2,
+    marginTop: 4,
+    lineHeight: 20,
   },
   resourcesList: {
     marginTop: 4,
@@ -709,25 +827,25 @@ const styles = StyleSheet.create({
   authText: { color: '#9ca3af', fontSize: 13 },
   authLink: { color: '#a5b4fc', fontSize: 13, fontWeight: '600' },
   optionButton: {
-    borderRadius: 10,
+    borderRadius: 12,
     borderWidth: 1,
-    borderColor: '#1f2937',
-    backgroundColor: '#020617',
-    paddingVertical: 10,
-    paddingHorizontal: 12,
-    marginTop: 6,
+    borderColor: 'rgba(255, 255, 255, 0.1)',
+    backgroundColor: 'rgba(255, 255, 255, 0.03)',
+    paddingVertical: 14,
+    paddingHorizontal: 16,
+    marginTop: 8,
   },
   optionButtonSelected: {
-    borderColor: '#a5b4fc',
-    backgroundColor: '#111827',
+    borderColor: '#6366f1',
+    backgroundColor: 'rgba(99, 102, 241, 0.15)',
   },
   optionText: {
-    color: '#e5e7eb',
-    fontSize: 14,
+    color: '#e2e8f0',
+    fontSize: 15,
   },
   optionTextSelected: {
-    color: '#c7d2fe',
-    fontWeight: '600',
+    color: '#eef2ff',
+    fontWeight: '700',
   },
 });
 

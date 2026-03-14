@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import { Link, Navigate, useLocation, useNavigate } from 'react-router-dom';
 import { loginUser } from '../utils/api';
 import { isAuthed, setAuthToken } from '../utils/auth';
+import bannerImg from '../assets/banner.jpg';
+import logoImg from '../assets/logo.png';
+import { Brain, Target, BarChart2, Rocket, Mail, Lock, EyeOff, Eye } from 'lucide-react';
 
 export default function LoginPage() {
   const navigate = useNavigate();
@@ -48,40 +51,40 @@ export default function LoginPage() {
     <div className="authPage">
       {/* Left Panel — Branding */}
       <div className="authLeft">
+        <div
+          style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            width: '100%',
+            height: '100%',
+            backgroundImage: `url(${bannerImg})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            opacity: 0.15,
+            zIndex: 0
+          }}
+        />
         <div style={{ position: 'relative', zIndex: 1 }}>
-          <div className="authBrand">Evalio</div>
+          <img src={logoImg} alt="Evalio Logo" style={{ height: 220, marginBottom: 24, display: 'block' }} />
           <p className="authTagline">
             AI-powered career readiness platform. Upload your resume and discover if you're truly interview-ready.
           </p>
-
-          <div style={{ marginTop: 40 }}>
-            {[
-              { icon: '🧠', text: 'Smart resume parsing with field detection' },
-              { icon: '🎯', text: 'Tailored technical quiz based on your skills' },
-              { icon: '📊', text: 'Detailed score with gap analysis' },
-              { icon: '🚀', text: 'Curated resources to close your skill gaps' },
-            ].map((f, i) => (
-              <div key={i} className="authFeature">
-                <span className="authFeatureIcon">{f.icon}</span>
-                <span className="authFeatureText">{f.text}</span>
-              </div>
-            ))}
-          </div>
         </div>
       </div>
 
       {/* Right Panel — Form */}
       <div className="authRight">
-        <div style={{ maxWidth: 400, width: '100%', margin: '0 auto' }}>
-          <div className="h1" style={{ marginBottom: 8, fontSize: '1.8rem' }}>Welcome back</div>
-          <p className="muted" style={{ marginBottom: 32, fontSize: '0.9rem' }}>
+        <div className="authFormCard fadeIn">
+          <div className="h1 cascade-1" style={{ marginBottom: 12 }}>Welcome back</div>
+          <p className="muted cascade-1" style={{ marginBottom: 40, fontSize: '1.05rem' }}>
             Sign in to continue your assessment
           </p>
 
-          <div style={{ marginBottom: 18 }}>
+          <div className="cascade-2" style={{ marginBottom: 20 }}>
             <div className="label">Email</div>
             <div className="inputWrap">
-              <span className="inputIcon">✉</span>
+              <span className="inputIcon" style={{ display: 'flex', alignItems: 'center' }}><Mail size={18} /></span>
               <input
                 id="login-email"
                 className="input"
@@ -97,10 +100,10 @@ export default function LoginPage() {
             </div>
           </div>
 
-          <div style={{ marginBottom: 24 }}>
+          <div className="cascade-3" style={{ marginBottom: 32 }}>
             <div className="label">Password</div>
             <div className="inputWrap">
-              <span className="inputIcon">🔒</span>
+              <span className="inputIcon" style={{ display: 'flex', alignItems: 'center' }}><Lock size={18} /></span>
               <input
                 id="login-password"
                 className="input"
@@ -115,39 +118,42 @@ export default function LoginPage() {
               <button
                 type="button"
                 className="inputToggle"
+                style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
                 onClick={() => setShowPwd((p) => !p)}
                 tabIndex={-1}
                 aria-label="Toggle password visibility"
               >
-                {showPwd ? '🙈' : '👁'}
+                {showPwd ? <EyeOff size={18} /> : <Eye size={18} />}
               </button>
             </div>
           </div>
 
-          <button
-            id="login-submit"
-            className="btn btnPrimary btnLg btnFull"
-            onClick={onLogin}
-            disabled={isBusy}
-          >
-            {isBusy ? (
-              <><span className="spinner" /> Signing in…</>
-            ) : (
-              'Sign in →'
+          <div className="cascade-4">
+            <button
+              id="login-submit"
+              className="btn btnPrimary btnLg btnFull"
+              onClick={onLogin}
+              disabled={isBusy}
+            >
+              {isBusy ? (
+                <><span className="spinner" /> Signing in…</>
+              ) : (
+                'Sign in →'
+              )}
+            </button>
+
+            {error && (
+              <div className="error" style={{ marginTop: 20 }}>
+                {error}
+              </div>
             )}
-          </button>
 
-          {error && (
-            <div className="error" style={{ marginTop: 16 }}>
-              {error}
+            <div style={{ marginTop: 32, textAlign: 'center', fontSize: '0.95rem', color: 'var(--text-muted)' }}>
+              Don't have an account?{' '}
+              <Link to="/register" style={{ color: 'var(--primary2)', fontWeight: 700, textDecoration: 'none' }}>
+                Create one →
+              </Link>
             </div>
-          )}
-
-          <div style={{ marginTop: 24, textAlign: 'center', fontSize: '0.875rem', color: 'var(--text-muted)' }}>
-            Don't have an account?{' '}
-            <Link to="/register" style={{ color: 'var(--primary2)', fontWeight: 700 }}>
-              Create one →
-            </Link>
           </div>
         </div>
       </div>

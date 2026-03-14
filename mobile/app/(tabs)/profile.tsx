@@ -10,7 +10,10 @@ import {
   TouchableOpacity,
   View,
 } from 'react-native';
+import { BlurView } from 'expo-blur';
+import { Image } from 'expo-image';
 import { fetchProfile, updateProfile } from '@/utils/api';
+import { User, Briefcase, Target, Clock, MessageSquare, Save } from 'lucide-react-native';
 
 export default function ProfileScreen() {
   const [name, setName] = useState('');
@@ -58,6 +61,14 @@ export default function ProfileScreen() {
 
   return (
     <SafeAreaView style={styles.safe}>
+      {/* Absolute Background Image */}
+      <Image 
+        source={require('@/assets/images/banner.jpg')} 
+        style={[StyleSheet.absoluteFillObject, { opacity: 0.1 }]} 
+        contentFit="cover" 
+        transition={1000}
+      />
+
       <KeyboardAvoidingView
         style={styles.flex}
         behavior={Platform.OS === 'ios' ? 'padding' : undefined}
@@ -71,57 +82,79 @@ export default function ProfileScreen() {
             </Text>
           </View>
 
-          <View style={styles.card}>
+          <BlurView intensity={20} tint="dark" style={styles.card}>
             {loading && <Text style={styles.loading}>Loading profile…</Text>}
+            
             <Text style={styles.label}>Full name</Text>
-            <TextInput
-              style={styles.input}
-              placeholder="Jane Doe"
-              placeholderTextColor="#64748b"
-              value={name}
-              onChangeText={setName}
-            />
+            <View style={styles.inputWrap}>
+              <User color="#9ca3af" size={18} style={styles.inputIcon} />
+              <TextInput
+                style={styles.input}
+                placeholder="Jane Doe"
+                placeholderTextColor="#64748b"
+                value={name}
+                onChangeText={setName}
+              />
+            </View>
 
             <Text style={styles.label}>Headline</Text>
-            <TextInput
-              style={styles.input}
-              placeholder="e.g. Frontend engineer, React specialist"
-              placeholderTextColor="#64748b"
-              value={headline}
-              onChangeText={setHeadline}
-            />
+            <View style={styles.inputWrap}>
+              <MessageSquare color="#9ca3af" size={18} style={styles.inputIcon} />
+              <TextInput
+                style={styles.input}
+                placeholder="e.g. Frontend engineer, React specialist"
+                placeholderTextColor="#64748b"
+                value={headline}
+                onChangeText={setHeadline}
+              />
+            </View>
 
-            <Text style={styles.label}>Current role</Text>
-            <TextInput
-              style={styles.input}
-              placeholder="e.g. Mid-level frontend engineer"
-              placeholderTextColor="#64748b"
-              value={currentRole}
-              onChangeText={setCurrentRole}
-            />
+            <View style={styles.inputGrid}>
+              <View style={styles.inputCol}>
+                <Text style={styles.label}>Current role</Text>
+                <View style={styles.inputWrap}>
+                  <Briefcase color="#9ca3af" size={18} style={styles.inputIcon} />
+                  <TextInput
+                    style={styles.input}
+                    placeholder="e.g. Mid-level"
+                    placeholderTextColor="#64748b"
+                    value={currentRole}
+                    onChangeText={setCurrentRole}
+                  />
+                </View>
+              </View>
 
-            <Text style={styles.label}>Target role</Text>
-            <TextInput
-              style={styles.input}
-              placeholder="e.g. Senior frontend / Staff engineer"
-              placeholderTextColor="#64748b"
-              value={targetRole}
-              onChangeText={setTargetRole}
-            />
+              <View style={[styles.inputCol, { marginLeft: 12 }]}>
+                <Text style={styles.label}>Target role</Text>
+                <View style={styles.inputWrap}>
+                  <Target color="#9ca3af" size={18} style={styles.inputIcon} />
+                  <TextInput
+                    style={styles.input}
+                    placeholder="e.g. Senior"
+                    placeholderTextColor="#64748b"
+                    value={targetRole}
+                    onChangeText={setTargetRole}
+                  />
+                </View>
+              </View>
+            </View>
 
             <Text style={styles.label}>Years of experience</Text>
-            <TextInput
-              style={styles.input}
-              placeholder="e.g. 5"
-              placeholderTextColor="#64748b"
-              keyboardType="number-pad"
-              value={yearsExp}
-              onChangeText={setYearsExp}
-            />
+            <View style={styles.inputWrap}>
+              <Clock color="#9ca3af" size={18} style={styles.inputIcon} />
+              <TextInput
+                style={styles.input}
+                placeholder="e.g. 5"
+                placeholderTextColor="#64748b"
+                keyboardType="number-pad"
+                value={yearsExp}
+                onChangeText={setYearsExp}
+              />
+            </View>
 
             <Text style={styles.label}>About you</Text>
             <TextInput
-              style={[styles.input, styles.multiline]}
+              style={[styles.input, styles.multiline, { paddingLeft: 14 }]}
               placeholder="Short summary of your background and what you want to work on next."
               placeholderTextColor="#64748b"
               multiline
@@ -131,9 +164,16 @@ export default function ProfileScreen() {
             />
 
             <TouchableOpacity style={styles.saveButton} onPress={handleSave}>
-              <Text style={styles.saveText}>{saved ? 'Saved' : 'Save profile'}</Text>
+              {saved ? (
+                <>
+                  <Save color="#fff" size={18} style={{ marginRight: 6 }} />
+                  <Text style={styles.saveText}>Saved</Text>
+                </>
+              ) : (
+                <Text style={styles.saveText}>Save profile</Text>
+              )}
             </TouchableOpacity>
-          </View>
+          </BlurView>
         </ScrollView>
       </KeyboardAvoidingView>
     </SafeAreaView>
@@ -141,50 +181,68 @@ export default function ProfileScreen() {
 }
 
 const styles = StyleSheet.create({
-  flex: { flex: 1 },
-  safe: { flex: 1, backgroundColor: '#050816' },
+  flex: { flex: 1, zIndex: 1 },
+  safe: { flex: 1, backgroundColor: '#03050a' },
   container: {
     flexGrow: 1,
     padding: 20,
+    paddingTop: 32,
     paddingBottom: 40,
-    backgroundColor: '#050816',
+    backgroundColor: 'transparent',
   },
-  header: { marginBottom: 16 },
-  title: { fontSize: 24, fontWeight: '800', color: '#eef2ff', marginBottom: 4 },
-  subtitle: { fontSize: 14, color: '#9ca3af' },
+  header: { marginBottom: 24, paddingHorizontal: 4 },
+  title: { fontSize: 28, fontWeight: '800', color: '#eef2ff', marginBottom: 6, letterSpacing: 0.2 },
+  subtitle: { fontSize: 14, color: '#9ca3af', lineHeight: 20 },
   card: {
-    backgroundColor: '#0b1120',
-    borderRadius: 16,
-    padding: 16,
+    backgroundColor: 'rgba(11, 17, 32, 0.4)',
+    borderRadius: 20,
+    padding: 24,
     borderWidth: 1,
-    borderColor: '#111827',
+    borderColor: 'rgba(255, 255, 255, 0.08)',
+    overflow: 'hidden',
   },
+  inputGrid: { flexDirection: 'row', justifyContent: 'space-between' },
+  inputCol: { flex: 1 },
   label: {
-    fontSize: 14,
+    fontSize: 13,
+    fontWeight: '600',
     color: '#d1d5db',
-    marginBottom: 6,
-    marginTop: 8,
+    marginBottom: 8,
+    marginTop: 16,
+    textTransform: 'uppercase',
+    letterSpacing: 0.5,
+  },
+  inputWrap: {
+    position: 'relative',
+    justifyContent: 'center',
+  },
+  inputIcon: {
+    position: 'absolute',
+    left: 12,
+    zIndex: 1,
   },
   input: {
-    borderRadius: 10,
+    borderRadius: 12,
     borderWidth: 1,
-    borderColor: '#1f2937',
-    backgroundColor: '#020617',
+    borderColor: 'rgba(255, 255, 255, 0.12)',
+    backgroundColor: 'rgba(255, 255, 255, 0.03)',
     color: '#e5e7eb',
-    paddingHorizontal: 12,
-    paddingVertical: 10,
-    fontSize: 14,
+    paddingLeft: 38,
+    paddingRight: 14,
+    paddingVertical: 14,
+    fontSize: 15,
   },
-  multiline: { minHeight: 100 },
+  multiline: { minHeight: 110, paddingTop: 14 },
   saveButton: {
-    marginTop: 18,
+    marginTop: 24,
     borderRadius: 999,
-    paddingVertical: 12,
+    paddingVertical: 14,
+    flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#4f46e5',
+    backgroundColor: '#6366f1',
   },
-  saveText: { color: '#f9fafb', fontSize: 15, fontWeight: '600' },
+  saveText: { color: '#ffffff', fontSize: 16, fontWeight: '700' },
   loading: { color: '#9ca3af', fontSize: 12, marginBottom: 8 },
 });
 

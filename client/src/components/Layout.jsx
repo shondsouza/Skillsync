@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { clearAuthToken, isAuthed } from '../utils/auth';
+import logoImg from '../assets/logo.png';
 
 export default function Layout({ title, subtitle, right, children }) {
 
@@ -9,18 +10,18 @@ export default function Layout({ title, subtitle, right, children }) {
       <nav className="topbar">
         <div className="topbarInner row spaceBetween">
           <div className="row" style={{ gap: 12 }}>
-            <Link to={isAuthed() ? '/dashboard' : '/login'} style={{ textDecoration: 'none' }}>
-              <span className="logo">Evalio</span>
+            <Link to={isAuthed() ? '/dashboard' : '/login'} style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }}>
+              <img src={logoImg} alt="Evalio Logo" style={{ height: 72 }} />
             </Link>
             {title ? <span className="pill pillDark">{title}</span> : null}
           </div>
 
-          <div className="row" style={{ gap: 10 }}>
+          <div className="row" style={{ gap: 16 }}>
             {right}
             {isAuthed() ? (
               <button
                 className="btn btnDanger"
-                style={{ padding: '7px 14px', fontSize: '0.8rem' }}
+                style={{ padding: '8px 16px', fontSize: '0.85rem' }}
                 onClick={() => {
                   clearAuthToken();
                   window.location.href = '/login';
