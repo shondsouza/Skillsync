@@ -4367,5 +4367,199 @@
         "Review common performance bottlenecks in backend services and how to mitigate them through various strategies (e.g., caching layers, database tuning, distributed systems patterns)."
       ]
     }
+  },
+  "f39bbdff": {
+    "created_at": "2026-03-14T21:15:41.691782",
+    "resume_data": {
+      "success": true,
+      "raw_text": "HARSHITH VASANTH SHETTY\n7795471769 harshithshetty779@gmail.com github.com/homieshetty /in/homie-shetty/\nSUMMARY\nSeeking a challenging role in the field of coding, where I can leverage my programming skills and\ndedication to excel in software development.\nTECHNICAL SKILLS\nPython | HTML | CSS | SQL | C\nTools : Git , Github , Vercel , Netlify , Firebase (Auth,Firestore) , Supabase\nPROJECTS\nSmart Finance & Workforce Tracker Feb 2025 - Current\nBuilt a role-based workforce and finance platform with Next.js, Tailwind CSS, shadcn/ui, and Firebase,\nincluding event tracking, automated wage updates, dashboards, CSV/PDF reporting, real-time data,\nchat, and task management in a dark-themed responsive interface.\nTechSpark - Technical Event Management Platform Sept 2025 - Current\nDeveloped a full-stack event management platform using Next.js, TypeScript, Tailwind CSS, Supabase,\nand Framer Motion, enabling real-time participant registration with validation and verification, and\nproviding an admin dashboard with live tracking, search, exports, and role-based access control.\nPlanical: AI-Powered Mental Health Support Platform October 2024\nBuilt a mental health platform with React.js, FastAPI, LangChain, Groq API, Firebase, ChromaDB, and\nSocket.io, offering an AI chatbot, real-time doctor-client chat, wellness features, multi-language\ndashboard, user analytics, and scalable, secure architecture for 1000+ users.\nRPS-AI: Intelligent Rock-Paper-Scissors Game March - April 2025\nCreated an AI Rock-Paper-Scissors game in Python using OpenCV, MediaPipe, and CustomTkinter, with\nreal-time hand gesture recognition, Markov chain\u2013based AI, interactive GUI, stats tracking, and multi-\nthreaded smooth gameplay.\nEDUCATION\nFinal year, B.E. in Computer Science and Engineering 2022-2026\nShree Devi Institute of Technology\nCERTIFICATIONS AND ACHIEVEMENTS\nCode Meet 2024 Hackathon: Participated in a 24-hour hackathon at Srinivas University Institute of\nEngineering & Technology, gaining hands-on experience in problem solving and teamwork.\n(October 2024)\nReact.Js and Javascript ChatGPT clone by Devtown(issued in 2024)\nBootcamp on Backend development using NODEJSand MongoDB By Devtown(issued in 2024)\nFrontend web development using React.Js and Javascript by Devtown (issued in 2024)\nParticipated in Sankalp\u201925 held at Shree Devi Institute of Technology (issued in 2024)\nParticipated in Sankalp\u201924 held at Shree Devi Institute of Technology (issued in 2025)\nCreated a website for the college technical event TechSpark, enabling smooth event promotion and\nparticipant engagement.\nAchieved 2nd place at Technical quiz at Srinivas University.\nEXPERIENCE\nExperienced in efficiently managing groups of up to 80 people for event coordination, including roles\nat Ocean Pearl.\nVolunteered for a Harry Potter\u2013themed event at Paper Rocket, Mangalore.\nHandled logistics and transport operations for a large-scale event.\nManaged and coordinated teams across multiple events under Moulding Dreams.\nCreated a website for the college technical event TechSpark, enabling smooth event promotion and\nparticipant engagement.\nVolunteered for intra college cultural event called SURABHI in our college.\nRELEVANT COURSEWORK\nObject Oriented Programming, Database Management Systems, Discrete Maths, Data Structures and\nAlgorithms, Operating System\n",
+      "skills": {
+        "frontend": [
+          "html",
+          "css",
+          "javascript",
+          "typescript",
+          "react",
+          "next.js",
+          "tailwind"
+        ],
+        "backend": [
+          "python",
+          "java",
+          "go",
+          "fastapi",
+          "mongodb",
+          "firebase",
+          "supabase"
+        ],
+        "ai": [
+          "langchain",
+          "gpt",
+          "rag"
+        ],
+        "data": [
+          "sql",
+          "excel",
+          "r",
+          "spark",
+          "etl",
+          "analytics"
+        ],
+        "devops": [
+          "git",
+          "github"
+        ],
+        "all": [
+          "html",
+          "css",
+          "javascript",
+          "typescript",
+          "react",
+          "next.js",
+          "tailwind",
+          "python",
+          "java",
+          "go",
+          "fastapi",
+          "mongodb",
+          "firebase",
+          "supabase",
+          "langchain",
+          "gpt",
+          "rag",
+          "sql",
+          "excel",
+          "r",
+          "spark",
+          "etl",
+          "analytics",
+          "git",
+          "github"
+        ]
+      },
+      "experience": {
+        "education": [
+          "B.E"
+        ],
+        "companies": [
+          "engineer"
+        ],
+        "years_experience": 1,
+        "projects_count": 0
+      },
+      "red_flags": [
+        "Many skills listed but very few projects found. This may reduce credibility in an interview.",
+        "'langchain' listed but limited project evidence found."
+      ],
+      "skill_count": 25,
+      "primary_field": "Full Stack Developer",
+      "summary": "Detected 25 skills across 0 project(s). Primary field: Full Stack Developer."
+    },
+    "company": "",
+    "role": "",
+    "primary_field": "Full Stack Developer",
+    "company_intel": {},
+    "gap_analysis": {},
+    "quiz_attempts": [],
+    "current_quiz": {
+      "questions": [
+        {
+          "id": 1,
+          "skill": "React, JavaScript",
+          "question": "Consider the following React component. If `setCount` is called twice consecutively within the same event handler, like `setCount(count + 1); setCount(count + 1);`, what will be the final value of `count` after these calls and the subsequent re-render, assuming initial `count` is 0?",
+          "difficulty": "Easy",
+          "why_prompt": "Explain why React batches state updates and how you would modify the code to ensure both increments apply correctly.",
+          "options": [
+            "A) 0",
+            "B) 1",
+            "C) 2",
+            "D) Undefined"
+          ],
+          "expected_keywords": [
+            "useState",
+            "asynchronous",
+            "batching",
+            "state updates",
+            "functional updates"
+          ]
+        },
+        {
+          "id": 2,
+          "skill": "Python, AWS Lambda, DynamoDB, SQS",
+          "question": "Your FastAPI application (deployed on AWS Lambda) needs to ingest high volumes of incoming user analytics data and store it in DynamoDB. To ensure high availability, fault tolerance, and cost efficiency for varying load, what is the most appropriate architecture for processing this data asynchronously before it hits DynamoDB?",
+          "difficulty": "Medium",
+          "why_prompt": "Explain the benefits of your chosen approach over the others, specifically addressing how it handles spikes in traffic and ensures data durability.",
+          "options": [
+            "A) Directly write each incoming data point from the FastAPI Lambda to DynamoDB with a synchronous call.",
+            "B) Immediately publish incoming data points from the FastAPI Lambda to an Amazon SQS queue, and have a separate Lambda function process messages from SQS in batches to write to DynamoDB.",
+            "C) Store the raw incoming data directly into an S3 bucket, and then trigger a Lambda function to process the S3 objects and write to DynamoDB.",
+            "D) Use AWS AppSync with a direct DynamoDB resolver to handle data ingestion without any intermediate Lambda functions for processing."
+          ],
+          "expected_keywords": [
+            "AWS Lambda",
+            "SQS",
+            "DynamoDB",
+            "asynchronous",
+            "fault tolerance",
+            "scalability",
+            "decoupling"
+          ]
+        },
+        {
+          "id": 3,
+          "skill": "DynamoDB, Data Modeling, AWS",
+          "question": "An AI service requires a low-latency database to store and retrieve millions of user-specific AI model feature vectors. Each vector is a small JSON object, uniquely identified by a `userId`. The primary access pattern is retrieving a single vector by its `userId`. Given the company's tech stack, what is the most appropriate choice and how would you model the data in it for optimal performance and cost?",
+          "difficulty": "Hard",
+          "why_prompt": "Justify your choice by explaining why it outperforms the other options for this specific access pattern and scale, considering DynamoDB's core principles. How would you handle potential hot partitions if `userId`s are not evenly distributed?",
+          "options": [
+            "A) MongoDB: Store each vector as a document in a collection, with `userId` as the primary key (`_id`).",
+            "B) DynamoDB: Create a table where `userId` is the Partition Key, storing the feature vector directly as an attribute in a single item.",
+            "C) DynamoDB: Create a table where `userId` is the Partition Key and a `timestamp` is the Sort Key, storing the feature vector in each item.",
+            "D) PostgreSQL (via AWS RDS): Create a table with `userId` as the primary key and a `JSONB` column to store the feature vector."
+          ],
+          "expected_keywords": [
+            "DynamoDB",
+            "Partition Key",
+            "NoSQL",
+            "low latency",
+            "data modeling",
+            "scalability",
+            "hot partition",
+            "cost-efficiency"
+          ]
+        },
+        {
+          "id": 4,
+          "skill": "React, Python, AWS, Security",
+          "question": "You are building a React frontend that interacts with a Python FastAPI backend deployed on AWS Lambda, exposed via API Gateway. Users authenticate using Amazon Cognito, and your backend APIs need to authorize requests based on the user's identity. What is the most robust and standard approach to secure API calls from the React app to the FastAPI backend?",
+          "difficulty": "Medium",
+          "why_prompt": "Explain why your chosen method is superior in terms of security, scalability, and operational overhead compared to the other options in a serverless AWS environment.",
+          "options": [
+            "A) Pass the user's plain text username and password in the request headers, and validate them in each Lambda invocation.",
+            "B) Have the React app send the Amazon Cognito ID Token or Access Token in the `Authorization` header, and configure API Gateway to use a Cognito User Pool authorizer or a Lambda authorizer to validate it before forwarding to the FastAPI Lambda.",
+            "C) Implement a custom API key management system in your FastAPI Lambda, generating and distributing API keys to the React app after login.",
+            "D) Store user sessions in DynamoDB, sending a session ID from React to FastAPI, which then queries DynamoDB for validation."
+          ],
+          "expected_keywords": [
+            "AWS Cognito",
+            "API Gateway",
+            "Lambda authorizer",
+            "JWT",
+            "authentication",
+            "authorization",
+            "serverless",
+            "security"
+          ]
+        }
+      ]
+    },
+    "company_stack": [
+      "React",
+      "Java",
+      "Python",
+      "AWS",
+      "DynamoDB",
+      "Lambda"
+    ]
   }
 }
